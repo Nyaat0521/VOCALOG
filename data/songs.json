@@ -339,11 +339,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-74499084",
+    "id": "inotinikirawareteiru-hatunemiku-kanzakiiori",
     "title": "命に嫌われている。",
     "titleKana": "",
-    "producerId": "producer-74499084",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kanzakiiori",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -381,11 +381,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-producer-59377355",
+    "id": "egorokku-kagamineren-surii",
     "title": "エゴロック",
     "titleKana": "",
-    "producerId": "producer-59377355",
-    "vocalId": "kagamine-ren",
+    "producerId": "surii",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -402,10 +402,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-flower-producer-76879571",
+    "id": "viran-flower-teniwoha",
     "title": "ヴィラン",
     "titleKana": "",
-    "producerId": "producer-76879571",
+    "producerId": "teniwoha",
     "vocalId": "flower",
     "youtubeId": "",
     "niconicoId": "",
@@ -423,10 +423,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-flower-producer-44699264",
+    "id": "benomu-flower-kairikibea",
     "title": "ベノム",
     "titleKana": "",
-    "producerId": "producer-44699264",
+    "producerId": "kairikibea",
     "vocalId": "flower",
     "youtubeId": "",
     "niconicoId": "",
@@ -444,7 +444,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-flower-chinozo",
+    "id": "gubbaisengen-flower-chinozo",
     "title": "グッバイ宣言",
     "titleKana": "",
     "producerId": "chinozo",
@@ -465,11 +465,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kafu-280-producer-90052937",
+    "id": "hyonii-kafu-tumiki",
     "title": "フォニイ",
     "titleKana": "",
-    "producerId": "producer-90052937",
-    "vocalId": "kafu-280",
+    "producerId": "tumiki",
+    "vocalId": "kafu",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
