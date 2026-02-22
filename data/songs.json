@@ -1518,11 +1518,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-n-buna-5390",
+    "id": "yoaketohotaru-hatunemiku-nbuna",
     "title": "夜明けと蛍",
     "titleKana": "",
-    "producerId": "n-buna",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "nbuna",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1539,11 +1539,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-60970163",
+    "id": "aironi-hatunemiku-sukoppu",
     "title": "アイロニ",
     "titleKana": "",
-    "producerId": "producer-60970163",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "sukoppu",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1560,10 +1560,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-p",
+    "id": "kokoronasi-gumi-tyoutyop",
     "title": "心做し",
     "titleKana": "",
-    "producerId": "p",
+    "producerId": "tyoutyop",
     "vocalId": "gumi",
     "youtubeId": "",
     "niconicoId": "",
@@ -1581,11 +1581,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-9476",
+    "id": "mousouzei-hatunemiku-deco27",
     "title": "妄想税",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1602,11 +1602,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-7606",
+    "id": "otomekaibou-hatunemiku-deco27",
     "title": "乙女解剖",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1623,11 +1623,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-8628",
+    "id": "ribasiburukyanpen-hatunemiku-deco27",
     "title": "リバーシブル・キャンペーン",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1644,11 +1644,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-producer-59377355-8435",
+    "id": "terekyasutabiboi-kagamineren-surii",
     "title": "テレキャスタービーボーイ",
     "titleKana": "",
-    "producerId": "producer-59377355",
-    "vocalId": "kagamine-ren",
+    "producerId": "surii",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1665,11 +1665,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-producer-59377355-2026",
+    "id": "zyankinaitotaunokesutora-kagamineren-surii",
     "title": "ジャンキーナイトタウンオーケストラ",
     "titleKana": "",
-    "producerId": "producer-59377355",
-    "vocalId": "kagamine-ren",
+    "producerId": "surii",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1686,10 +1686,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-flower-producer-53737506",
+    "id": "bokaderaberita-flower-hiiragikirai",
     "title": "ボッカデラベリタ",
     "titleKana": "",
-    "producerId": "producer-53737506",
+    "producerId": "hiiragikirai",
     "vocalId": "flower",
     "youtubeId": "",
     "niconicoId": "",
@@ -1707,11 +1707,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-44699264",
+    "id": "darindansu-hatunemiku-kairikibea",
     "title": "ダーリンダンス",
     "titleKana": "",
-    "producerId": "producer-44699264",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kairikibea",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1728,11 +1728,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-44699264-3406",
+    "id": "sippaisakusyouzyo-hatunemiku-kairikibea",
     "title": "失敗作少女",
     "titleKana": "",
-    "producerId": "producer-44699264",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kairikibea",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1749,10 +1749,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi--",
+    "id": "darekanosinzouninaretanara-gumi-yuriikanon",
     "title": "だれかの心臓になれたなら",
     "titleKana": "",
-    "producerId": "-",
+    "producerId": "yuriikanon",
     "vocalId": "gumi",
     "youtubeId": "",
     "niconicoId": "",
