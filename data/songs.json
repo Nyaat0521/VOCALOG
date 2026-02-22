@@ -2739,11 +2739,11 @@
     "recommendTags": []
   },
   {
-    "id": "guretohyiruta-flower-ine",
+    "id": "guretohyiruta-sekai-ine",
     "title": "グレートフィルター",
     "titleKana": "",
     "producerId": "ine",
-    "vocalId": "flower",
+    "vocalId": "sekai",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2760,11 +2760,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-maretu",
+    "id": "mazikarudokuta-hatunemiku-maretu",
     "title": "マジカルドクター",
     "titleKana": "",
     "producerId": "maretu",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2781,11 +2781,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-maretu-8075",
+    "id": "koinrokkabeibi-hatunemiku-maretu",
     "title": "コインロッカーベイビー",
     "titleKana": "",
     "producerId": "maretu",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2802,11 +2802,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-maretu-3118",
+    "id": "uminaosi-hatunemiku-maretu",
     "title": "うみなおし",
     "titleKana": "",
     "producerId": "maretu",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2823,11 +2823,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-kanaria",
+    "id": "aidentyityi-hatunemiku-kanaria",
     "title": "アイデンティティ",
     "titleKana": "",
     "producerId": "kanaria",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2845,7 +2845,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-kanaria",
+    "id": "envibeibi-gumi-kanaria",
     "title": "エンヴィーベイビー",
     "titleKana": "",
     "producerId": "kanaria",
@@ -2866,11 +2866,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-8353",
+    "id": "andoroidogaru-hatunemiku-deco27",
     "title": "アンドロイドガール",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2887,11 +2887,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-1332",
+    "id": "sinderera-hatunemiku-deco27",
     "title": "シンデレラ",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2908,11 +2908,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-6377",
+    "id": "sukuranburukousai-hatunemiku-deco27",
     "title": "スクランブル交際",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2929,11 +2929,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-7262",
+    "id": "vanpaia-hatunemiku-deco27",
     "title": "ヴァンパイア",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2950,11 +2950,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-35782894",
+    "id": "buresuyuaburesu-hatunemiku-wadatakeaki",
     "title": "ブレス・ユア・ブレス",
     "titleKana": "",
-    "producerId": "producer-35782894",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "wadatakeaki",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2971,11 +2971,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-producer-41547190-367",
+    "id": "boukennosyogakiemasita-kagaminerin-zizasup",
     "title": "ぼうけんのしょがきえました！",
     "titleKana": "",
-    "producerId": "producer-41547190",
-    "vocalId": "kagamine-rin",
+    "producerId": "zizasup",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2993,11 +2993,11 @@
     "recommendTags": []
   },
   {
-    "id": "bad-end-night-kagamine-rin-x",
+    "id": "badendnight-kagaminerin-hitosizukuyama",
     "title": "Bad∞End∞Night",
     "titleKana": "",
-    "producerId": "x",
-    "vocalId": "kagamine-rin",
+    "producerId": "hitosizukuyama",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3015,11 +3015,11 @@
     "recommendTags": []
   },
   {
-    "id": "crazy-night-kagamine-rin-x",
+    "id": "crazynight-kagaminerin-hitosizukuyama",
     "title": "Crazy∞nighT",
     "titleKana": "",
-    "producerId": "x",
-    "vocalId": "kagamine-rin",
+    "producerId": "hitosizukuyama",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3037,11 +3037,11 @@
     "recommendTags": []
   },
   {
-    "id": "acute-hatsune-miku-1585-kurousa-p",
+    "id": "acute-hatunemiku-kurousap",
     "title": "ACUTE",
     "titleKana": "",
-    "producerId": "kurousa-p",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kurousap",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3060,11 +3060,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-b",
+    "id": "sinkaisityiandaguraundo-hatunemiku-tanakab",
     "title": "深海シティアンダーグラウンド",
     "titleKana": "",
-    "producerId": "b",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "tanakab",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3081,11 +3081,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-p-1331",
+    "id": "kiminoondo-hatunemiku-kuwagatap",
     "title": "君の体温",
     "titleKana": "",
-    "producerId": "p-1331",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kuwagatap",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3102,11 +3102,11 @@
     "recommendTags": []
   },
   {
-    "id": "rain-stops-good-bye-hatsune-miku-1585-p-8556",
+    "id": "rainstopsgoodbye-hatunemiku-niop",
     "title": "rain stops, good-bye",
     "titleKana": "",
-    "producerId": "p-8556",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "niop",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3123,11 +3123,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-57185845",
+    "id": "monokuroburusukai-hatunemiku-noborup",
     "title": "モノクロ∞ブルースカイ",
     "titleKana": "",
-    "producerId": "producer-57185845",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "noborup",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3144,11 +3144,11 @@
     "recommendTags": []
   },
   {
-    "id": "palette-megurine-luka-producer-74343811",
+    "id": "palette-megurineruka-yuyoyuppe",
     "title": "Palette",
     "titleKana": "",
-    "producerId": "producer-74343811",
-    "vocalId": "megurine-luka",
+    "producerId": "yuyoyuppe",
+    "vocalId": "megurineruka",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3165,11 +3165,11 @@
     "recommendTags": []
   },
   {
-    "id": "blackjack-megurine-luka-p-292",
+    "id": "blackjack-megurineruka-yutyap",
     "title": "Blackjack",
     "titleKana": "",
-    "producerId": "p-292",
-    "vocalId": "megurine-luka",
+    "producerId": "yutyap",
+    "vocalId": "megurineruka",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3186,7 +3186,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-buzzg",
+    "id": "happiendo-gumi-buzzg",
     "title": "ハッピーエンド",
     "titleKana": "",
     "producerId": "buzzg",
@@ -3207,7 +3207,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-buzzg-352",
+    "id": "siwa-gumi-buzzg",
     "title": "しわ",
     "titleKana": "",
     "producerId": "buzzg",
@@ -3228,11 +3228,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-doriko-651",
+    "id": "monokuroauto-hatunemiku-doriko",
     "title": "モノクロアクト",
     "titleKana": "",
     "producerId": "doriko",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3249,10 +3249,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-producer-59892047-8708",
+    "id": "toumaiansa-ia-zin",
     "title": "透明アンサー",
     "titleKana": "",
-    "producerId": "producer-59892047",
+    "producerId": "zin",
     "vocalId": "ia",
     "youtubeId": "",
     "niconicoId": "",
@@ -3270,11 +3270,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-96864925-2444",
+    "id": "gekkousyokudou-hatunemiku-hurukawahonpo",
     "title": "月光食堂",
     "titleKana": "",
-    "producerId": "producer-96864925",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "hurukawahonpo",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3291,11 +3291,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-supercell",
+    "id": "sayonaramemorizu-hatunemiku-supercell",
     "title": "さよならメモリーズ",
     "titleKana": "",
     "producerId": "supercell",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3312,11 +3312,11 @@
     "recommendTags": []
   },
   {
-    "id": "odds-ends-hatsune-miku-1585-ryo-supercell",
+    "id": "oddsends-hatunemiku-ryo",
     "title": "ODDS&ENDS",
     "titleKana": "",
-    "producerId": "ryo-supercell",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "ryo",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3333,11 +3333,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-supercell-3814",
+    "id": "kiminosiranaimonogatari-hatunemiku-supercell",
     "title": "君の知らない物語",
     "titleKana": "",
     "producerId": "supercell",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3354,11 +3354,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-113",
+    "id": "antibito-hatunemiku-deco27",
     "title": "アンチビート",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3375,11 +3375,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-40mp-2382",
+    "id": "hibari-hatunemiku-40mp",
     "title": "ヒバリ",
     "titleKana": "",
     "producerId": "40mp",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3396,10 +3396,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-producer-28214859",
+    "id": "sekaizyumyoutosaigonoitiniti-gumi-suzumu",
     "title": "世界寿命と最後の一日",
     "titleKana": "",
-    "producerId": "producer-28214859",
+    "producerId": "suzumu",
     "vocalId": "gumi",
     "youtubeId": "",
     "niconicoId": "",
@@ -3417,11 +3417,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-neru-248",
+    "id": "saikyouiku-kagaminerin-neru",
     "title": "再教育",
     "titleKana": "",
     "producerId": "neru",
-    "vocalId": "kagamine-rin",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3439,11 +3439,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-sasakureuk",
+    "id": "haropuranetto-hatunemiku-sasakureuk",
     "title": "ハロープラネット",
     "titleKana": "",
     "producerId": "sasakureuk",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3460,11 +3460,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-sasakureuk-4538",
+    "id": "wandarasuto-hatunemiku-sasakureuk",
     "title": "ワンダーラスト",
     "titleKana": "",
     "producerId": "sasakureuk",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3481,11 +3481,11 @@
     "recommendTags": []
   },
   {
-    "id": "seventh-heaven-hatsune-miku-1585-sasakureuk",
+    "id": "seventhheaven-hatunemiku-sasakureuk",
     "title": "SeventH-HeaveN",
     "titleKana": "",
     "producerId": "sasakureuk",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3502,11 +3502,11 @@
     "recommendTags": []
   },
   {
-    "id": "last-night-good-night-hatsune-miku-1585-kz-livetune",
+    "id": "lastnightgoodnight-hatunemiku-kz",
     "title": "Last Night, Good Night",
     "titleKana": "",
-    "producerId": "kz-livetune",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kz",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3523,11 +3523,11 @@
     "recommendTags": []
   },
   {
-    "id": "yellow-hatsune-miku-1585-kz-livetune",
+    "id": "yellow-hatunemiku-kz",
     "title": "Yellow",
     "titleKana": "",
-    "producerId": "kz-livetune",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kz",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3544,11 +3544,11 @@
     "recommendTags": []
   },
   {
-    "id": "decorator-hatsune-miku-1585-kz-livetune",
+    "id": "decorator-hatunemiku-kz",
     "title": "DECORATOR",
     "titleKana": "",
-    "producerId": "kz-livetune",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kz",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3565,11 +3565,11 @@
     "recommendTags": []
   },
   {
-    "id": "hand-in-hand-hatsune-miku-1585-kz-livetune",
+    "id": "handinhand-hatunemiku-kz",
     "title": "Hand in Hand",
     "titleKana": "",
-    "producerId": "kz-livetune",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "kz",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3586,11 +3586,11 @@
     "recommendTags": []
   },
   {
-    "id": "freely-tomorrow-hatsune-miku-1585-mitchiem",
+    "id": "freelytomorrow-hatunemiku-mitchiem",
     "title": "FREELY TOMORROW",
     "titleKana": "",
     "producerId": "mitchiem",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3607,11 +3607,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-mitchiem",
+    "id": "aidorusineitai-hatunemiku-mitchiem",
     "title": "アイドル新鋭隊",
     "titleKana": "",
     "producerId": "mitchiem",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3628,11 +3628,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-mitchiem-6447",
+    "id": "sukiyukihonkimazikku-hatunemiku-mitchiem",
     "title": "好き！雪！本気マジック",
     "titleKana": "",
     "producerId": "mitchiem",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3649,11 +3649,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-producer-18306867",
+    "id": "pozityibudansutaimu-kagaminerin-kinosita",
     "title": "ポジティブ☆ダンスタイム",
     "titleKana": "",
-    "producerId": "producer-18306867",
-    "vocalId": "kagamine-rin",
+    "producerId": "kinosita",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3671,11 +3671,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-harryp",
+    "id": "bokuranorettoittobi-hatunemiku-harryp",
     "title": "ぼくらのレットイットビー",
     "titleKana": "",
     "producerId": "harryp",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3692,11 +3692,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-koyori-2973",
+    "id": "miraikeiinosensu-hatunemiku-koyori",
     "title": "未来景イノセンス",
     "titleKana": "",
     "producerId": "koyori",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3713,11 +3713,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-doriko-2301",
+    "id": "karahurumerodyi-hatunemiku-doriko",
     "title": "カラフル×メロディ",
     "titleKana": "",
     "producerId": "doriko",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3734,11 +3734,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-cosmop",
+    "id": "hatunemikunosyousitu-hatunemiku-cosmop",
     "title": "初音ミクの消失",
     "titleKana": "",
     "producerId": "cosmop",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3755,11 +3755,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-cosmop-3540",
+    "id": "hatunemikunogekisyou-hatunemiku-cosmop",
     "title": "初音ミクの激唱",
     "titleKana": "",
     "producerId": "cosmop",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3776,11 +3776,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-cosmop-8884",
+    "id": "hatunemikunobousou-hatunemiku-cosmop",
     "title": "初音ミクの暴走",
     "titleKana": "",
     "producerId": "cosmop",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3797,11 +3797,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-p-4885",
-    "title": "アンインストール（ボカロ版）",
+    "id": "imasugurinne-hatunemiku-nakiso",
+    "title": "いますぐ輪廻",
     "titleKana": "",
-    "producerId": "p-4885",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "nakiso",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3818,11 +3818,11 @@
     "recommendTags": []
   },
   {
-    "id": "starduster-hatsune-miku-1585-p-2734",
+    "id": "starduster-hatunemiku-zimisamup",
     "title": "Starduster",
     "titleKana": "",
-    "producerId": "p-2734",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "zimisamup",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3839,11 +3839,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-hachi-3491",
+    "id": "warudoendoanburera-hatunemiku-hati",
     "title": "ワールドエンド・アンブレラ",
     "titleKana": "",
-    "producerId": "hachi",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "hati",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3860,11 +3860,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-p-560",
+    "id": "antikurorobenzen-kagamineren-owatap",
     "title": "アンチクロロベンゼン",
     "titleKana": "",
-    "producerId": "p-560",
-    "vocalId": "kagamine-ren",
+    "producerId": "owatap",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3881,11 +3881,11 @@
     "recommendTags": []
   },
   {
-    "id": "melt-down-kagamine-rin-iroha",
-    "title": "炉心融解 -melt down-",
+    "id": "rosinyuukai-kagaminerin-iroha",
+    "title": "炉心融解",
     "titleKana": "",
     "producerId": "iroha",
-    "vocalId": "kagamine-rin",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3902,11 +3902,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-p-560-7829",
+    "id": "parazikurorobenzen-kagamineren-owatap",
     "title": "パラジクロロベンゼン",
     "titleKana": "",
-    "producerId": "p-560",
-    "vocalId": "kagamine-ren",
+    "producerId": "owatap",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3923,11 +3923,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-megurine-luka-producer-96505422",
+    "id": "dabururariatto-megurineruka-agoaniki",
     "title": "ダブルラリアット",
     "titleKana": "",
-    "producerId": "producer-96505422",
-    "vocalId": "megurine-luka",
+    "producerId": "agoaniki",
+    "vocalId": "megurineruka",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3944,11 +3944,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-16727949",
+    "id": "meteo-hatunemiku-zyon",
     "title": "メテオ",
     "titleKana": "",
-    "producerId": "producer-16727949",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "zyon",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3965,7 +3965,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-meiko-osterproject",
+    "id": "pianoforutesukyandaru-meiko-osterproject",
     "title": "ピアノ×フォルテ×スキャンダル",
     "titleKana": "",
     "producerId": "osterproject",
@@ -3986,7 +3986,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-buzzg-4426",
+    "id": "warudoranpusyedo-gumi-buzzg",
     "title": "ワールド・ランプシェード",
     "titleKana": "",
     "producerId": "buzzg",
@@ -4007,11 +4007,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-producer-53882946",
+    "id": "kokoro-kagaminerin-toraboruta",
     "title": "ココロ",
     "titleKana": "",
-    "producerId": "producer-53882946",
-    "vocalId": "kagamine-rin",
+    "producerId": "toraboruta",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4028,11 +4028,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-p-3709",
+    "id": "sandoriyon-hatunemiku-sigunarup",
     "title": "サンドリヨン",
     "titleKana": "",
-    "producerId": "p-3709",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "sigunarup",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4050,11 +4050,11 @@
     "recommendTags": []
   },
   {
-    "id": "spica-hatsune-miku-1585-p-7142",
+    "id": "spica-hatunemiku-tokup",
     "title": "SPiCa",
     "titleKana": "",
-    "producerId": "p-7142",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "tokup",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4071,11 +4071,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-megurine-luka-producer-53882946",
+    "id": "toeto-megurineruka-toraboruta",
     "title": "トエト",
     "titleKana": "",
-    "producerId": "producer-53882946",
-    "vocalId": "megurine-luka",
+    "producerId": "toraboruta",
+    "vocalId": "megurineruka",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4092,11 +4092,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-p",
+    "id": "eaasou-hatunemiku-tyoutyop",
     "title": "え？あぁ、そう。",
     "titleKana": "",
-    "producerId": "p",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "tyoutyop",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4113,7 +4113,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-tokotoko",
+    "id": "kimiironisomaru-gumi-tokotoko",
     "title": "君色に染まる",
     "titleKana": "",
     "producerId": "tokotoko",
@@ -4134,11 +4134,11 @@
     "recommendTags": []
   },
   {
-    "id": "ii-hatsune-miku-1585-deco27",
+    "id": "aikotobaii-hatunemiku-deco27",
     "title": "愛言葉II",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4155,11 +4155,11 @@
     "recommendTags": []
   },
   {
-    "id": "iii-hatsune-miku-1585-deco27",
+    "id": "aikotobaiii-hatunemiku-deco27",
     "title": "愛言葉III",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4176,11 +4176,11 @@
     "recommendTags": []
   },
   {
-    "id": "iv-hatsune-miku-1585-deco27",
+    "id": "aikotobaiv-hatunemiku-deco27",
     "title": "愛言葉IV",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4197,11 +4197,11 @@
     "recommendTags": []
   },
   {
-    "id": "v-hatsune-miku-1585-deco27",
+    "id": "aikotobav-hatunemiku-deco27",
     "title": "愛言葉V",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -4218,11 +4218,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-divela",
+    "id": "bokarokorosiamu-hatunemiku-divela",
     "title": "ボカロコロシアム",
     "titleKana": "",
     "producerId": "divela",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
