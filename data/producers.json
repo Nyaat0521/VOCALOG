@@ -1,6 +1,6 @@
 [
   {
-    "id": "atsu-mizuno",
+    "id": "mizunoatu",
     "name": "水野あつ",
     "nameKana": "みずのあつ",
     "aliases": [],
@@ -13,7 +13,7 @@
     }
   },
   {
-    "id": "kurousa-p",
+    "id": "kurousap",
     "name": "黒うさP",
     "nameKana": "くろうさぴー",
     "aliases": ["WhiteFlame"],
@@ -39,7 +39,7 @@
     }
   },
   {
-    "id": "kz-livetune",
+    "id": "kz",
     "name": "kz",
     "nameKana": "",
     "aliases": ["livetune"],
@@ -52,12 +52,10 @@
     }
   },
   {
-    "id": "ryo-supercell",
+    "id": "ryo",
     "name": "ryo",
     "nameKana": "りょう",
-    "aliases": [
-      "supercell"
-    ],
+    "aliases": ["supercell"],
     "activeYears": "2007-",
     "summary": "壮大でエモーショナルなメロディと物語性の強い歌詞が特徴のボカロP。",
     "links": {
@@ -67,7 +65,7 @@
     }
   },
   {
-    "id": "mikito-p",
+    "id": "mikitop",
     "name": "みきとP",
     "nameKana": "",
     "aliases": [],
@@ -80,7 +78,7 @@
     }
   },
   {
-    "id": "hachi",
+    "id": "hati",
     "name": "ハチ",
     "nameKana": "",
     "aliases": [],
@@ -93,7 +91,7 @@
     }
   },
   {
-    "id": "producer-90041909",
+    "id": "reruriri",
     "name": "れるりり",
     "nameKana": "",
     "aliases": [],
@@ -132,7 +130,7 @@
     }
   },
   {
-    "id": "producer-59892047",
+    "id": "zin",
     "name": "じん",
     "nameKana": "",
     "aliases": [],
@@ -158,7 +156,7 @@
     }
   },
   {
-    "id": "producer-76295235",
+    "id": "barun",
     "name": "バルーン",
     "nameKana": "",
     "aliases": [],
@@ -171,7 +169,7 @@
     }
   },
   {
-    "id": "producer-74499084",
+    "id": "kanzakiiori",
     "name": "カンザキイオリ",
     "nameKana": "",
     "aliases": [],
@@ -197,7 +195,7 @@
     }
   },
   {
-    "id": "producer-59377355",
+    "id": "surii",
     "name": "すりぃ",
     "nameKana": "",
     "aliases": [],
@@ -210,7 +208,7 @@
     }
   },
   {
-    "id": "producer-76879571",
+    "id": "teniwoha",
     "name": "てにをは",
     "nameKana": "",
     "aliases": [],
@@ -223,7 +221,7 @@
     }
   },
   {
-    "id": "producer-44699264",
+    "id": "kairikibea",
     "name": "かいりきベア",
     "nameKana": "",
     "aliases": [],
@@ -249,7 +247,7 @@
     }
   },
   {
-    "id": "producer-90052937",
+    "id": "tumiki",
     "name": "ツミキ",
     "nameKana": "",
     "aliases": [],
@@ -262,7 +260,7 @@
     }
   },
   {
-    "id": "producer-99355760",
+    "id": "pinokiopi",
     "name": "ピノキオピー",
     "nameKana": "",
     "aliases": [],
@@ -288,7 +286,7 @@
     }
   },
   {
-    "id": "producer-67504511",
+    "id": "noripi",
     "name": "のりぴー",
     "nameKana": "",
     "aliases": [],
@@ -314,7 +312,7 @@
     }
   },
   {
-    "id": "p",
+    "id": "tyoutyop",
     "name": "蝶々P",
     "nameKana": "",
     "aliases": [],
@@ -340,7 +338,7 @@
     }
   },
   {
-    "id": "producer-92665455",
+    "id": "yuuyu",
     "name": "ゆうゆ",
     "nameKana": "",
     "aliases": [],
@@ -353,7 +351,7 @@
     }
   },
   {
-    "id": "p-2734",
+    "id": "zimisamu",
     "name": "ジミーサムP",
     "nameKana": "",
     "aliases": [],
@@ -379,7 +377,7 @@
     }
   },
   {
-    "id": "producer-69673415",
+    "id": "nanou",
     "name": "ナノウ",
     "nameKana": "",
     "aliases": [],
@@ -522,7 +520,7 @@
     }
   },
   {
-    "id": "producer-30504269",
+    "id": "hinadenkou",
     "name": "日向電工",
     "nameKana": "",
     "aliases": [],
@@ -548,7 +546,7 @@
     }
   },
   {
-    "id": "producer-60970163",
+    "id": "sukoppu",
     "name": "すこっぷ",
     "nameKana": "",
     "aliases": [],
@@ -561,7 +559,7 @@
     }
   },
   {
-    "id": "producer-53737506",
+    "id": "hiiragikirai",
     "name": "柊キライ",
     "nameKana": "",
     "aliases": [],
@@ -574,7 +572,7 @@
     }
   },
   {
-    "id": "-",
+    "id": "yuriikanon",
     "name": "ユリイ・カノン",
     "nameKana": "",
     "aliases": [],
@@ -587,7 +585,7 @@
     }
   },
   {
-    "id": "producer-76863248",
+    "id": "nayutanseizin",
     "name": "ナユタン星人",
     "nameKana": "",
     "aliases": [],
@@ -613,7 +611,7 @@
     }
   },
   {
-    "id": "producer-13928880",
+    "id": "nuyuri",
     "name": "ぬゆり",
     "nameKana": "",
     "aliases": [],
@@ -665,7 +663,7 @@
     }
   },
   {
-    "id": "producer-41547190",
+    "id": "zizasu",
     "name": "じーざす",
     "nameKana": "",
     "aliases": [],
@@ -678,7 +676,7 @@
     }
   },
   {
-    "id": "producer-60828465",
+    "id": "ginsaku",
     "name": "銀サク",
     "nameKana": "",
     "aliases": [],
@@ -691,7 +689,7 @@
     }
   },
   {
-    "id": "producer-6029940",
+    "id": "rokuro",
     "name": "ろくろ",
     "nameKana": "",
     "aliases": [],
@@ -717,7 +715,7 @@
     }
   },
   {
-    "id": "producer-96864925",
+    "id": "hurukawahonpo",
     "name": "古川本舗",
     "nameKana": "",
     "aliases": [],
@@ -756,7 +754,7 @@
     }
   },
   {
-    "id": "producer-89852205",
+    "id": "iyowa",
     "name": "いよわ",
     "nameKana": "",
     "aliases": [],
@@ -769,7 +767,7 @@
     }
   },
   {
-    "id": "producer-55883811",
+    "id": "inabakumori",
     "name": "稲葉曇",
     "nameKana": "",
     "aliases": [],
@@ -782,7 +780,7 @@
     }
   },
   {
-    "id": "producer-26618219",
+    "id": "nirukazitu",
     "name": "煮ル果実",
     "nameKana": "",
     "aliases": [],
@@ -808,7 +806,7 @@
     }
   },
   {
-    "id": "producer-35782894",
+    "id": "wadatakeaki",
     "name": "和田たけあき",
     "nameKana": "",
     "aliases": [],
@@ -821,7 +819,7 @@
     }
   },
   {
-    "id": "x",
+    "id": "hitosizukuyama",
     "name": "ひとしずく×やま△",
     "nameKana": "",
     "aliases": [],
@@ -834,7 +832,7 @@
     }
   },
   {
-    "id": "b",
+    "id": "tanakab",
     "name": "田中B",
     "nameKana": "",
     "aliases": [],
@@ -847,7 +845,7 @@
     }
   },
   {
-    "id": "p-1331",
+    "id": "kuwagatap",
     "name": "クワガタP",
     "nameKana": "",
     "aliases": [],
@@ -860,7 +858,7 @@
     }
   },
   {
-    "id": "p-8556",
+    "id": "niop",
     "name": "におP",
     "nameKana": "",
     "aliases": [],
@@ -873,7 +871,7 @@
     }
   },
   {
-    "id": "producer-57185845",
+    "id": "noboru",
     "name": "のぼる↑",
     "nameKana": "",
     "aliases": [],
@@ -886,7 +884,7 @@
     }
   },
   {
-    "id": "producer-74343811",
+    "id": "yuyoyuppe",
     "name": "ゆよゆっぺ",
     "nameKana": "",
     "aliases": [],
@@ -899,7 +897,7 @@
     }
   },
   {
-    "id": "p-292",
+    "id": "yutyap",
     "name": "ゆちゃP",
     "nameKana": "",
     "aliases": [],
@@ -938,7 +936,7 @@
     }
   },
   {
-    "id": "producer-28214859",
+    "id": "suzumu",
     "name": "スズム",
     "nameKana": "",
     "aliases": [],
@@ -977,7 +975,7 @@
     }
   },
   {
-    "id": "producer-18306867",
+    "id": "kinosita",
     "name": "キノシタ",
     "nameKana": "",
     "aliases": [],
@@ -1003,7 +1001,7 @@
     }
   },
   {
-    "id": "cosmop",
+    "id": "cosmobousoup",
     "name": "cosMo@暴走P",
     "nameKana": "",
     "aliases": [],
@@ -1016,7 +1014,7 @@
     }
   },
   {
-    "id": "p-4885",
+    "id": "isikawatiaki",
     "name": "石川智晶P",
     "nameKana": "",
     "aliases": [],
@@ -1029,7 +1027,7 @@
     }
   },
   {
-    "id": "p-560",
+    "id": "owatap",
     "name": "オワタP",
     "nameKana": "",
     "aliases": [],
@@ -1042,7 +1040,7 @@
     }
   },
   {
-    "id": "producer-96505422",
+    "id": "agoaniki",
     "name": "アゴアニキ",
     "nameKana": "",
     "aliases": [],
@@ -1055,7 +1053,7 @@
     }
   },
   {
-    "id": "producer-16727949",
+    "id": "zyon",
     "name": "じょん",
     "nameKana": "",
     "aliases": [],
@@ -1081,7 +1079,7 @@
     }
   },
   {
-    "id": "producer-53882946",
+    "id": "toraboruta",
     "name": "トラボルタ",
     "nameKana": "",
     "aliases": [],
@@ -1094,7 +1092,7 @@
     }
   },
   {
-    "id": "p-3709",
+    "id": "sigunarup",
     "name": "シグナルP",
     "nameKana": "",
     "aliases": [],
@@ -1107,7 +1105,7 @@
     }
   },
   {
-    "id": "p-7142",
+    "id": "tokup",
     "name": "とくP",
     "nameKana": "",
     "aliases": [],
