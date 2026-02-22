@@ -822,7 +822,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-deco27",
+    "id": "mozaikuroru-gumi-deco27",
     "title": "モザイクロール",
     "titleKana": "",
     "producerId": "deco27",
@@ -843,11 +843,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27",
+    "id": "mousoukansyoudaisyourenmei-hatunemiku-deco27",
     "title": "妄想感傷代償連盟",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -864,11 +864,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-9645",
+    "id": "gosutoruru-hatunemiku-deco27",
     "title": "ゴーストルール",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -885,11 +885,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-4922",
+    "id": "nisokuhokou-hatunemiku-deco27",
     "title": "二息歩行",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -906,11 +906,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-deco27-4790",
+    "id": "aikotoba-hatunemiku-deco27",
     "title": "愛言葉",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -927,7 +927,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-deco27-6759",
+    "id": "yowamusimonburan-gumi-deco27",
     "title": "弱虫モンブラン",
     "titleKana": "",
     "producerId": "deco27",
@@ -948,11 +948,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-wowaka",
+    "id": "anhappirihurein-hatunemiku-wowaka",
     "title": "アンハッピーリフレイン",
     "titleKana": "",
     "producerId": "wowaka",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -969,11 +969,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-wowaka-3267",
+    "id": "uwaomoterabazu-hatunemiku-wowaka",
     "title": "裏表ラバーズ",
     "titleKana": "",
     "producerId": "wowaka",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -990,11 +990,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-wowaka-347",
+    "id": "roringaru-hatunemiku-wowaka",
     "title": "ローリンガール",
     "titleKana": "",
     "producerId": "wowaka",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1011,11 +1011,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-junky",
+    "id": "merankorikku-kagaminerin-junky",
     "title": "メランコリック",
     "titleKana": "",
     "producerId": "junky",
-    "vocalId": "kagamine-rin",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1032,10 +1032,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-mikito-p",
+    "id": "iarufankurabu-gumi-mikitop",
     "title": "いーあるふぁんくらぶ",
     "titleKana": "",
-    "producerId": "mikito-p",
+    "producerId": "mikitop",
     "vocalId": "gumi",
     "youtubeId": "",
     "niconicoId": "",
@@ -1053,7 +1053,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-40mp",
+    "id": "siryokusensa-gumi-40mp",
     "title": "シリョクケンサ",
     "titleKana": "",
     "producerId": "40mp",
@@ -1074,11 +1074,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-koyori",
+    "id": "hitorinboenvi-hatunemiku-koyori",
     "title": "独りんぼエンヴィー",
     "titleKana": "",
     "producerId": "koyori",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1095,11 +1095,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-neru",
+    "id": "toukyoutedyibea-kagaminerin-neru",
     "title": "東京テディベア",
     "titleKana": "",
     "producerId": "neru",
-    "vocalId": "kagamine-rin",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1116,11 +1116,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-neru-6500",
+    "id": "rosutowannogoukoku-kagaminerin-neru",
     "title": "ロストワンの号哭",
     "titleKana": "",
     "producerId": "neru",
-    "vocalId": "kagamine-rin",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1137,11 +1137,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-neru",
+    "id": "dappourokku-kagamineren-neru",
     "title": "脱法ロック",
     "titleKana": "",
     "producerId": "neru",
-    "vocalId": "kagamine-ren",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1158,11 +1158,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-neru-5614",
+    "id": "inotinoyusutyityia-kagamineren-neru",
     "title": "命のユースティティア",
     "titleKana": "",
     "producerId": "neru",
-    "vocalId": "kagamine-ren",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1179,11 +1179,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-mothy",
+    "id": "akunomusume-kagaminerin-mothy",
     "title": "悪ノ娘",
     "titleKana": "",
     "producerId": "mothy",
-    "vocalId": "kagamine-rin",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1200,11 +1200,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-ren-mothy",
+    "id": "akunomesitukai-kagamineren-mothy",
     "title": "悪ノ召使",
     "titleKana": "",
     "producerId": "mothy",
-    "vocalId": "kagamine-ren",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1221,7 +1221,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-kaito-yanagi",
+    "id": "sennannodokusouka-kaito-yanagi",
     "title": "千年の独奏歌",
     "titleKana": "",
     "producerId": "yanagi",
@@ -1242,10 +1242,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-kaito-kurousa-p",
+    "id": "kantarera-kaito-kurousap",
     "title": "カンタレラ",
     "titleKana": "",
-    "producerId": "kurousa-p",
+    "producerId": "kurousap",
     "vocalId": "kaito",
     "youtubeId": "",
     "niconicoId": "",
@@ -1264,11 +1264,11 @@
     "recommendTags": []
   },
   {
-    "id": "magnet-megurine-luka-minato",
+    "id": "magnet-megurineruka-minato",
     "title": "magnet",
     "titleKana": "",
     "producerId": "minato",
-    "vocalId": "megurine-luka",
+    "vocalId": "megurineruka",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1286,11 +1286,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-doriko",
+    "id": "romiotosinderera-hatunemiku-doriko",
     "title": "ロミオとシンデレラ",
     "titleKana": "",
     "producerId": "doriko",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1307,11 +1307,11 @@
     "recommendTags": []
   },
   {
-    "id": "1925-hatsune-miku-1585-t-pocket",
+    "id": "1925-hatunemiku-tpocket",
     "title": "1925",
     "titleKana": "",
-    "producerId": "t-pocket",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "tpocket",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1328,11 +1328,11 @@
     "recommendTags": []
   },
   {
-    "id": "fire-flower-kagamine-ren-halyosy",
+    "id": "fireflower-kagamineren-halyosy",
     "title": "Fire◎Flower",
     "titleKana": "",
     "producerId": "halyosy",
-    "vocalId": "kagamine-ren",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
