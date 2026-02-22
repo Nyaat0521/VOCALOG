@@ -2086,10 +2086,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-producer-13928880",
+    "id": "huraziru-gumi-nuyuri",
     "title": "フラジール",
     "titleKana": "",
-    "producerId": "producer-13928880",
+    "producerId": "nuyuri",
     "vocalId": "gumi",
     "youtubeId": "",
     "niconicoId": "",
@@ -2107,10 +2107,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-flower-producer-13928880",
+    "id": "inotibakari-flower-nuyuri",
     "title": "命ばっかり",
     "titleKana": "",
-    "producerId": "producer-13928880",
+    "producerId": "nuyuri",
     "vocalId": "flower",
     "youtubeId": "",
     "niconicoId": "",
@@ -2128,11 +2128,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-eve",
+    "id": "doramaturugi-hatunemiku-eve",
     "title": "ドラマツルギー",
     "titleKana": "",
     "producerId": "eve",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2149,11 +2149,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-eve-1909",
+    "id": "nansensubungaku-hatunemiku-eve",
     "title": "ナンセンス文学",
     "titleKana": "",
     "producerId": "eve",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2170,11 +2170,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-eve-1584",
+    "id": "autosaida-hatunemiku-eve",
     "title": "アウトサイダー",
     "titleKana": "",
     "producerId": "eve",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2191,11 +2191,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-tokotoko",
+    "id": "yorumosugarakimiomohu-hatunemiku-tokotoko",
     "title": "夜もすがら君想ふ",
     "titleKana": "",
     "producerId": "tokotoko",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2212,7 +2212,7 @@
     "recommendTags": []
   },
   {
-    "id": "lover-gumi-koyori",
+    "id": "aimairetuzyoulover-gumi-koyori",
     "title": "曖昧劣情Lover",
     "titleKana": "",
     "producerId": "koyori",
@@ -2233,7 +2233,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-koyori",
+    "id": "koizorayohou-gumi-koyori",
     "title": "恋空予報",
     "titleKana": "",
     "producerId": "koyori",
@@ -2254,11 +2254,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-koyori-1904",
+    "id": "sainousanpura-hatunemiku-koyori",
     "title": "サイノウサンプラー",
     "titleKana": "",
     "producerId": "koyori",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2275,11 +2275,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-producer-92665455",
+    "id": "tengaku-kagaminerin-yuuyu",
     "title": "天樂",
     "titleKana": "",
-    "producerId": "producer-92665455",
-    "vocalId": "kagamine-rin",
+    "producerId": "yuuyu",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2296,11 +2296,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-megurine-luka-easypop",
+    "id": "happisinsesaiza-megurineruka-easypop",
     "title": "ハッピーシンセサイザ",
     "titleKana": "",
     "producerId": "easypop",
-    "vocalId": "megurine-luka",
+    "vocalId": "megurineruka",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
