@@ -113,3 +113,33 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   font-weight: normal;
 }
 
+
+
+/* --- New / Recommend additions --- */
+.badge{
+  display:inline-block;
+  margin-left:8px;
+  font-size:12px;
+  padding:2px 8px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  color:var(--muted);
+  vertical-align:middle;
+}
+
+.list{ display:flex; flex-direction:column; gap:10px; margin-top:10px; }
+.archiveItem{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  text-decoration:none;
+  color:inherit;
+  background:transparent;
+}
+.archiveItem:hover{ background:var(--card); }
+.archiveItem.active{
+  background:var(--card);
+  border-color: var(--text);
+}
+.archiveTitle{ font-weight:600; }

@@ -30,6 +30,8 @@ export function headerHtml(active){
         <a ${a("producers")} href="./producers.html">ボカロP</a>
         <a ${a("vocals")} href="./vocals.html">ボカロ</a>
         <a ${a("history")} href="./history.html">歴史</a>
+        <a ${a("new")} href="./new.html">新着</a>
+        <a ${a("recommend")} href="./recommend.html">おすすめ</a>
         <a ${a("request")} href="./request.html">リクエスト</a>
       </nav>
     </div>
