@@ -3,6 +3,35 @@ import { escapeHtml, getParam, loadJson, headerHtml } from "./app.js"
 document.getElementById("header").innerHTML = headerHtml("songs")
 const content = document.getElementById("content")
 
+// --- Multi-vocal support (duet etc.) ---
+function buildVocalNameToId(vocalsArr){
+  const m = new Map()
+  for(const v of vocalsArr){
+    if(v && v.name) m.set(v.name, v.id)
+  }
+  return m
+}
+function resolveVocalIds(song, vocalsArr){
+  if(song && Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
+  const nameToId = resolveVocalIds._nameToId || (resolveVocalIds._nameToId = buildVocalNameToId(vocalsArr))
+  const ids = []
+  for(const t of (song.tags || [])){
+    const id = nameToId.get(t)
+    if(id && !ids.includes(id)) ids.push(id)
+  }
+  if(ids.length) return ids
+  return song.vocalId ? [song.vocalId] : []
+}
+function vocalLinks(song, vocalsArr){
+  const vMap = new Map(vocalsArr.map(v=>[v.id, v]))
+  return resolveVocalIds(song, vocalsArr)
+    .map(id => vMap.get(id))
+    .filter(Boolean)
+    .map(v => `<a class="link" href="./vocal.html?id=${encodeURIComponent(v.id)}">${escapeHtml(v.name)}</a>`)
+    .join("・")
+}
+
+
 async function main(){
   try{
     const [songs, producers, vocals] = await Promise.all([
@@ -16,7 +45,6 @@ async function main(){
     if(!s){ content.innerHTML = `<p>曲が見つからなかった</p>`; return }
 
     const p = producers.find(x=>x.id === s.producerId)
-    const v = vocals.find(x=>x.id === s.vocalId)
 
     document.title = `${s.title} - VOCALOG`
 
@@ -28,7 +56,7 @@ async function main(){
       <p class="muted">
         ${p ? `<a class="link" href="./producer.html?id=${encodeURIComponent(p.id)}">${escapeHtml(p.name)}</a>` : "不明"}
         /
-        ${v ? `<a class="link" href="./vocal.html?id=${encodeURIComponent(v.id)}">${escapeHtml(v.name)}</a>` : "不明"}
+        ${(vocalLinks(s, vocals) || "不明")}
       </p>
 
       ${s.released ? `<p class="muted">🗓 ${escapeHtml(s.released)}</p>` : ""}

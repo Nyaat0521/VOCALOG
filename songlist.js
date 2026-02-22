@@ -14,6 +14,34 @@ let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
 
+// --- Multi-vocal support (duet etc.) ---
+function buildVocalNameToId(vocalsMap){
+  const m = new Map()
+  for(const [id, v] of vocalsMap.entries()){
+    if(v && v.name) m.set(v.name, id)
+  }
+  return m
+}
+function resolveVocalIds(song, vocalsMap){
+  if(song && Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
+  const nameToId = resolveVocalIds._nameToId || (resolveVocalIds._nameToId = buildVocalNameToId(vocalsMap))
+  const ids = []
+  for(const t of (song.tags || [])){
+    const id = nameToId.get(t)
+    if(id && !ids.includes(id)) ids.push(id)
+  }
+  if(ids.length) return ids
+  return song.vocalId ? [song.vocalId] : []
+}
+function vocalNames(song, vocalsMap){
+  return resolveVocalIds(song, vocalsMap)
+    .map(id => vocalsMap.get(id))
+    .filter(Boolean)
+    .map(v => v.name)
+    .join("・")
+}
+
+
 function buildTagOptions(){
   const set = new Set()
   for(const s of songs){
@@ -58,7 +86,6 @@ function sortSongs(items){
 
 function card(s){
   const pObj = producers.get(s.producerId) || {}
-  const vObj = vocals.get(s.vocalId) || {}
 
   return `
     <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
@@ -66,7 +93,7 @@ function card(s){
         ${escapeHtml(s.title)}
         ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
       </h2>
-      <p class="muted">${escapeHtml(pObj.name||"不明")} / ${escapeHtml(vObj.name||"不明")}</p>
+      <p class="muted">${escapeHtml(pObj.name||"不明")} / ${escapeHtml(vocalNames(s, vocals)||"不明")}</p>
       ${s.released ? `<p class="muted">🗓 ${escapeHtml(s.released)}</p>` : ""}
       ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
     </a>

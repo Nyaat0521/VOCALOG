@@ -5,6 +5,27 @@ document.getElementById("header").innerHTML = headerHtml("vocals")
 const content = document.getElementById("content")
 const songsBox = document.getElementById("songs")
 
+// --- Multi-vocal support (duet etc.) ---
+function buildVocalNameToId(vocalsArr){
+  const m = new Map()
+  for(const v of vocalsArr){
+    if(v && v.name) m.set(v.name, v.id)
+  }
+  return m
+}
+function resolveVocalIds(song, vocalsArr){
+  if(song && Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
+  const nameToId = resolveVocalIds._nameToId || (resolveVocalIds._nameToId = buildVocalNameToId(vocalsArr))
+  const ids = []
+  for(const t of (song.tags || [])){
+    const id = nameToId.get(t)
+    if(id && !ids.includes(id)) ids.push(id)
+  }
+  if(ids.length) return ids
+  return song.vocalId ? [song.vocalId] : []
+}
+
+
 async function main(){
   try{
     const [vocals, songs, producers] = await Promise.all([
@@ -40,7 +61,7 @@ async function main(){
     const pMap = new Map(producers.map(p=>[p.id, p.name]))
 
     const items = songs
-      .filter(s=>s.vocalId === v.id)
+      .filter(s=> resolveVocalIds(s, vocals).includes(v.id))
       .sort((a,b)=> (b.released||"").localeCompare(a.released||""))
       .slice(0,10)
 
