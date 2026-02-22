@@ -1,10 +1,10 @@
 [
   {
-    "id": "ikiru-kafu-mizunoatu",
+    "id": "ikiru-kahu-mizunoatu",
     "title": "生きる",
     "titleKana": "いきる",
     "producerId": "mizunoatu",
-    "vocalId": "kafu",
+    "vocalId": "kahu",
     "youtubeId": "91R2hdV_-aQ",
     "niconicoId": "",
     "tags": [
@@ -465,11 +465,11 @@
     "recommendTags": []
   },
   {
-    "id": "hyonii-kafu-tumiki",
+    "id": "hyonii-kahu-tumiki",
     "title": "フォニイ",
     "titleKana": "",
     "producerId": "tumiki",
-    "vocalId": "kafu",
+    "vocalId": "kahu",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1770,11 +1770,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-99355760-2559",
+    "id": "arihuretasekaiseihuku-hatunemiku-pinokiopi",
     "title": "ありふれたせかいせいふく",
     "titleKana": "",
-    "producerId": "producer-99355760",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "pinokiopi",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1791,11 +1791,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-99355760-3964",
+    "id": "kimimowaruihitodeyokatta-hatunemiku-pinokiopi",
     "title": "きみも悪い人でよかった",
     "titleKana": "",
-    "producerId": "producer-99355760",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "pinokiopi",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1812,7 +1812,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-kemu",
+    "id": "kamisamanezimaki-gumi-kemu",
     "title": "カミサマネジマキ",
     "titleKana": "",
     "producerId": "kemu",
@@ -1833,7 +1833,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-kemu-7520",
+    "id": "inbiziburu-gumi-kemu",
     "title": "インビジブル",
     "titleKana": "",
     "producerId": "kemu",
@@ -1855,7 +1855,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-kemu-4778",
+    "id": "tikyuusaigonokokuhakuwo-gumi-kemu",
     "title": "地球最後の告白を",
     "titleKana": "",
     "producerId": "kemu",
@@ -1876,10 +1876,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-producer-59892047-4921",
+    "id": "otukimirisaitaru-ia-zin",
     "title": "オツキミリサイタル",
     "titleKana": "",
-    "producerId": "producer-59892047",
+    "producerId": "zin",
     "vocalId": "ia",
     "youtubeId": "",
     "niconicoId": "",
@@ -1897,10 +1897,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-producer-59892047-516",
+    "id": "ayanonokouhukurinen-ia-zin",
     "title": "アヤノの幸福理論",
     "titleKana": "",
-    "producerId": "producer-59892047",
+    "producerId": "zin",
     "vocalId": "ia",
     "youtubeId": "",
     "niconicoId": "",
@@ -1918,10 +1918,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-producer-59892047-5194",
+    "id": "rosutaimumemori-ia-zin",
     "title": "ロスタイムメモリー",
     "titleKana": "",
-    "producerId": "producer-59892047",
+    "producerId": "zin",
     "vocalId": "ia",
     "youtubeId": "",
     "niconicoId": "",
@@ -1939,10 +1939,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-producer-59892047-5972",
+    "id": "tirudorenrekodo-ia-zin",
     "title": "チルドレンレコード",
     "titleKana": "",
-    "producerId": "producer-59892047",
+    "producerId": "zin",
     "vocalId": "ia",
     "youtubeId": "",
     "niconicoId": "",
@@ -1960,10 +1960,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-producer-59892047-8740",
+    "id": "samataimurekodo-ia-zin",
     "title": "サマータイムレコード",
     "titleKana": "",
-    "producerId": "producer-59892047",
+    "producerId": "zin",
     "vocalId": "ia",
     "youtubeId": "",
     "niconicoId": "",
@@ -1981,11 +1981,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-76863248",
+    "id": "eirianeirian-hatunemiku-nayutanseizin",
     "title": "エイリアンエイリアン",
     "titleKana": "",
-    "producerId": "producer-76863248",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "nayutanseizin",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2002,11 +2002,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-76863248-4861",
+    "id": "wakuseirupu-hatunemiku-nayutanseizin",
     "title": "惑星ループ",
     "titleKana": "",
-    "producerId": "producer-76863248",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "nayutanseizin",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2023,11 +2023,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-76863248-6928",
+    "id": "taiyoukeidesuko-hatunemiku-nayutanseizin",
     "title": "太陽系デスコ",
     "titleKana": "",
-    "producerId": "producer-76863248",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "nayutanseizin",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2044,11 +2044,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-syudou",
+    "id": "bitatyokodekoresyon-hatunemiku-syudou",
     "title": "ビターチョコデコレーション",
     "titleKana": "",
     "producerId": "syudou",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2065,11 +2065,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kafu-280-syudou",
+    "id": "kyutonakanozyo-kahu-syudou",
     "title": "キュートなカノジョ",
     "titleKana": "",
     "producerId": "syudou",
-    "vocalId": "kafu-280",
+    "vocalId": "kahu",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
