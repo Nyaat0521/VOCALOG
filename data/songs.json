@@ -1,9 +1,9 @@
 [
   {
-    "id": "ikiru-kafu-atsu",
+    "id": "ikiru-kafu-mizunoatu",
     "title": "生きる",
     "titleKana": "いきる",
-    "producerId": "atsu-mizuno",
+    "producerId": "mizunoatu",
     "vocalId": "kafu",
     "youtubeId": "91R2hdV_-aQ",
     "niconicoId": "",
@@ -26,11 +26,11 @@
     ]
   },
   {
-    "id": "senbonzakura-miku-kurousa",
+    "id": "senbonzakura-hatunemiku-kurousap",
     "title": "千本桜",
     "titleKana": "せんぼんざくら",
-    "producerId": "kurousa-p",
-    "vocalId": "hatsune-miku",
+    "producerId": "kurousap",
+    "vocalId": "hatunemiku",
     "youtubeId": "shs0rAiwsGQ",
     "niconicoId": "sm15630734",
     "tags": [
@@ -53,11 +53,11 @@
     ]
   },
   {
-    "id": "hibana-miku-deco27",
+    "id": "hibana-hatunemiku-deco27",
     "title": "ヒバナ",
     "titleKana": "",
     "producerId": "deco27",
-    "vocalId": "hatsune-miku",
+    "vocalId": "hatunemiku",
     "youtubeId": "hxSg2Ioz3LM",
     "niconicoId": "",
     "tags": [
@@ -80,11 +80,11 @@
     ]
   },
   {
-    "id": "tell-your-world-miku-kz",
+    "id": "tellyourworld-hatunemiku-kz",
     "title": "Tell Your World",
     "titleKana": "てる ゆあ わーるど",
-    "producerId": "kz-livetune",
-    "vocalId": "hatsune-miku",
+    "producerId": "kz",
+    "vocalId": "hatunemiku",
     "youtubeId": "PqJNc9KVIZE",
     "niconicoId": "",
     "tags": [
@@ -103,11 +103,11 @@
     "recommendTags": []
   },
   {
-    "id": "meruto-miku-ryo",
+    "id": "meruto-hatunemiku-ryo",
     "title": "メルト",
     "titleKana": "",
-    "producerId": "ryo-supercell",
-    "vocalId": "hatsune-miku",
+    "producerId": "ryo",
+    "vocalId": "hatunemiku",
     "youtubeId": "o1jAMSQyVPc",
     "niconicoId": "sm1715919",
     "tags": [
@@ -127,11 +127,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-mikito-p",
+    "id": "roki-kagaminerin-mikitop",
     "title": "ロキ",
     "titleKana": "",
-    "producerId": "mikito-p",
-    "vocalId": "kagamine-rin",
+    "producerId": "mikitop",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -148,11 +148,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-hachi",
+    "id": "sunanowakusei-hatunemiku-hati",
     "title": "砂の惑星",
     "titleKana": "",
-    "producerId": "hachi",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "hati",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -169,10 +169,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-hachi",
+    "id": "donatuhoru-gumi-hachi",
     "title": "ドーナツホール",
     "titleKana": "",
-    "producerId": "hachi",
+    "producerId": "hati",
     "vocalId": "gumi",
     "youtubeId": "",
     "niconicoId": "",
@@ -190,11 +190,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-hachi-922",
+    "id": "matoryosika-hatunemiku-hati",
     "title": "マトリョシカ",
     "titleKana": "",
-    "producerId": "hachi",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "hati",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -212,10 +212,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-producer-90041909",
+    "id": "nousyousakuretugaru-gumi-reruriri",
     "title": "脳漿炸裂ガール",
     "titleKana": "",
-    "producerId": "producer-90041909",
+    "producerId": "reruriri",
     "vocalId": "gumi",
     "youtubeId": "",
     "niconicoId": "",
@@ -234,7 +234,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-gumi-164",
+    "id": "amanozyaku-gumi-164",
     "title": "天ノ弱",
     "titleKana": "",
     "producerId": "164",
@@ -255,7 +255,7 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-kemu",
+    "id": "rokutyounentoitiyamonogatari-ia-kemu",
     "title": "六兆年と一夜物語",
     "titleKana": "",
     "producerId": "kemu",
@@ -276,11 +276,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-producer-59892047",
+    "id": "kageroudeizu-hatunemiku-zin",
     "title": "カゲロウデイズ",
     "titleKana": "",
-    "producerId": "producer-59892047",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "zin",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
