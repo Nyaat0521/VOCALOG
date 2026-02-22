@@ -7,12 +7,23 @@
     "vocalId": "kafu",
     "youtubeId": "91R2hdV_-aQ",
     "niconicoId": "",
-    "tags": ["可不", "バラード", "CeVIO AI"],
+    "tags": [
+      "可不",
+      "バラード",
+      "CeVIO AI"
+    ],
     "released": "2021-07-22",
     "summary": "水野あつによるバラード楽曲。",
     "lyricsLink": "https://utaten.com/lyric/mi21072101",
     "karaokeLink": "https://youtu.be/Z4605775KcE",
-    "streamingLink": "https://open.spotify.com/intl-ja/track/4B6rDxockZoeeIw8Vx02T6"
+    "streamingLink": "https://open.spotify.com/intl-ja/track/4B6rDxockZoeeIw8Vx02T6",
+    "addedAt": "2026-02-22",
+    "addedWeek": "2026-02-16週",
+    "isWeeklyPick": true,
+    "recommendTags": [
+      "初心者向け",
+      "エモい"
+    ]
   },
   {
     "id": "senbonzakura-miku-kurousa",
@@ -22,12 +33,24 @@
     "vocalId": "hatsune-miku",
     "youtubeId": "shs0rAiwsGQ",
     "niconicoId": "sm15630734",
-    "tags": ["初音ミク", "ロック", "和風", "VOCALOID"],
+    "tags": [
+      "初音ミク",
+      "ロック",
+      "和風",
+      "VOCALOID"
+    ],
     "released": "2011-09-17",
     "summary": "黒うさP（WhiteFlame）による和風ロック楽曲。",
     "lyricsLink": "https://utaten.com/lyric/jb51109110",
     "karaokeLink": "https://youtu.be/_44thQJVxqk",
-    "streamingLink": "https://open.spotify.com/intl-ja/track/38mUTswfszVFQ952r89AP8"
+    "streamingLink": "https://open.spotify.com/intl-ja/track/38mUTswfszVFQ952r89AP8",
+    "addedAt": "2026-02-22",
+    "addedWeek": "2026-02-16週",
+    "isWeeklyPick": true,
+    "recommendTags": [
+      "名曲",
+      "エモい"
+    ]
   },
   {
     "id": "hibana-miku-deco27",
@@ -37,12 +60,24 @@
     "vocalId": "hatsune-miku",
     "youtubeId": "hxSg2Ioz3LM",
     "niconicoId": "",
-    "tags": ["初音ミク", "ロック", "エレクトロ", "VOCALOID"],
+    "tags": [
+      "初音ミク",
+      "ロック",
+      "エレクトロ",
+      "VOCALOID"
+    ],
     "released": "2017-08-04",
     "summary": "DECO*27によるエレクトロロック楽曲。",
     "lyricsLink": "https://utaten.com/lyric/sa17081004",
     "karaokeLink": "https://youtu.be/_aIpGmSh4os",
-    "streamingLink": "https://open.spotify.com/intl-ja/track/2Rn8WVUI9l4SkzjbfISX7p"
+    "streamingLink": "https://open.spotify.com/intl-ja/track/2Rn8WVUI9l4SkzjbfISX7p",
+    "addedAt": "2026-02-22",
+    "addedWeek": "2026-02-16週",
+    "isWeeklyPick": true,
+    "recommendTags": [
+      "中毒性",
+      "初心者向け"
+    ]
   },
   {
     "id": "tell-your-world-miku-kz",
@@ -52,12 +87,20 @@
     "vocalId": "hatsune-miku",
     "youtubeId": "PqJNc9KVIZE",
     "niconicoId": "",
-    "tags": ["初音ミク", "エレクトロポップ", "VOCALOID"],
+    "tags": [
+      "初音ミク",
+      "エレクトロポップ",
+      "VOCALOID"
+    ],
     "released": "2012-03-12",
     "summary": "kz（livetune）によるエレクトロポップ楽曲。",
     "lyricsLink": "https://utaten.com/lyric/jb41209090",
     "karaokeLink": "https://youtu.be/rvRbxl3T1vc",
-    "streamingLink": "https://open.spotify.com/intl-ja/track/6kBNaF6seD0JqFl4aBJ55e"
+    "streamingLink": "https://open.spotify.com/intl-ja/track/6kBNaF6seD0JqFl4aBJ55e",
+    "addedAt": "2026-02-22",
+    "addedWeek": "2026-02-16週",
+    "isWeeklyPick": false,
+    "recommendTags": []
   },
   {
     "id": "meruto-miku-ryo",
@@ -67,24 +110,20 @@
     "vocalId": "hatsune-miku",
     "youtubeId": "o1jAMSQyVPc",
     "niconicoId": "sm1715919",
-    "tags": ["初音ミク", "ポップス", "恋愛", "VOCALOID"],
+    "tags": [
+      "初音ミク",
+      "ポップス",
+      "恋愛",
+      "VOCALOID"
+    ],
     "released": "2007-12-07",
     "summary": "ryo（supercell）による代表的な初音ミク楽曲。",
     "lyricsLink": "https://utaten.com/lyric/jb50905027",
     "karaokeLink": "https://youtu.be/FN2mXGmWUsU",
-    "streamingLink": "https://open.spotify.com/intl-ja/track/6nZ3a0UPrYgvVghFvV0ffk"
+    "streamingLink": "https://open.spotify.com/intl-ja/track/6nZ3a0UPrYgvVghFvV0ffk",
+    "addedAt": "2026-02-22",
+    "addedWeek": "2026-02-16週",
+    "isWeeklyPick": false,
+    "recommendTags": []
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
