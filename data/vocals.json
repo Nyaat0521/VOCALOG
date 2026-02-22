@@ -14,7 +14,7 @@
     }
   },
   {
-    "id": "hatsune-miku",
+    "id": "hatunemiku",
     "name": "初音ミク (Hatsune Miku)",
     "nameKana": "はつねみく",
     "engine": "VOCALOID2 / VOCALOID3 / VOCALOID4 / NT",
@@ -28,7 +28,7 @@
     }
   },
   {
-    "id": "kagamine-rin",
+    "id": "kagaminerin",
     "name": "鏡音リン",
     "nameKana": ""
   },
@@ -48,12 +48,12 @@
     "nameKana": ""
   },
   {
-    "id": "kagamine-ren",
+    "id": "kagamineren",
     "name": "鏡音レン",
     "nameKana": ""
   },
   {
-    "id": "megurine-luka",
+    "id": "megurineluka",
     "name": "巡音ルカ",
     "nameKana": ""
   },
@@ -63,7 +63,7 @@
     "nameKana": ""
   },
   {
-    "id": "kaai-yuki",
+    "id": "kaaiyuki",
     "name": "歌愛ユキ",
     "nameKana": ""
   },
