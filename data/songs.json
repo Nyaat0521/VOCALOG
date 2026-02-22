@@ -528,10 +528,10 @@
     "recommendTags": []
   },
   {
-    "id": "song-ia-producer-59892047",
+    "id": "yobanasidyiseibu-ia-zin",
     "title": "夜咄ディセイブ",
     "titleKana": "",
-    "producerId": "producer-59892047",
+    "producerId": "zin",
     "vocalId": "ia",
     "youtubeId": "",
     "niconicoId": "",
@@ -549,11 +549,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-iroha",
+    "id": "rosinyuukai-kagaminerin-iroha",
     "title": "炉心融解",
     "titleKana": "",
     "producerId": "iroha",
-    "vocalId": "kagamine-rin",
+    "vocalId": "kagaminerin",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -570,15 +570,15 @@
     "recommendTags": []
   },
   {
-    "id": "song-kagamine-rin-producer-67504511",
+    "id": "migikatanotyou-kagamineren-norip",
     "title": "右肩の蝶",
     "titleKana": "",
-    "producerId": "producer-67504511",
-    "vocalId": "kagamine-rin",
+    "producerId": "norip",
+    "vocalId": "kagamineren",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
-      "鏡音リン"
+      "鏡音レン"
     ],
     "released": "",
     "summary": "",
@@ -591,11 +591,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-40mp",
+    "id": "karakuripiero-hatunemiku-40mp",
     "title": "からくりピエロ",
     "titleKana": "",
     "producerId": "40mp",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -612,11 +612,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-40mp-7855",
+    "id": "torinokosityi-hatunemiku-40mp",
     "title": "トリノコシティ",
     "titleKana": "",
     "producerId": "40mp",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -633,11 +633,11 @@
     "recommendTags": []
   },
   {
-    "id": "song-hatsune-miku-1585-40mp-7006",
+    "id": "renaisaiban-hatunemiku-40mp",
     "title": "恋愛裁判",
     "titleKana": "",
     "producerId": "40mp",
-    "vocalId": "hatsune-miku-1585",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -654,11 +654,11 @@
     "recommendTags": []
   },
   {
-    "id": "0822-hatsune-miku-1585-p",
+    "id": "sinpakusuu0822-hatunemiku-tyoutyop",
     "title": "心拍数♯0822",
     "titleKana": "",
-    "producerId": "p",
-    "vocalId": "hatsune-miku-1585",
+    "producerId": "tyoutyop",
+    "vocalId": "hatunemiku",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -675,11 +675,11 @@
     "recommendTags": []
   },
   {
-    "id": "just-be-friends-megurine-luka-dixieflatline",
+    "id": "justbefriends-megurineluka-dixieflatline",
     "title": "Just Be Friends",
     "titleKana": "",
     "producerId": "dixieflatline",
-    "vocalId": "megurine-luka",
+    "vocalId": "megurineruka",
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
