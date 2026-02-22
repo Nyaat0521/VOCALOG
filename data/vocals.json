@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kafu",
+    "name": "可不 (KAFU)",
+    "nameKana": "かふ",
+    "engine": "CeVIO AI",
+    "released": "2021-07-07",
+    "developer": "KAMITSUBAKI STUDIO",
+    "voiceProvider": "花譜",
+    "summary": "音楽的同位体プロジェクトから誕生した音声合成ソフト。",
+    "links": {
+      "official": "https://musical-isotope.kamitsubaki.jp/product/kafu",
+      "wikipedia": "https://ja.wikipedia.org/wiki/可不"
+    }
+  },
+  {
+    "id": "hatsune-miku",
+    "name": "初音ミク (Hatsune Miku)",
+    "nameKana": "はつねみく",
+    "engine": "VOCALOID2 / VOCALOID3 / VOCALOID4 / NT",
+    "released": "2007-08-31",
+    "developer": "クリプトン・フューチャー・メディア",
+    "voiceProvider": "藤田咲",
+    "summary": "世界的に人気を持つバーチャル・シンガー。",
+    "links": {
+      "official": "https://blog.piapro.net",
+      "wikipedia": "https://ja.wikipedia.org/wiki/初音ミク"
+    }
+  }
+]
+
+
