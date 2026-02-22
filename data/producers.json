@@ -16,7 +16,9 @@
     "id": "kurousa-p",
     "name": "黒うさP",
     "nameKana": "くろうさぴー",
-    "aliases": ["WhiteFlame"],
+    "aliases": [
+      "WhiteFlame"
+    ],
     "activeYears": "2008-",
     "summary": "和風テイストと物語性の強い歌詞で知られるボカロP。",
     "links": {
@@ -42,7 +44,9 @@
     "id": "kz-livetune",
     "name": "kz",
     "nameKana": "",
-    "aliases": ["livetune"],
+    "aliases": [
+      "livetune"
+    ],
     "activeYears": "2007-",
     "summary": "透明感のあるエレクトロサウンドと洗練されたメロディが特徴のボカロP。",
     "links": {
@@ -55,7 +59,9 @@
     "id": "ryo-supercell",
     "name": "ryo",
     "nameKana": "りょう",
-    "aliases": ["supercell"],
+    "aliases": [
+      "supercell"
+    ],
     "activeYears": "2007-",
     "summary": "壮大でエモーショナルなメロディと物語性の強い歌詞が特徴のボカロP。",
     "links": {
@@ -63,14 +69,662 @@
       "x": "https://x.com/ryo_spcl",
       "website": "https://www.ryo-supercell.com"
     }
+  },
+  {
+    "id": "mikito-p",
+    "name": "みきとP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "hachi",
+    "name": "ハチ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-90041909",
+    "name": "れるりり",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "164",
+    "name": "164",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "kemu",
+    "name": "kemu",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-59892047",
+    "name": "じん",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "orangestar",
+    "name": "Orangestar",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-76295235",
+    "name": "バルーン",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-74499084",
+    "name": "カンザキイオリ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "kanaria",
+    "name": "Kanaria",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-59377355",
+    "name": "すりぃ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-76879571",
+    "name": "てにをは",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-44699264",
+    "name": "かいりきベア",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "chinozo",
+    "name": "Chinozo",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-90052937",
+    "name": "ツミキ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-99355760",
+    "name": "ピノキオピー",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "iroha",
+    "name": "iroha",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-67504511",
+    "name": "のりぴー",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "40mp",
+    "name": "40mP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p",
+    "name": "蝶々P",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "dixieflatline",
+    "name": "Dixie Flatline",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-92665455",
+    "name": "ゆうゆ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-2734",
+    "name": "ジミーサムP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "keeno",
+    "name": "keeno",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-69673415",
+    "name": "ナノウ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "wowaka",
+    "name": "wowaka",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "junky",
+    "name": "Junky",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "koyori",
+    "name": "koyori",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "neru",
+    "name": "Neru",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "mothy",
+    "name": "mothy",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "yanagi",
+    "name": "yanagi",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "minato",
+    "name": "minato",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "doriko",
+    "name": "doriko",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "t-pocket",
+    "name": "T-POCKET",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "halyosy",
+    "name": "halyosy",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-30504269",
+    "name": "日向電工",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "n-buna",
+    "name": "n-buna",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-60970163",
+    "name": "すこっぷ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-53737506",
+    "name": "柊キライ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "-",
+    "name": "ユリイ・カノン",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-76863248",
+    "name": "ナユタン星人",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "syudou",
+    "name": "syudou",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-13928880",
+    "name": "ぬゆり",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "eve",
+    "name": "Eve",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "tokotoko",
+    "name": "TOKOTOKO",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "easypop",
+    "name": "EasyPop",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-41547190",
+    "name": "じーざす",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-60828465",
+    "name": "銀サク",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-6029940",
+    "name": "ろくろ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "19ssoundfactory",
+    "name": "19’s Sound Factory",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-96864925",
+    "name": "古川本舗",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "nem",
+    "name": "Nem",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "azari",
+    "name": "Azari",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-89852205",
+    "name": "いよわ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-55883811",
+    "name": "稲葉曇",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-26618219",
+    "name": "煮ル果実",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "maretu",
+    "name": "Maretu",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-35782894",
+    "name": "和田たけあき",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "x",
+    "name": "ひとしずく×やま△",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "b",
+    "name": "田中B",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-1331",
+    "name": "クワガタP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-8556",
+    "name": "におP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-57185845",
+    "name": "のぼる↑",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-74343811",
+    "name": "ゆよゆっぺ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-292",
+    "name": "ゆちゃP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "buzzg",
+    "name": "buzzG",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "supercell",
+    "name": "supercell",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-28214859",
+    "name": "スズム",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "sasakureuk",
+    "name": "sasakure.UK",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "mitchiem",
+    "name": "Mitchie M",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-18306867",
+    "name": "キノシタ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "harryp",
+    "name": "HarryP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "cosmop",
+    "name": "cosMo@暴走P",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-4885",
+    "name": "石川智晶P",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-560",
+    "name": "オワタP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-96505422",
+    "name": "アゴアニキ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-16727949",
+    "name": "じょん",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "osterproject",
+    "name": "OSTER project",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "producer-53882946",
+    "name": "トラボルタ",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-3709",
+    "name": "シグナルP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "p-7142",
+    "name": "とくP",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": ""
+  },
+  {
+    "id": "divela",
+    "name": "DIVELA",
+    "nameKana": "",
+    "aliases": [],
+    "activeYears": "",
+    "summary": "",
+    "links": {}
   }
 ]
-
-
-
-
-
-
-
-
-

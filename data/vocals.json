@@ -26,7 +26,60 @@
       "official": "https://blog.piapro.net",
       "wikipedia": "https://ja.wikipedia.org/wiki/初音ミク"
     }
+  },
+  {
+    "id": "kagamine-rin",
+    "name": "鏡音リン",
+    "nameKana": ""
+  },
+  {
+    "id": "hatsune-miku-1585",
+    "name": "初音ミク",
+    "nameKana": ""
+  },
+  {
+    "id": "gumi",
+    "name": "GUMI",
+    "nameKana": ""
+  },
+  {
+    "id": "ia",
+    "name": "IA",
+    "nameKana": ""
+  },
+  {
+    "id": "flower",
+    "name": "flower",
+    "nameKana": ""
+  },
+  {
+    "id": "kagamine-ren",
+    "name": "鏡音レン",
+    "nameKana": ""
+  },
+  {
+    "id": "kafu-280",
+    "name": "可不",
+    "nameKana": ""
+  },
+  {
+    "id": "megurine-luka",
+    "name": "巡音ルカ",
+    "nameKana": ""
+  },
+  {
+    "id": "kaito",
+    "name": "KAITO",
+    "nameKana": ""
+  },
+  {
+    "id": "kaai-yuki",
+    "name": "歌愛ユキ",
+    "nameKana": ""
+  },
+  {
+    "id": "meiko",
+    "name": "MEIKO",
+    "nameKana": ""
   }
 ]
-
-
