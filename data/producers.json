@@ -16,9 +16,7 @@
     "id": "kurousa-p",
     "name": "黒うさP",
     "nameKana": "くろうさぴー",
-    "aliases": [
-      "WhiteFlame"
-    ],
+    "aliases": ["WhiteFlame"],
     "activeYears": "2008-",
     "summary": "和風テイストと物語性の強い歌詞で知られるボカロP。",
     "links": {
@@ -44,9 +42,7 @@
     "id": "kz-livetune",
     "name": "kz",
     "nameKana": "",
-    "aliases": [
-      "livetune"
-    ],
+    "aliases": ["livetune"],
     "activeYears": "2007-",
     "summary": "透明感のあるエレクトロサウンドと洗練されたメロディが特徴のボカロP。",
     "links": {
