@@ -17,22 +17,12 @@
 }
 
 *{ box-sizing:border-box; }
-
-html, body{ height:100%; }
-
 body{
-  /* Sticky footer */
-  display:flex;
-  flex-direction:column;
-  min-height:100vh;
-
   margin:0;
   background:var(--bg);
   color:var(--text);
   font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
 }
-
-main{ flex:1; }
 
 .wrap{ max-width:1050px; margin:0 auto; padding:16px; }
 
