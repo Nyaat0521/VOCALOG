@@ -43,7 +43,7 @@
   },
   {
     "id": "gumi",
-    "name": "GUMI (Megpoid)",
+    "name": "GUMI",
     "nameKana": "ぐみ",
     "engine": "VOCALOID2 / VOCALOID3 / VOCALOID4 / Synthesizer V AI",
     "released": "2009-06-26",
@@ -57,7 +57,7 @@
   },
   {
     "id": "ia",
-    "name": "IA (イア)",
+    "name": "IA",
     "nameKana": "いあ",
     "engine": "VOCALOID3 / CeVIO AI",
     "released": "2012-01-27",
@@ -71,7 +71,7 @@
   },
   {
     "id": "flower",
-    "name": "flower (フラワ)",
+    "name": "flower",
     "nameKana": "ふらわ",
     "engine": "VOCALOID3 / VOCALOID4",
     "released": "2014-05-09",
@@ -113,7 +113,7 @@
   },
   {
     "id": "kaito",
-    "name": "KAITO (カイト)",
+    "name": "KAITO",
     "nameKana": "かいと",
     "engine": "VOCALOID / VOCALOID3 / VOCALOID4X / NT",
     "released": "2006-02-17",
@@ -141,7 +141,7 @@
   },
   {
     "id": "meiko",
-    "name": "MEIKO (メイコ)",
+    "name": "MEIKO",
     "nameKana": "めいこ",
     "engine": "VOCALOID / VOCALOID3 / VOCALOID4X / NT",
     "released": "2004-11-05",
