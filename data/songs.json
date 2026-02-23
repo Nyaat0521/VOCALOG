@@ -2997,7 +2997,16 @@
     "title": "Bad∞End∞Night",
     "titleKana": "",
     "producerId": "hitosizukuyama",
-    "vocalId": "hatunemiku",
+    "vocals": [
+      "hatunemiku",
+      "kagaminerin",
+      "kagamineren",
+      "megurineruka",
+      "kaito",
+      "meiko",
+      "gumi",
+      "kamuigakupo"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3025,7 +3034,16 @@
     "title": "Crazy∞nighT",
     "titleKana": "",
     "producerId": "hitosizukuyama",
-    "vocalId": "hatunemiku",
+    "vocals": [
+      "hatunemiku",
+      "kagaminerin",
+      "kagamineren",
+      "megurineruka",
+      "kaito",
+      "meiko",
+      "gumi",
+      "kamuigakupo"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
