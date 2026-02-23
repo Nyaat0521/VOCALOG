@@ -194,7 +194,10 @@
     "title": "マトリョシカ",
     "titleKana": "",
     "producerId": "hati",
-    "vocalId": "hatunemiku",
+    "vocalIds": [
+      "hatunemiku",
+      "gumi"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -212,16 +215,19 @@
     "recommendTags": []
   },
   {
-    "id": "nousyousakuretugaru-gumi-reruriri",
+    "id": "nousyousakuretugaru-hatunemiku-reruriri",
     "title": "脳漿炸裂ガール",
     "titleKana": "",
     "producerId": "reruriri",
-    "vocalId": "gumi",
+    "vocalIds": [
+      "hatunemiku",
+      "gumi"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
-      "GUMI",
-      "初音ミク"
+      "初音ミク",
+      "GUMI"
     ],
     "released": "",
     "summary": "",
@@ -1246,7 +1252,10 @@
     "title": "カンタレラ",
     "titleKana": "",
     "producerId": "kurousap",
-    "vocalId": "kaito",
+    "vocalIds": [
+      "kaito",
+      "hatunemiku"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1264,16 +1273,19 @@
     "recommendTags": []
   },
   {
-    "id": "magnet-megurineruka-minato",
+    "id": "magnet-hatunemiku-minato",
     "title": "magnet",
     "titleKana": "",
     "producerId": "minato",
-    "vocalId": "megurineruka",
+    "vocalIds": [
+      "hatunemiku",
+      "megurineruka"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
-      "巡音ルカ",
-      "初音ミク"
+      "初音ミク",
+      "巡音ルカ"
     ],
     "released": "",
     "summary": "",
@@ -1374,7 +1386,10 @@
     "title": "ワールズエンド・ダンスホール",
     "titleKana": "",
     "producerId": "wowaka",
-    "vocalId": "hatunemiku",
+    "vocalIds": [
+      "hatunemiku",
+      "megurineruka"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -1837,7 +1852,10 @@
     "title": "インビジブル",
     "titleKana": "",
     "producerId": "kemu",
-    "vocalId": "gumi",
+    "vocalIds": [
+      "gumi",
+      "kagaminerin"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2300,7 +2318,10 @@
     "title": "ハッピーシンセサイザ",
     "titleKana": "",
     "producerId": "easypop",
-    "vocalId": "megurineruka",
+    "vocalIds": [
+      "megurineruka",
+      "gumi"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2364,7 +2385,10 @@
     "title": "リモコン",
     "titleKana": "",
     "producerId": "zizasup",
-    "vocalId": "kagaminerin",
+    "vocalIds": [
+      "kagaminerin",
+      "kagamineren"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -2823,16 +2847,19 @@
     "recommendTags": []
   },
   {
-    "id": "aidentyityi-hatunemiku-kanaria",
+    "id": "aidentyityi-gumi-kanaria",
     "title": "アイデンティティ",
     "titleKana": "",
     "producerId": "kanaria",
-    "vocalId": "hatunemiku",
+    "vocalIds": [
+      "gumi",
+      "hatunemiku"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
-      "初音ミク",
-      "GUMI"
+      "GUMI",
+      "初音ミク"
     ],
     "released": "",
     "summary": "",
@@ -2975,7 +3002,10 @@
     "title": "ぼうけんのしょがきえました！",
     "titleKana": "",
     "producerId": "zizasup",
-    "vocalId": "kagaminerin",
+    "vocalIds": [
+      "kagaminerin",
+      "kagamineren"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3071,13 +3101,17 @@
     "title": "ACUTE",
     "titleKana": "",
     "producerId": "kurousap",
-    "vocalId": "hatunemiku",
+    "vocalIds": [
+      "hatunemiku",
+      "megurineruka",
+      "kaito"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
       "初音ミク",
-      "KAITO",
-      "巡音ルカ"
+      "巡音ルカ",
+      "KAITO"
     ],
     "released": "",
     "summary": "",
@@ -3451,7 +3485,10 @@
     "title": "再教育",
     "titleKana": "",
     "producerId": "neru",
-    "vocalId": "kagaminerin",
+    "vocalIds": [
+      "kagaminerin",
+      "kagamineren"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
@@ -3679,16 +3716,19 @@
     "recommendTags": []
   },
   {
-    "id": "pozityibudansutaimu-kagaminerin-kinosita",
+    "id": "pozityibudansutaimu-otomatiuna-kinosita",
     "title": "ポジティブ☆ダンスタイム",
     "titleKana": "",
     "producerId": "kinosita",
-    "vocalId": "kagaminerin",
+    "vocalIds": [
+      "otomatiuna",
+      "kagaminerin"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
-      "鏡音リン",
-      "鏡音レン"
+      "音街ウナ",
+      "鏡音リン"
     ],
     "released": "",
     "summary": "",
@@ -4062,7 +4102,10 @@
     "title": "サンドリヨン",
     "titleKana": "",
     "producerId": "sigunarup",
-    "vocalId": "hatunemiku",
+    "vocalIds": [
+      "hatunemiku",
+      "kaito"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
