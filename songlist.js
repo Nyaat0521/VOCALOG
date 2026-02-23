@@ -146,4 +146,3 @@ main()
 q.addEventListener("input", filter)
 sortSel.addEventListener("change", filter)
 tagSel.addEventListener("change", filter)
-
