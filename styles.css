@@ -113,9 +113,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   font-weight: normal;
 }
 
-
-
-/* --- New / Recommend additions --- */
 .badge{
   display:inline-block;
   margin-left:8px;
