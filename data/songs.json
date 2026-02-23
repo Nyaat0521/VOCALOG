@@ -23,7 +23,9 @@
     "recommendTags": [
       "初心者向け",
       "エモい"
-    ]
+    ],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "senbonzakura-hatunemiku-kurousap",
@@ -50,7 +52,9 @@
     "recommendTags": [
       "名曲",
       "エモい"
-    ]
+    ],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "hibana-hatunemiku-deco27",
@@ -77,7 +81,9 @@
     "recommendTags": [
       "中毒性",
       "初心者向け"
-    ]
+    ],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "tellyourworld-hatunemiku-kz",
@@ -100,7 +106,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "meruto-hatunemiku-ryo",
@@ -124,7 +132,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "roki-kagaminerin-mikitop",
@@ -145,7 +155,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sunanowakusei-hatunemiku-hati",
@@ -166,7 +178,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "donatuhoru-gumi-hachi",
@@ -187,7 +201,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "matoryosika-hatunemiku-hati",
@@ -212,7 +228,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "nousyousakuretugaru-hatunemiku-reruriri",
@@ -237,7 +255,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "amanozyaku-gumi-164",
@@ -258,7 +278,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rokutyounentoitiyamonogatari-ia-kemu",
@@ -279,7 +301,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kageroudeizu-hatunemiku-zin",
@@ -300,7 +324,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "asunoyozorasyoukaihan-ia-orangestar",
@@ -321,7 +347,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "syaruru-flower-barun",
@@ -342,7 +370,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "inotinikirawareteiru-hatunemiku-kanzakiiori",
@@ -363,7 +393,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "king-gumi-kanaria",
@@ -384,7 +416,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "egorokku-kagamineren-surii",
@@ -405,7 +439,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "viran-flower-teniwoha",
@@ -426,7 +462,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "benomu-flower-kairikibea",
@@ -447,7 +485,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "gubbaisengen-flower-chinozo",
@@ -468,7 +508,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "hyonii-kahu-tumiki",
@@ -489,7 +531,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kamippoina-hatunemiku-pinokiopi",
@@ -510,7 +554,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "syouzyorei-hatunemiku-mikitop",
@@ -531,7 +577,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "yobanasidyiseibu-ia-zin",
@@ -552,7 +600,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rosinyuukai-kagaminerin-iroha",
@@ -573,7 +623,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "migikatanotyou-kagamineren-norip",
@@ -594,7 +646,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "karakuripiero-hatunemiku-40mp",
@@ -615,7 +669,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "torinokosityi-hatunemiku-40mp",
@@ -636,7 +692,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "renaisaiban-hatunemiku-40mp",
@@ -657,7 +715,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sinpakusuu0822-hatunemiku-tyoutyop",
@@ -678,7 +738,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "justbefriends-megurineluka-dixieflatline",
@@ -699,7 +761,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "warudoizumain-hatunemiku-ryo",
@@ -720,7 +784,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "burakkurokkusyuta-hatunemiku-ryo",
@@ -741,7 +807,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sinkaisyouzyo-hatunemiku-yuuyu",
@@ -762,7 +830,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "calc-hatunemiku-zimisamup",
@@ -783,7 +853,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "glow-hatunemiku-keeno",
@@ -804,7 +876,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "harohawayu-hatunemiku-narou",
@@ -825,7 +899,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "mozaikuroru-gumi-deco27",
@@ -846,7 +922,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "mousoukansyoudaisyourenmei-hatunemiku-deco27",
@@ -867,7 +945,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "gosutoruru-hatunemiku-deco27",
@@ -888,7 +968,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "nisokuhokou-hatunemiku-deco27",
@@ -909,7 +991,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aikotoba-hatunemiku-deco27",
@@ -930,7 +1014,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "yowamusimonburan-gumi-deco27",
@@ -951,7 +1037,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "anhappirihurein-hatunemiku-wowaka",
@@ -972,7 +1060,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "uwaomoterabazu-hatunemiku-wowaka",
@@ -993,7 +1083,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "roringaru-hatunemiku-wowaka",
@@ -1014,7 +1106,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "merankorikku-kagaminerin-junky",
@@ -1035,7 +1129,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "iarufankurabu-gumi-mikitop",
@@ -1056,7 +1152,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "siryokusensa-gumi-40mp",
@@ -1077,7 +1175,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "hitorinboenvi-hatunemiku-koyori",
@@ -1098,7 +1198,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "toukyoutedyibea-kagaminerin-neru",
@@ -1119,7 +1221,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rosutowannogoukoku-kagaminerin-neru",
@@ -1140,7 +1244,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "dappourokku-kagamineren-neru",
@@ -1161,7 +1267,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "inotinoyusutyityia-kagamineren-neru",
@@ -1182,7 +1290,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "akunomusume-kagaminerin-mothy",
@@ -1203,7 +1313,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "akunomesitukai-kagamineren-mothy",
@@ -1224,7 +1336,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sennannodokusouka-kaito-yanagi",
@@ -1245,7 +1359,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kantarera-kaito-kurousap",
@@ -1270,7 +1386,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "magnet-hatunemiku-minato",
@@ -1295,7 +1413,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "romiotosinderera-hatunemiku-doriko",
@@ -1316,7 +1436,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "1925-hatunemiku-tpocket",
@@ -1337,7 +1459,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "fireflower-kagamineren-halyosy",
@@ -1358,7 +1482,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sakuranohana-hatunemiku-halyosy",
@@ -1379,7 +1505,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "waruzuendodansuhoru-hatunemiku-wowaka",
@@ -1404,7 +1532,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "pandahiro-gumi-hati",
@@ -1425,7 +1555,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "mrspumpkinnokokkeinayume-hatunemiku-hati",
@@ -1446,7 +1578,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "musundehiraiterasetutomukuro-hatunemiku-hati",
@@ -1467,7 +1601,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rinne-hatunemiku-hati",
@@ -1488,7 +1624,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "burikinodansu-hatunemiku-hinatadenkou",
@@ -1509,7 +1647,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "toumaierezi-hatunemiku-nbuna",
@@ -1530,7 +1670,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "yoaketohotaru-hatunemiku-nbuna",
@@ -1551,7 +1693,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aironi-hatunemiku-sukoppu",
@@ -1572,7 +1716,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kokoronasi-gumi-tyoutyop",
@@ -1593,7 +1739,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "mousouzei-hatunemiku-deco27",
@@ -1614,7 +1762,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "otomekaibou-hatunemiku-deco27",
@@ -1635,7 +1785,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "ribasiburukyanpen-hatunemiku-deco27",
@@ -1656,7 +1808,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "terekyasutabiboi-kagamineren-surii",
@@ -1677,7 +1831,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "zyankinaitotaunokesutora-kagamineren-surii",
@@ -1698,7 +1854,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "bokaderaberita-flower-hiiragikirai",
@@ -1719,7 +1877,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "darindansu-hatunemiku-kairikibea",
@@ -1740,7 +1900,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sippaisakusyouzyo-hatunemiku-kairikibea",
@@ -1761,7 +1923,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "darekanosinzouninaretanara-gumi-yuriikanon",
@@ -1782,7 +1946,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "arihuretasekaiseihuku-hatunemiku-pinokiopi",
@@ -1803,7 +1969,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kimimowaruihitodeyokatta-hatunemiku-pinokiopi",
@@ -1824,7 +1992,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kamisamanezimaki-gumi-kemu",
@@ -1845,7 +2015,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "inbiziburu-gumi-kemu",
@@ -1870,7 +2042,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "tikyuusaigonokokuhakuwo-gumi-kemu",
@@ -1891,7 +2065,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "otukimirisaitaru-ia-zin",
@@ -1912,7 +2088,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "ayanonokouhukurinen-ia-zin",
@@ -1933,7 +2111,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rosutaimumemori-ia-zin",
@@ -1954,7 +2134,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "tirudorenrekodo-ia-zin",
@@ -1975,7 +2157,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "samataimurekodo-ia-zin",
@@ -1996,7 +2180,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "eirianeirian-hatunemiku-nayutanseizin",
@@ -2017,7 +2203,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "wakuseirupu-hatunemiku-nayutanseizin",
@@ -2038,7 +2226,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "taiyoukeidesuko-hatunemiku-nayutanseizin",
@@ -2059,7 +2249,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "bitatyokodekoresyon-hatunemiku-syudou",
@@ -2080,7 +2272,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kyutonakanozyo-kahu-syudou",
@@ -2101,7 +2295,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "huraziru-gumi-nuyuri",
@@ -2122,7 +2318,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "inotibakari-flower-nuyuri",
@@ -2143,7 +2341,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "doramaturugi-hatunemiku-eve",
@@ -2164,7 +2364,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "nansensubungaku-hatunemiku-eve",
@@ -2185,7 +2387,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "autosaida-hatunemiku-eve",
@@ -2206,7 +2410,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "yorumosugarakimiomohu-hatunemiku-tokotoko",
@@ -2227,7 +2433,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aimairetuzyoulover-gumi-koyori",
@@ -2248,7 +2456,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "koizorayohou-gumi-koyori",
@@ -2269,7 +2479,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sainousanpura-hatunemiku-koyori",
@@ -2290,7 +2502,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "tengaku-kagaminerin-yuuyu",
@@ -2311,7 +2525,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "happisinsesaiza-megurineruka-easypop",
@@ -2336,7 +2552,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "suitomazikku-kagaminerin-junky",
@@ -2357,7 +2575,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "twuinkuru-kagaminerin-junky",
@@ -2378,7 +2598,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rimokon-kagaminerin-zizasup",
@@ -2403,7 +2625,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "irohauta-hatunemiku-ginseku",
@@ -2424,7 +2648,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "wandarandotohituzinouta-hatunemiku-hati",
@@ -2445,7 +2671,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aira-hatunemiku-nbuna",
@@ -2466,7 +2694,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "suroudauna-flower-rokuro",
@@ -2487,7 +2717,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "haidoandosiku-hatunemiku-19ssoundfactory",
@@ -2508,7 +2740,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "gurigurimeganetogekkoutyuu-hatunemiku-hurukawahonpo",
@@ -2529,7 +2763,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "toukyouretoro-hatunemiku-sukoppu",
@@ -2550,7 +2786,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "koihasensou-hatunemiku-ryo",
@@ -2571,7 +2809,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "adhisyonarumemori-ia-zin",
@@ -2592,7 +2832,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sutariminguhato-hatunemiku-deco27",
@@ -2613,7 +2855,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aimaierezi-hatunemiku-deco27",
@@ -2634,7 +2878,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "raiadansu-hatunemiku-deco27",
@@ -2655,7 +2901,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sizahanzu-hatunemiku-nem",
@@ -2676,7 +2924,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "burakkuauto-flower-azari",
@@ -2697,7 +2947,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kyuukurarin-kahu-iyowa",
@@ -2718,7 +2970,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "ragutorein-kaaiyuki-inabakumori",
@@ -2739,7 +2993,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "torafikkuzyamu-flower-nirukazitu",
@@ -2760,7 +3016,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "guretohyiruta-sekai-ine",
@@ -2781,7 +3039,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "mazikarudokuta-hatunemiku-maretu",
@@ -2802,7 +3062,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "koinrokkabeibi-hatunemiku-maretu",
@@ -2823,7 +3085,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "uminaosi-hatunemiku-maretu",
@@ -2844,7 +3108,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aidentyityi-gumi-kanaria",
@@ -2869,7 +3135,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "envibeibi-gumi-kanaria",
@@ -2890,7 +3158,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "andoroidogaru-hatunemiku-deco27",
@@ -2911,7 +3181,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sinderera-hatunemiku-deco27",
@@ -2932,7 +3204,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sukuranburukousai-hatunemiku-deco27",
@@ -2953,7 +3227,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "vanpaia-hatunemiku-deco27",
@@ -2974,7 +3250,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "buresuyuaburesu-hatunemiku-wadatakeaki",
@@ -2995,7 +3273,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "boukennosyogakiemasita-kagaminerin-zizasup",
@@ -3020,7 +3300,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "badendnight-hatunemiku-hitosizukuyama",
@@ -3057,7 +3339,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "crazynight-hatunemiku-hitosizukuyama",
@@ -3094,7 +3378,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "acute-hatunemiku-kurousap",
@@ -3121,7 +3407,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sinkaisityiandaguraundo-hatunemiku-tanakab",
@@ -3142,7 +3430,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kiminoondo-hatunemiku-kuwagatap",
@@ -3163,7 +3453,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rainstopsgoodbye-hatunemiku-niop",
@@ -3184,7 +3476,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "monokuroburusukai-hatunemiku-noborup",
@@ -3205,7 +3499,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "palette-megurineruka-yuyoyuppe",
@@ -3226,7 +3522,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "blackjack-megurineruka-yutyap",
@@ -3247,7 +3545,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "happiendo-gumi-buzzg",
@@ -3268,7 +3568,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "siwa-gumi-buzzg",
@@ -3289,7 +3591,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "monokuroauto-hatunemiku-doriko",
@@ -3310,7 +3614,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "toumaiansa-ia-zin",
@@ -3331,7 +3637,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "gekkousyokudou-hatunemiku-hurukawahonpo",
@@ -3352,7 +3660,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sayonaramemorizu-hatunemiku-supercell",
@@ -3373,7 +3683,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "oddsends-hatunemiku-ryo",
@@ -3394,7 +3706,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kiminosiranaimonogatari-hatunemiku-supercell",
@@ -3415,7 +3729,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "antibito-hatunemiku-deco27",
@@ -3436,7 +3752,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "hibari-hatunemiku-40mp",
@@ -3457,7 +3775,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sekaizyumyoutosaigonoitiniti-gumi-suzumu",
@@ -3478,7 +3798,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "saikyouiku-kagaminerin-neru",
@@ -3503,7 +3825,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "haropuranetto-hatunemiku-sasakureuk",
@@ -3524,7 +3848,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "wandarasuto-hatunemiku-sasakureuk",
@@ -3545,7 +3871,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "seventhheaven-hatunemiku-sasakureuk",
@@ -3566,7 +3894,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "lastnightgoodnight-hatunemiku-kz",
@@ -3587,7 +3917,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "yellow-hatunemiku-kz",
@@ -3608,7 +3940,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "decorator-hatunemiku-kz",
@@ -3629,7 +3963,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "handinhand-hatunemiku-kz",
@@ -3650,7 +3986,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "freelytomorrow-hatunemiku-mitchiem",
@@ -3671,7 +4009,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aidorusineitai-hatunemiku-mitchiem",
@@ -3692,7 +4032,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sukiyukihonkimazikku-hatunemiku-mitchiem",
@@ -3713,7 +4055,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "pozityibudansutaimu-otomatiuna-kinosita",
@@ -3738,7 +4082,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "bokuranorettoittobi-hatunemiku-harryp",
@@ -3759,7 +4105,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "miraikeiinosensu-hatunemiku-koyori",
@@ -3780,7 +4128,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "karahurumerodyi-hatunemiku-doriko",
@@ -3801,7 +4151,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "hatunemikunosyousitu-hatunemiku-cosmop",
@@ -3822,7 +4174,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "hatunemikunogekisyou-hatunemiku-cosmop",
@@ -3843,7 +4197,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "hatunemikunobousou-hatunemiku-cosmop",
@@ -3864,7 +4220,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "imasugurinne-hatunemiku-nakiso",
@@ -3885,7 +4243,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "starduster-hatunemiku-zimisamup",
@@ -3906,7 +4266,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "warudoendoanburera-hatunemiku-hati",
@@ -3927,7 +4289,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "antikurorobenzen-kagamineren-owatap",
@@ -3948,7 +4312,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "rosinyuukai-kagaminerin-iroha",
@@ -3969,7 +4335,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "parazikurorobenzen-kagamineren-owatap",
@@ -3990,7 +4358,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "dabururariatto-megurineruka-agoaniki",
@@ -4011,7 +4381,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "meteo-hatunemiku-zyon",
@@ -4032,7 +4404,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "pianoforutesukyandaru-meiko-osterproject",
@@ -4053,7 +4427,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "warudoranpusyedo-gumi-buzzg",
@@ -4074,7 +4450,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kokoro-kagaminerin-toraboruta",
@@ -4095,7 +4473,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "sandoriyon-hatunemiku-sigunarup",
@@ -4120,7 +4500,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "spica-hatunemiku-tokup",
@@ -4141,7 +4523,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "toeto-megurineruka-toraboruta",
@@ -4162,7 +4546,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "eaasou-hatunemiku-tyoutyop",
@@ -4183,7 +4569,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "kimiironisomaru-gumi-tokotoko",
@@ -4204,7 +4592,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aikotobaii-hatunemiku-deco27",
@@ -4225,7 +4615,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aikotobaiii-hatunemiku-deco27",
@@ -4246,7 +4638,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aikotobaiv-hatunemiku-deco27",
@@ -4267,7 +4661,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "aikotobav-hatunemiku-deco27",
@@ -4288,7 +4684,9 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   },
   {
     "id": "bokarokorosiamu-hatunemiku-divela",
@@ -4309,6 +4707,8 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": false,
-    "recommendTags": []
+    "recommendTags": [],
+    "isRepresentative": false,
+    "representativeOrder": 0
   }
 ]
