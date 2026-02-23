@@ -76,13 +76,20 @@ function buildRecTagOptions(){
     for(const t of (s.recommendTags || [])) set.add(t)
   }
   const tags = Array.from(set).sort((a,b)=>a.localeCompare(b,"ja"))
-  recTagSel.innerHTML = `<option value="">タグを選択</option>` + tags.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("")
-  if(tags.length){
-    recTagSel.value = tags[0]
-    renderTag(tags[0])
-  }else{
+  // NOTE: 「タグを選択」を選べてしまうと空表示になって混乱しやすいので、選択不可にする
+  recTagSel.innerHTML =
+    `<option value="" disabled selected hidden>タグを選択</option>` +
+    tags.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("")
+
+  if(!tags.length){
     tagHint.textContent = "まだ全体おすすめタグがありません（recommendTags を曲データに追加）"
+    tagListEl.innerHTML = ""
+    return
   }
+
+  // 初期表示は1つ目のタグ
+  recTagSel.value = tags[0]
+  renderTag(tags[0])
 }
 
 function renderWeeklyPicks(){
@@ -94,12 +101,14 @@ function renderWeeklyPicks(){
 
 function renderTag(tag){
   if(!tag){
-    tagListEl.innerHTML = ""
+    tagHint.textContent = "タグを選択してください"
+    tagListEl.innerHTML = `<p class="muted">上の「タグを選択」からおすすめタグを選んでね</p>`
     return
   }
   const items = songs.filter(s=> (s.recommendTags||[]).includes(tag))
   const top10 = sortByReleasedDesc(items).slice(0,10)
-  tagHint.textContent = `「${tag}」おすすめ：${Math.min(10, items.length)} / ${items.length}曲`
+  // 「2/2」より理解しやすい表現に変更
+  tagHint.textContent = `「${tag}」おすすめ：全${items.length}曲（上位${top10.length}曲表示）`
   tagListEl.innerHTML = top10.map(card).join("") || `<p class="muted">このタグの曲がまだありません</p>`
 }
 
