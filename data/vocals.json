@@ -29,7 +29,7 @@
   },
   {
     "id": "kagaminerin",
-    "name": "鏡音リン",
+    "name": "鏡音リン (Kagamine Rin)",
     "nameKana": "かがみねりん",
     "engine": "VOCALOID2 / VOCALOID4X / NT",
     "released": "2007-12-27",
@@ -43,7 +43,7 @@
   },
   {
     "id": "gumi",
-    "name": "GUMI",
+    "name": "GUMI (Megpoid)",
     "nameKana": "ぐみ",
     "engine": "VOCALOID2 / VOCALOID3 / VOCALOID4 / Synthesizer V AI",
     "released": "2009-06-26",
@@ -57,7 +57,7 @@
   },
   {
     "id": "ia",
-    "name": "IA",
+    "name": "IA (イア)",
     "nameKana": "いあ",
     "engine": "VOCALOID3 / CeVIO AI",
     "released": "2012-01-27",
@@ -85,7 +85,7 @@
   },
   {
     "id": "kagamineren",
-    "name": "鏡音レン",
+    "name": "鏡音レン (Kagamine Len)",
     "nameKana": "かがみねれん",
     "engine": "VOCALOID2 / VOCALOID4X / NT",
     "released": "2007-12-27",
@@ -99,7 +99,7 @@
   },
   {
     "id": "megurineruka",
-    "name": "巡音ルカ",
+    "name": "巡音ルカ (Megurine Luka)",
     "nameKana": "めぐりねるか",
     "engine": "VOCALOID2 / VOCALOID4X / NT",
     "released": "2009-01-30",
@@ -113,7 +113,7 @@
   },
   {
     "id": "kaito",
-    "name": "KAITO",
+    "name": "KAITO (カイト)",
     "nameKana": "かいと",
     "engine": "VOCALOID / VOCALOID3 / VOCALOID4X / NT",
     "released": "2006-02-17",
@@ -127,7 +127,7 @@
   },
   {
     "id": "kaaiyuki",
-    "name": "歌愛ユキ",
+    "name": "歌愛ユキ (Kaai Yuki)",
     "nameKana": "かあいゆき",
     "engine": "VOCALOID2",
     "released": "2009-12-04",
@@ -141,7 +141,7 @@
   },
   {
     "id": "meiko",
-    "name": "MEIKO",
+    "name": "MEIKO (メイコ)",
     "nameKana": "めいこ",
     "engine": "VOCALOID / VOCALOID3 / VOCALOID4X / NT",
     "released": "2004-11-05",
@@ -155,7 +155,7 @@
   },
   {
     "id": "sekai",
-    "name": "星界",
+    "name": "星界 (SEKAI)",
     "nameKana": "せかい",
     "engine": "CeVIO AI",
     "released": "2022-04-29",
@@ -169,7 +169,7 @@
   },
   {
     "id": "kamuigakupo",
-    "name": "神威がくぽ",
+    "name": "神威がくぽ (Kamui Gakupo)",
     "nameKana": "かむいがくぽ",
     "engine": "VOCALOID2 / VOCALOID4",
     "released": "2008-07-31",
@@ -183,7 +183,7 @@
   },
   {
     "id": "kasaneteto",
-    "name": "重音テト",
+    "name": "重音テト (Kasane Teto)",
     "nameKana": "かさねてと",
     "engine": "UTAU / Synthesizer V AI",
     "released": "2008-04-01",
@@ -197,7 +197,7 @@
   },
   {
     "id": "zundamon",
-    "name": "ずんだもん",
+    "name": "ずんだもん (Zundamon)",
     "nameKana": "",
     "engine": "VOICEVOX / NEUTRINO / CeVIO AI",
     "released": "2021-08-01",
@@ -207,6 +207,20 @@
     "links": {
       "official": "https://zunko.jp",
       "wikipedia": "https://ja.wikipedia.org/wiki/東北ずん子・ずんだもんプロジェクト"
+    }
+  },
+  {
+    "id": "otomatiuna",
+    "name": "音街ウナ (Otomachi Una)",
+    "nameKana": "おとまちうな",
+    "engine": "VOCALOID4 / VOCALOID6",
+    "released": "2016-07-30",
+    "developer": "インターネット",
+    "voiceProvider": "田中あいみ",
+    "summary": "元気で弾けるような歌声が特徴のバーチャル・シンガー。",
+    "links": {
+      "official": "https://www.ssw.co.jp/products/vocaloid4/una",
+      "wikipedia": "https://ja.wikipedia.org/wiki/音街ウナ"
     }
   }
 ]
