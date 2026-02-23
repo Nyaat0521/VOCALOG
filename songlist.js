@@ -14,6 +14,7 @@ let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
 
+// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsMap){
   const m = new Map()
   for(const [id, v] of vocalsMap.entries()){
@@ -54,6 +55,7 @@ function buildTagOptions(){
     tagSel.appendChild(opt)
   }
 
+  // かな順追加
   if(!Array.from(sortSel.options).some(o=>o.value==="kana")){
     const opt = document.createElement("option")
     opt.value = "kana"
@@ -146,3 +148,4 @@ main()
 q.addEventListener("input", filter)
 sortSel.addEventListener("change", filter)
 tagSel.addEventListener("change", filter)
+

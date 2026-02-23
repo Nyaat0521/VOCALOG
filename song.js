@@ -3,6 +3,7 @@ import { escapeHtml, getParam, loadJson, headerHtml } from "./app.js"
 document.getElementById("header").innerHTML = headerHtml("songs")
 const content = document.getElementById("content")
 
+// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsArr){
   const m = new Map()
   for(const v of vocalsArr){

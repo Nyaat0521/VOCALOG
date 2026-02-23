@@ -14,6 +14,7 @@ let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
 
+// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsMap){
   const m = new Map()
   for(const [id, v] of vocalsMap.entries()){
