@@ -113,9 +113,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   font-weight: normal;
 }
 
-
-
-/* --- New / Recommend additions --- */
 .badge{
   display:inline-block;
   margin-left:8px;
@@ -141,5 +138,19 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 .archiveItem.active{
   background:var(--card);
   border-color: var(--text);
+
+  html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrap {
+  flex: 1;
+}
 }
 .archiveTitle{ font-weight:600; }
