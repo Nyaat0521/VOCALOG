@@ -4,6 +4,7 @@ document.getElementById("header").innerHTML = headerHtml("producers")
 
 const content = document.getElementById("content")
 const songsBox = document.getElementById("songs")
+const songsNote = document.getElementById("songsNote")
 
 async function main(){
   try{
@@ -41,12 +42,31 @@ async function main(){
 
     const vMap = new Map(vocals.map(v=>[v.id, v.name]))
 
-    const items = songs
-      .filter(s=>s.producerId === p.id)
-      .sort((a,b)=> (b.released||"").localeCompare(a.released||""))
-      .slice(0,10)
+    const allSongs = songs
+  .filter(s=>s.producerId === p.id)
 
-    songsBox.innerHTML = items.map(s=>`
+// 代表曲: songs.json の isRepresentative: true を優先
+const repSongs = allSongs.filter(s=>s.isRepresentative)
+
+const items = (repSongs.length ? repSongs : allSongs)
+  .sort((a,b)=>{
+    const ao = (a.representativeOrder ?? 9999)
+    const bo = (b.representativeOrder ?? 9999)
+    if(repSongs.length && ao !== bo) return ao - bo
+    const ar = (a.released || "")
+    const br = (b.released || "")
+    if(ar !== br) return br.localeCompare(ar)
+    return (a.title || "").localeCompare(b.title || "", "ja")
+  })
+  .slice(0,10)
+
+if(songsNote){
+  songsNote.textContent = repSongs.length
+    ? "※ songs.json の isRepresentative: true を付けた曲を表示中"
+    : "※ 代表曲が未設定のため、新着曲（発売日が新しい順）を表示中"
+}
+
+songsBox.innerHTML = items.map(s=>`
       <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
         <h3 class="title">${escapeHtml(s.title)}</h3>
         <p class="muted">${escapeHtml(vMap.get(s.vocalId) || "不明")}</p>

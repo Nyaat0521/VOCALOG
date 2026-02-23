@@ -143,3 +143,15 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   border-color: var(--text);
 }
 .archiveTitle{ font-weight:600; }
+
+
+.pill{
+  display:inline-block;
+  margin-left:8px;
+  padding:2px 8px;
+  border-radius:999px;
+  font-size:12px;
+  line-height:1.6;
+  border:1px solid var(--border);
+  background: var(--card);
+}

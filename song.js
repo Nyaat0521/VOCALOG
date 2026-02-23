@@ -51,6 +51,7 @@ async function main(){
     content.innerHTML = `
       <h2 class="title">
         ${escapeHtml(s.title)}
+        ${s.isRepresentative ? `<span class="pill">代表曲</span>` : ""}
         ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
       </h2>
       <p class="muted">
@@ -75,7 +76,8 @@ async function main(){
       <div style="margin-top:12px;">
         <iframe
           src="https://www.youtube.com/embed/${encodeURIComponent(s.youtubeId)}"
-          title="${escapeHtml(s.title)}"
+          title="${escapeHtml(s.title)}
+        ${s.isRepresentative ? `<span class="pill">代表曲</span>` : ""}"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
