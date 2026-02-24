@@ -13,7 +13,6 @@ let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
 
-// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsMap){
   const m = new Map()
   for(const [id, v] of vocalsMap.entries()){
@@ -76,7 +75,7 @@ function buildRecTagOptions(){
     for(const t of (s.recommendTags || [])) set.add(t)
   }
   const tags = Array.from(set).sort((a,b)=>a.localeCompare(b,"ja"))
-  // NOTE: 「タグを選択」を選べてしまうと空表示になって混乱しやすいので、選択不可にする
+  
   recTagSel.innerHTML =
     `<option value="" disabled selected hidden>タグを選択</option>` +
     tags.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("")
@@ -87,7 +86,6 @@ function buildRecTagOptions(){
     return
   }
 
-  // 初期表示は1つ目のタグ
   recTagSel.value = tags[0]
   renderTag(tags[0])
 }
@@ -107,7 +105,7 @@ function renderTag(tag){
   }
   const items = songs.filter(s=> (s.recommendTags||[]).includes(tag))
   const top10 = sortByReleasedDesc(items).slice(0,10)
-  // 「2/2」より理解しやすい表現に変更
+  
   tagHint.textContent = `「${tag}」おすすめ：全${items.length}曲（上位${top10.length}曲表示）`
   tagListEl.innerHTML = top10.map(card).join("") || `<p class="muted">このタグの曲がまだありません</p>`
 }
