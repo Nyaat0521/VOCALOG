@@ -1,4 +1,4 @@
-import { escapeHtml, getParam, loadJson, headerHtml, resolveVocalIds, getLinks, isLikelyUrl } from "./app.js"
+import { escapeHtml, getParam, loadJson, headerHtml } from "./app.js"
 
 document.getElementById("header").innerHTML = headerHtml("vocals")
 
@@ -8,7 +8,25 @@ const songsNote = document.getElementById("songsNote")
 const popularBox = document.getElementById("popularSongs")
 const popularNote = document.getElementById("popularNote")
 
-// resolveVocalIds is in app.js
+// --- Multi-vocal support (duet etc.) ---
+function buildVocalNameToId(vocalsArr){
+  const m = new Map()
+  for(const v of vocalsArr){
+    if(v && v.name) m.set(v.name, v.id)
+  }
+  return m
+}
+function resolveVocalIds(song, vocalsArr){
+  if(song && Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
+  const nameToId = resolveVocalIds._nameToId || (resolveVocalIds._nameToId = buildVocalNameToId(vocalsArr))
+  const ids = []
+  for(const t of (song.tags || [])){
+    const id = nameToId.get(t)
+    if(id && !ids.includes(id)) ids.push(id)
+  }
+  if(ids.length) return ids
+  return song.vocalId ? [song.vocalId] : []
+}
 
 
 async function main(){
@@ -25,11 +43,11 @@ async function main(){
 
     document.title = `${v.name} - VOCALOG`
 
-    const links = getLinks(v)
+    const links = v.links || {}
     const linkHtml = `
       <div class="links">
-        ${isLikelyUrl(links.official) ? `<a class="link" target="_blank" rel="noopener" href="${links.official}">公式</a>` : ""}
-        ${isLikelyUrl(links.wikipedia) ? `<a class="link" target="_blank" rel="noopener" href="${links.wikipedia}">Wikipedia</a>` : ""}
+        ${links.official ? `<a class="link" target="_blank" rel="noopener" href="${links.official}">公式</a>` : ""}
+        ${links.wikipedia ? `<a class="link" target="_blank" rel="noopener" href="${links.wikipedia}">Wikipedia</a>` : ""}
       </div>
     `
 

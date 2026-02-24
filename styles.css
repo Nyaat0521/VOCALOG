@@ -24,16 +24,6 @@ body{
   font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
 }
 
-a, button, input, select, textarea{
-  -webkit-tap-highlight-color: transparent;
-}
-
-:focus-visible{
-  outline: 2px solid var(--text);
-  outline-offset: 2px;
-  border-radius: 10px;
-}
-
 .wrap{ max-width:1050px; margin:0 auto; padding:16px; }
 
 .header{
@@ -49,16 +39,9 @@ a, button, input, select, textarea{
 .sub{ color:var(--muted); font-size:12px; }
 
 .nav{ display:flex; gap:10px; flex-wrap:wrap; margin:8px 0 0; }
-.nav{
-  overflow-x:auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-.nav::-webkit-scrollbar{ display:none; }
 .nav a{
   text-decoration:none; color:var(--muted);
   padding:6px 8px; border-radius:10px;
-  white-space: nowrap;
 }
 .nav a:hover{ background:var(--card); color:var(--text); }
 
@@ -91,14 +74,12 @@ a, button, input, select, textarea{
 textarea{ min-height:120px; resize:vertical; }
 
 .row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-.row > *{ flex:1; min-width:140px; }
+.row > *{ flex:1; min-width:160px; }
 
 .grid{ display:grid; grid-template-columns:1fr; gap:14px; }
 @media (min-width:900px){ .grid{ grid-template-columns:1fr 1fr; } }
 
 .cardLink{ text-decoration:none; color:inherit; display:block; }
-.cardLink:hover{ transform: translateY(-1px); }
-.cardLink{ transition: transform .08s ease; }
 .title{ margin:0 0 6px; font-size:18px; }
 .muted{ color:var(--muted); margin:8px 0 0; }
 
@@ -115,14 +96,6 @@ textarea{ min-height:120px; resize:vertical; }
 .link{ color:var(--link); text-decoration:underline; }
 
 iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
-
-@media (max-width:520px){
-  .wrap{ padding:12px; }
-  .logo{ font-size:16px; }
-  .sub{ display:none; }
-  .title{ font-size:17px; }
-  .input, select, textarea{ font-size:16px; }
-}
 
 .footer{ margin:24px 0 40px; color:var(--muted); font-size:12px; }
 .notice{
@@ -193,4 +166,52 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 }
 .dateLabel{
   font-variant-numeric: tabular-nums;
+}
+
+/* --- Song title line: furigana inline + badges (今週/代表曲/人気) --- */
+.songTitleLine .title.songTitle{
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.songTitleLine .songTitleText{
+  font-weight: 800;
+}
+
+.songTitleLine .titleArrow{
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.songTitleLine .songBadges{
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  opacity: 0;
+  transform: translateY(4px);
+  animation: badgeFadeIn .35s ease forwards;
+}
+
+.songTitleLine .songBadges .pill{
+  margin-left: 0; /* override default left margin */
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.songTitleLine .songBadges .pill:hover{
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 16px rgba(0,0,0,.12);
+}
+
+@keyframes badgeFadeIn{
+  to{ opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .songTitleLine .songBadges{ animation: none; opacity: 1; transform: none; }
+  .songTitleLine .songBadges .pill{ transition: none; }
+  .songTitleLine .songBadges .pill:hover{ transform: none; box-shadow: none; }
 }
