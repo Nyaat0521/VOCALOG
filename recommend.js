@@ -13,7 +13,6 @@ let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
 
-// vocalNames is in app.js
 
 
 function card(s){
