@@ -7,7 +7,6 @@ export function norm(s){ return String(s||"").toLowerCase() }
 export function qs(id){ return document.getElementById(id) }
 export function getParam(name){ return new URLSearchParams(location.search).get(name) }
 
-// -------- Data helpers (schema tolerant) --------
 const safeStr = (v)=> (v == null ? "" : String(v))
 
 function buildNameToIdFromMap(map){
@@ -26,18 +25,10 @@ function buildNameToIdFromArray(arr){
   return m
 }
 
-/**
- * Resolve vocal ids for a song.
- * Supports:
- * - song.vocalIds (preferred)
- * - song.vocalId (legacy)
- * - deriving from tags that match vocal names
- */
 export function resolveVocalIds(song, vocals){
   if(!song) return []
   if(Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
 
-  // Build a name->id map lazily (works for Map or Array)
   const isMap = vocals instanceof Map
   const key = isMap ? "_nameToIdMap" : "_nameToIdArr"
   const cache = resolveVocalIds
@@ -73,14 +64,14 @@ export function vocalNameAndKanaList(song, vocals){
 }
 
 export function getLinks(obj){
-  // tolerate different shapes
+  
   const links = (obj && typeof obj === "object" && obj.links && typeof obj.links === "object") ? obj.links : {}
   return {
-    // producer
+    
     youtube: safeStr(links.youtube || obj?.youtube || obj?.youtubeUrl),
     x: safeStr(links.x || links.twitter || obj?.x || obj?.twitter),
     website: safeStr(links.website || obj?.website || obj?.url),
-    // vocal
+    
     official: safeStr(links.official || obj?.official),
     wikipedia: safeStr(links.wikipedia || obj?.wikipedia),
   }
