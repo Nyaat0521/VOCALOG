@@ -46,7 +46,6 @@ async function main(){
 
     const allSongs = songs.filter(s=>s.producerId === p.id)
 
-    // --- Representative songs ---
     const repSongs = allSongs.filter(s=>s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
@@ -75,7 +74,6 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    // --- Popular songs ---
     const hasScore = allSongs.some(s=> typeof s.popularityScore === "number" && isFinite(s.popularityScore))
     const popItems = allSongs
       .slice()
@@ -83,7 +81,7 @@ async function main(){
         const as = (typeof a.popularityScore === "number" && isFinite(a.popularityScore)) ? a.popularityScore : -1
         const bs = (typeof b.popularityScore === "number" && isFinite(b.popularityScore)) ? b.popularityScore : -1
         if(hasScore && as !== bs) return bs - as
-        // if score is not used, prefer weekly picks
+        
         const aw = a.isWeeklyPick ? 1 : 0
         const bw = b.isWeeklyPick ? 1 : 0
         if(aw !== bw) return bw - aw
