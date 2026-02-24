@@ -86,6 +86,15 @@
     "title": "歌愛ユキ 発売",
     "summary": "2009年12月4日、AH-Softwareより「歌愛ユキ」が発売される。VOCALOID2エンジンを採用した小学生設定のボーカロイドで、あどけない歌声が特徴。教育現場との連携を意識して制作された。",
     "links": [
+      "https://www.ah-soft.com/vocaloid/yuki"
+    ]
+  },
+  {
+    "id": "2009-megurineruka-release",
+    "year": 2009,
+    "title": "巡音ルカ 発売",
+    "summary": "2009年1月30日、クリプトン・フューチャー・メディアより「巡音ルカ」が発売される。VOCALOID2エンジンを採用し、日本語と英語の両言語に対応したバイリンガルボーカロイドとして注目を集めた。",
+    "links": [
       "https://blog.piapro.net"
     ]
   },
@@ -162,4 +171,5 @@
     ]
   }
 ]
+
 
