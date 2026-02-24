@@ -15,8 +15,10 @@ function applyTheme(t){
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const saved = localStorage.getItem(key) || "light"
-  root.setAttribute("data-theme", saved)
+  const saved = localStorage.getItem(key)
+  const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+  const initial = saved || (prefersDark ? "dark" : "light")
+  root.setAttribute("data-theme", initial)
   setIcon()
 })
 

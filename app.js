@@ -7,6 +7,81 @@ export function norm(s){ return String(s||"").toLowerCase() }
 export function qs(id){ return document.getElementById(id) }
 export function getParam(name){ return new URLSearchParams(location.search).get(name) }
 
+const safeStr = (v)=> (v == null ? "" : String(v))
+
+function buildNameToIdFromMap(map){
+  const m = new Map()
+  for(const [id, obj] of map.entries()){
+    if(obj && obj.name) m.set(obj.name, id)
+  }
+  return m
+}
+
+function buildNameToIdFromArray(arr){
+  const m = new Map()
+  for(const obj of (arr||[])){
+    if(obj && obj.name) m.set(obj.name, obj.id)
+  }
+  return m
+}
+
+export function resolveVocalIds(song, vocals){
+  if(!song) return []
+  if(Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
+
+  const isMap = vocals instanceof Map
+  const key = isMap ? "_nameToIdMap" : "_nameToIdArr"
+  const cache = resolveVocalIds
+  const nameToId = cache[key] || (cache[key] = isMap ? buildNameToIdFromMap(vocals) : buildNameToIdFromArray(vocals))
+
+  const ids = []
+  for(const t of (song.tags || [])){
+    const id = nameToId.get(t)
+    if(id && !ids.includes(id)) ids.push(id)
+  }
+  if(ids.length) return ids
+
+  return song.vocalId ? [song.vocalId] : []
+}
+
+export function vocalNames(song, vocals){
+  const ids = resolveVocalIds(song, vocals)
+  const get = (id)=> (vocals instanceof Map) ? vocals.get(id) : (vocals||[]).find(v=>v.id===id)
+  return ids
+    .map(get)
+    .filter(Boolean)
+    .map(v => v.name)
+    .join("・")
+}
+
+export function vocalNameAndKanaList(song, vocals){
+  const ids = resolveVocalIds(song, vocals)
+  const get = (id)=> (vocals instanceof Map) ? vocals.get(id) : (vocals||[]).find(v=>v.id===id)
+  return ids
+    .map(get)
+    .filter(Boolean)
+    .map(v => ({ name: safeStr(v.name), nameKana: safeStr(v.nameKana) }))
+}
+
+export function getLinks(obj){
+  
+  const links = (obj && typeof obj === "object" && obj.links && typeof obj.links === "object") ? obj.links : {}
+  return {
+    
+    youtube: safeStr(links.youtube || obj?.youtube || obj?.youtubeUrl),
+    x: safeStr(links.x || links.twitter || obj?.x || obj?.twitter),
+    website: safeStr(links.website || obj?.website || obj?.url),
+    
+    official: safeStr(links.official || obj?.official),
+    wikipedia: safeStr(links.wikipedia || obj?.wikipedia),
+  }
+}
+
+export function isLikelyUrl(u){
+  const s = safeStr(u).trim()
+  return /^https?:\/\//i.test(s)
+}
+
 export async function loadJson(path){
   const r = await fetch(path, { cache: "no-store" })
   if(!r.ok) throw new Error(`${path} ${r.status}`)
@@ -23,7 +98,7 @@ export function headerHtml(active){
           <h1 class="logo">VOCALOG</h1>
           <span class="sub">ボカロを探す辞典</span>
         </a>
-        <button id="themeToggle" class="btn">🌙</button>
+        <button id="themeToggle" class="btn" type="button" aria-label="テーマ切り替え">🌙</button>
       </div>
       <nav class="nav">
         <a ${a("songs")} href="./index.html">曲</a>

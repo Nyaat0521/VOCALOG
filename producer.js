@@ -1,4 +1,4 @@
-import { escapeHtml, getParam, loadJson, headerHtml } from "./app.js"
+import { escapeHtml, getParam, loadJson, headerHtml, vocalNames, getLinks, isLikelyUrl } from "./app.js"
 
 document.getElementById("header").innerHTML = headerHtml("producers")
 
@@ -22,12 +22,12 @@ async function main(){
 
     document.title = `${p.name} - VOCALOG`
 
-    const links = p.links || {}
+    const links = getLinks(p)
     const linkHtml = `
       <div class="links">
-        ${links.youtube ? `<a class="link" target="_blank" rel="noopener" href="${links.youtube}">YouTube</a>` : ""}
-        ${links.x ? `<a class="link" target="_blank" rel="noopener" href="${links.x}">X</a>` : ""}
-        ${links.website ? `<a class="link" target="_blank" rel="noopener" href="${links.website}">Web</a>` : ""}
+        ${isLikelyUrl(links.youtube) ? `<a class="link" target="_blank" rel="noopener" href="${links.youtube}">YouTube</a>` : ""}
+        ${isLikelyUrl(links.x) ? `<a class="link" target="_blank" rel="noopener" href="${links.x}">X</a>` : ""}
+        ${isLikelyUrl(links.website) ? `<a class="link" target="_blank" rel="noopener" href="${links.website}">Web</a>` : ""}
       </div>
     `
 
@@ -42,11 +42,10 @@ async function main(){
       ${linkHtml}
     `
 
-    const vMap = new Map(vocals.map(v=>[v.id, v.name]))
+    const vMap = new Map(vocals.map(v=>[v.id, v]))
 
     const allSongs = songs.filter(s=>s.producerId === p.id)
 
-    // --- Representative songs ---
     const repSongs = allSongs.filter(s=>s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
@@ -69,13 +68,12 @@ async function main(){
     songsBox.innerHTML = repItems.map(s=>`
       <a class="card cardLink repCard" href="./song.html?id=${encodeURIComponent(s.id)}">
         <h3 class="title">${escapeHtml(s.title)}<span class="badge">代表曲</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
-        <p class="muted">${escapeHtml(vMap.get(s.vocalId) || "不明")}</p>
+        <p class="muted">${escapeHtml(vocalNames(s, vMap) || "不明")}</p>
         ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
         ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    // --- Popular songs ---
     const hasScore = allSongs.some(s=> typeof s.popularityScore === "number" && isFinite(s.popularityScore))
     const popItems = allSongs
       .slice()
@@ -83,7 +81,7 @@ async function main(){
         const as = (typeof a.popularityScore === "number" && isFinite(a.popularityScore)) ? a.popularityScore : -1
         const bs = (typeof b.popularityScore === "number" && isFinite(b.popularityScore)) ? b.popularityScore : -1
         if(hasScore && as !== bs) return bs - as
-        // if score is not used, prefer weekly picks
+        
         const aw = a.isWeeklyPick ? 1 : 0
         const bw = b.isWeeklyPick ? 1 : 0
         if(aw !== bw) return bw - aw
@@ -104,7 +102,7 @@ async function main(){
       popularBox.innerHTML = popItems.map(s=>`
         <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
           <h3 class="title">${escapeHtml(s.title)}<span class="badge">人気</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
-          <p class="muted">${escapeHtml(vMap.get(s.vocalId) || "不明")}</p>
+          <p class="muted">${escapeHtml(vocalNames(s, vMap) || "不明")}</p>
           ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
           ${hasScore && typeof s.popularityScore === "number" ? `<p class="muted">人気度：${escapeHtml(String(s.popularityScore))}</p>` : ""}
         </a>
