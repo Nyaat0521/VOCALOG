@@ -65,7 +65,6 @@ async function main(){
 
     const allSongs = songs.filter(s=> resolveVocalIds(s, vocals).includes(v.id))
 
-    // --- Representative songs ---
     const repSongs = allSongs.filter(s=> s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
