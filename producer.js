@@ -45,7 +45,6 @@ async function main(){
     const allSongs = songs
   .filter(s=>s.producerId === p.id)
 
-// 代表曲: songs.json の isRepresentative: true を優先
 const repSongs = allSongs.filter(s=>s.isRepresentative)
 
 const items = (repSongs.length ? repSongs : allSongs)
@@ -79,4 +78,3 @@ songsBox.innerHTML = items.map(s=>`
   }
 }
 main()
-
