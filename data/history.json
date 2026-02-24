@@ -86,7 +86,7 @@
     "title": "IA 発売",
     "summary": "2012年1月27日、1st PLACEより「IA -ARIA ON THE PLANETES-」が発売される。VOCALOID3エンジンを採用し、透明感のある高音域と力強い歌声で人気を集めた。",
     "links": [
-      "https://www.v-flower.jp"
+      "https://ia-project.net"
     ]
   },
   {
@@ -103,6 +103,15 @@
     "year": 2009,
     "title": "歌愛ユキ 発売",
     "summary": "2009年12月4日、AH-Softwareより「歌愛ユキ」が発売される。VOCALOID2エンジンを採用した小学生設定のボーカロイドで、あどけない歌声が特徴。教育現場との連携を意識して制作された。",
+    "links": [
+      "https://www.ah-soft.com/vocaloid/yuki"
+    ]
+  },
+  {
+    "id": "2009-gumi-release",
+    "year": 2009,
+    "title": "GUMI 発売",
+    "summary": "2009年6月26日、インターネット株式会社より「Megpoid（GUMI）」が発売される。VOCALOID2エンジンを採用し、中島愛の声を元に制作されたボーカロイドとして人気を集めた。",
     "links": [
       "https://www.ah-soft.com/vocaloid/yuki"
     ]
@@ -189,6 +198,7 @@
     ]
   }
 ]
+
 
 
 
