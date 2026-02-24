@@ -157,7 +157,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   background: var(--card);
 }
 
-/* Highlight cards */
 .repCard{
   border:2px solid var(--border);
   box-shadow:0 8px 24px rgba(0,0,0,.06);
@@ -171,7 +170,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   font-variant-numeric: tabular-nums;
 }
 
-/* Song title line */
 .songTitleLine .title.songTitle{
   display:flex;
   align-items:baseline;
