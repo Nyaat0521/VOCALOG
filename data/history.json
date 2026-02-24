@@ -3,7 +3,7 @@
     "id": "2022-sekai-release",
     "year": 2022,
     "title": "星界 発売",
-    "summary": "2022年5月20日、KAMITSUBAKI STUDIOの音楽的同位体プロジェクトより「星界（SEKAI）」が発売される。CeVIO AIエンジンを採用し、バーチャルシンガー・星街すいせいの声を元に制作された歌声が特徴。",
+    "summary": "2022年5月20日、音楽的同位体プロジェクトより「星界（SEKAI）」が発売。CeVIO AIエンジンを採用。",
     "links": [
       "https://kamitsubaki.jp"
     ]
@@ -12,7 +12,7 @@
     "id": "2021-zundamon-release",
     "year": 2021,
     "title": "ずんだもん 公開",
-    "summary": "2021年8月、無料音声合成ソフト「VOICEVOX」にて「ずんだもん」の音声が公開される。親しみやすい声と高い汎用性により、実況動画や解説動画などで爆発的に普及した。",
+    "summary": "2021年8月、無料音声合成ソフト「VOICEVOX」にて「ずんだもん」の音声が公開。",
     "links": [
       "https://zunko.jp"
     ]
@@ -29,8 +29,8 @@
   {
     "id": "2021-kahu-release",
     "year": 2021,
-    "title": "可不（KAFU）発売",
-    "summary": "2021年7月7日、KAMITSUBAKI STUDIOの音楽的同位体プロジェクトの一環として「可不（KAFU）」が発売される。CeVIO AIエンジンを採用し、繊細で透明感のある歌声が話題となった。",
+    "title": "可不 発売",
+    "summary": "2021年7月7日、音楽的同位体プロジェクトより「可不（KAFU）」が発売。CeVIO AIエンジンを採用。",
     "links": [
       "https://musical-isotope.kamitsubaki.jp/product/kafu"
     ]
@@ -48,7 +48,7 @@
     "id": "2016-otomatiuta-release",
     "year": 2016,
     "title": "音街ウナ 発売",
-    "summary": "2016年7月30日、株式会社インターネットより「音街ウナ」が発売される。VOCALOID4エンジンを採用し、元気でパワフルな歌声と独特なキャラクターデザインで人気を集めた。",
+    "summary": "2016年7月30日、株式会社インターネットより「音街ウナ」が発売。VOCALOID4エンジンを採用。",
     "links": [
       "https://www.ssw.co.jp/products/vocaloid4/una"
     ]
@@ -66,7 +66,7 @@
     "id": "2014-flower-release",
     "year": 2014,
     "title": "v flower 発売",
-    "summary": "2014年5月9日、ガイノイドより「v flower」が発売される。VOCALOID3エンジンを採用し、力強くエッジのある歌声でロック系楽曲を中心に高い人気を獲得した。",
+    "summary": "2014年5月9日、ガイノイドより「v flower」が発売。VOCALOID3エンジンを採用。",
     "links": [
       "https://www.v-flower.jp"
     ]
@@ -84,7 +84,7 @@
     "id": "2012-ia-release",
     "year": 2012,
     "title": "IA 発売",
-    "summary": "2012年1月27日、1st PLACEより「IA -ARIA ON THE PLANETES-」が発売される。VOCALOID3エンジンを採用し、透明感のある高音域と力強い歌声で人気を集めた。",
+    "summary": "2012年1月27日、1st PLACEより「IA -ARIA ON THE PLANETES-」が発売。VOCALOID3エンジンを採用。",
     "links": [
       "https://ia-project.net"
     ]
@@ -102,7 +102,7 @@
     "id": "2009-kaaiyuki-release",
     "year": 2009,
     "title": "歌愛ユキ 発売",
-    "summary": "2009年12月4日、AH-Softwareより「歌愛ユキ」が発売される。VOCALOID2エンジンを採用した小学生設定のボーカロイドで、あどけない歌声が特徴。教育現場との連携を意識して制作された。",
+    "summary": "2009年12月4日、AH-Softwareより「歌愛ユキ」が発売。VOCALOID2エンジンを採用。",
     "links": [
       "https://www.ah-soft.com/vocaloid/yuki"
     ]
@@ -111,7 +111,7 @@
     "id": "2009-gumi-release",
     "year": 2009,
     "title": "GUMI 発売",
-    "summary": "2009年6月26日、インターネット株式会社より「Megpoid（GUMI）」が発売される。VOCALOID2エンジンを採用し、中島愛の声を元に制作されたボーカロイドとして人気を集めた。",
+    "summary": "2009年6月26日、インターネット株式会社より「Megpoid（GUMI）」が発売。VOCALOID2エンジンを採用。",
     "links": [
       "https://www.ssw.co.jp/products/vocaloid4/gumi"
     ]
@@ -120,7 +120,7 @@
     "id": "2009-megurineruka-release",
     "year": 2009,
     "title": "巡音ルカ 発売",
-    "summary": "2009年1月30日、クリプトン・フューチャー・メディアより「巡音ルカ」が発売される。VOCALOID2エンジンを採用し、日本語と英語の両言語に対応したバイリンガルボーカロイドとして注目を集めた。",
+    "summary": "2009年1月30日、クリプトン・フューチャー・メディアより「巡音ルカ」が発売。VOCALOID2エンジンを採用。",
     "links": [
       "https://blog.piapro.net"
     ]
@@ -129,7 +129,7 @@
     "id": "2008-kamuigakupo-release",
     "year": 2008,
     "title": "神威がくぽ 発売",
-    "summary": "2008年7月31日、インターネット株式会社より「神威がくぽ（Gackpoid）」が発売される。VOCALOID2エンジンを採用し、歌手GACKTの声を元に制作された男性ボーカロイドとして大きな話題を集めた。",
+    "summary": "2008年7月31日、インターネット株式会社より「神威がくぽ（Gackpoid）」が発売。VOCALOID2エンジンを採用。",
     "links": [
       "https://www.ssw.co.jp/products/vocaloid4/gackpoid"
     ]
@@ -138,7 +138,7 @@
     "id": "2008-kasaneteto-release",
     "year": 2008,
     "title": "重音テト 公開",
-    "summary": "2008年4月1日、エイプリルフール企画として「重音テト」が公開される。当初は架空のVOCALOIDとして発表されたが、その後UTAU音源として正式に配布され、現在まで高い人気を誇る存在となった。",
+    "summary": "2008年4月1日、エイプリルフール企画として「重音テト」が公開。",
     "links": [
       "https://kasaneteto.jp"
     ]
@@ -174,7 +174,7 @@
     "id": "2007-hatunemiku-release",
     "year": 2007,
     "title": "初音ミク 発売",
-    "summary": "2007年8月31日、クリプトン・フューチャー・メディアより音声合成ソフト「初音ミク」が発売される。VOCALOID2エンジンを採用し、ボーカロイド文化の大きな広がりのきっかけとなった。",
+    "summary": "2007年8月31日、クリプトン・フューチャー・メディアより「初音ミク」が発売。VOCALOID2エンジンを採用。",
     "links": [
       "https://blog.piapro.net"
     ]
@@ -183,7 +183,7 @@
     "id": "2006-hatunemiku-release",
     "year": 2006,
     "title": "KAITO 発売",
-    "summary": "2006年2月17日、クリプトン・フューチャー・メディアより「KAITO」が発売される。初代VOCALOIDエンジンを採用した日本語男性ボーカロイドで、後にボカロ文化を支える重要な存在となった。",
+    "summary": "2006年2月17日、クリプトン・フューチャー・メディアより「KAITO」が発売。初代VOCALOIDエンジンを採用。",
     "links": [
       "https://blog.piapro.net"
     ]
@@ -192,9 +192,10 @@
     "id": "2004-meiko-release",
     "year": 2004,
     "title": "MEIKO 発売",
-    "summary": "2004年11月5日、クリプトン・フューチャー・メディアより「MEIKO」が発売される。初代VOCALOIDエンジンを採用した日本語女性ボーカロイドで、後のボカロ文化の基盤を築いた存在のひとつ。",
+    "summary": "2004年11月5日、クリプトン・フューチャー・メディアより「MEIKO」が発売。初代VOCALOIDエンジンを採用。",
     "links": [
       "https://blog.piapro.net"
     ]
   }
 ]
+
