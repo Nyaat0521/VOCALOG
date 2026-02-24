@@ -110,6 +110,10 @@ textarea{ min-height:120px; resize:vertical; }
   font-size:12px;
   color:var(--muted);
 }
+.tag.more{
+  border-style:dashed;
+  opacity:.8;
+}
 
 .links{ display:flex; gap:10px; flex-wrap:wrap; margin:10px 0; }
 .link{ color:var(--link); text-decoration:underline; }

@@ -1,4 +1,4 @@
-import { escapeHtml, norm, qs, loadJson, headerHtml, vocalNames, vocalNameAndKanaList } from "./app.js"
+import { escapeHtml, norm, qs, loadJson, headerHtml, vocalNames, vocalNameAndKanaList, getParam } from "./app.js"
 
 document.getElementById("header").innerHTML = headerHtml("songs")
 
@@ -8,11 +8,29 @@ const count = qs("count")
 const sortSel = qs("sort")
 const tagSel = qs("tag")
 
+const initialQ = getParam("q") || ""
+const initialTag = getParam("tag") || ""
+
+q.value = initialQ
+
 let songs = []
 let producers = new Map()
 let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
+
+
+function renderTags(tags, max=2){
+  const arr = (tags || []).filter(Boolean)
+  if(arr.length === 0) return ""
+  const shown = arr.slice(0, max)
+  const more = arr.length - shown.length
+  const chips = [
+    ...shown.map(t=>`<span class="tag" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</span>`),
+    ...(more>0 ? [`<span class="tag more">+${more}</span>`] : [])
+  ].join("")
+  return `<div class="tags">${chips}</div>`
+}
 
 
 
@@ -59,6 +77,7 @@ function sortSongs(items){
 
 function card(s){
   const pObj = producers.get(s.producerId) || {}
+  const tagsHtml = renderTags(s.tags, 2)
 
   return `
     <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
@@ -67,8 +86,7 @@ function card(s){
         ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
       </h2>
       <p class="muted">${escapeHtml(pObj.name||"不明")} / ${escapeHtml(vocalNames(s, vocals)||"不明")}</p>
-      ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
-      ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
+      ${tagsHtml}
     </a>
   `
 }
@@ -117,6 +135,10 @@ async function main(){
   vocals = new Map(vData.map(v=>[v.id,v]))
 
   buildTagOptions()
+  if(initialTag){
+    const has = Array.from(tagSel.options).some(o=>o.value===initialTag)
+    if(has) tagSel.value = initialTag
+  }
   filter()
 }
 
@@ -124,3 +146,16 @@ main()
 q.addEventListener("input", filter)
 sortSel.addEventListener("change", filter)
 tagSel.addEventListener("change", filter)
+
+
+// タグをタップしたらそのタグで絞り込み（カード遷移を止める）
+list.addEventListener("click", (e)=>{
+  const tEl = e.target.closest(".tag")
+  if(!tEl || tEl.classList.contains("more")) return
+  e.preventDefault()
+  e.stopPropagation()
+  const tag = (tEl.dataset.tag || tEl.textContent || "").trim()
+  if(!tag) return
+  tagSel.value = (tagSel.value === tag) ? "" : tag
+  filter()
+}, true)

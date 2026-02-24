@@ -14,20 +14,44 @@ let vocals = new Map()
 const safe = (v)=> v == null ? "" : String(v)
 
 
+function onTagTap(e){
+  const tEl = e.target.closest(".tag")
+  if(!tEl || tEl.classList.contains("more")) return
+  e.preventDefault()
+  e.stopPropagation()
+  const tag = (tEl.dataset.tag || tEl.textContent || "").trim()
+  if(!tag) return
+  recTagSel.value = (recTagSel.value === tag) ? "" : tag
+  render()
+}
+
+function renderTags(tags, max=2){
+  const arr = (tags || []).filter(Boolean)
+  if(arr.length === 0) return ""
+  const shown = arr.slice(0, max)
+  const more = arr.length - shown.length
+  const chips = [
+    ...shown.map(t=>`<span class="tag" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</span>`),
+    ...(more>0 ? [`<span class="tag more">+${more}</span>`] : [])
+  ].join("")
+  return `<div class="tags">${chips}</div>`
+}
+
+
 
 function card(s){
   const pObj = producers.get(s.producerId) || {}
   const badge = s.isWeeklyPick ? `<span class="badge">今週</span>` : ""
+  const tagsHtml = renderTags(s.tags, 2)
   return `
     <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
       <h2 class="title">
         ${escapeHtml(s.title)}
         ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
-        ${badge}
+        ${typeof badge !== "undefined" ? badge : ""}
       </h2>
       <p class="muted">${escapeHtml(pObj.name||"不明")} / ${escapeHtml(vocalNames(s, vocals)||"不明")}</p>
-      ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
-      ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
+      ${tagsHtml}
     </a>
   `
 }
@@ -101,3 +125,7 @@ async function main(){
 
 main()
 recTagSel.addEventListener("change", ()=> renderTag(recTagSel.value))
+
+// タグタップで絞り込み（カード遷移を止める）
+weeklyPicksEl.addEventListener("click", onTagTap, true)
+tagListEl.addEventListener("click", onTagTap, true)
