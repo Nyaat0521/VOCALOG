@@ -167,3 +167,33 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 .dateLabel{
   font-variant-numeric: tabular-nums;
 }
+
+
+/* Song title row: title(kana) → badges (weekly/representative/popular) */
+.songTitleRow{
+  display:flex;
+  align-items:baseline;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.songMainTitle{
+  margin:0;
+  display:flex;
+  align-items:baseline;
+  gap:6px;
+  flex-wrap:wrap;
+}
+.titleArrow{
+  color:var(--muted);
+  font-weight:600;
+}
+.songBadges{
+  display:flex;
+  gap:6px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.songBadges .pill{
+  margin-left:0;
+}
