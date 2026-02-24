@@ -24,6 +24,16 @@ body{
   font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
 }
 
+a, button, input, select, textarea{
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible{
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
 .wrap{ max-width:1050px; margin:0 auto; padding:16px; }
 
 .header{
@@ -39,9 +49,16 @@ body{
 .sub{ color:var(--muted); font-size:12px; }
 
 .nav{ display:flex; gap:10px; flex-wrap:wrap; margin:8px 0 0; }
+.nav{
+  overflow-x:auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.nav::-webkit-scrollbar{ display:none; }
 .nav a{
   text-decoration:none; color:var(--muted);
   padding:6px 8px; border-radius:10px;
+  white-space: nowrap;
 }
 .nav a:hover{ background:var(--card); color:var(--text); }
 
@@ -74,12 +91,14 @@ body{
 textarea{ min-height:120px; resize:vertical; }
 
 .row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-.row > *{ flex:1; min-width:160px; }
+.row > *{ flex:1; min-width:140px; }
 
 .grid{ display:grid; grid-template-columns:1fr; gap:14px; }
 @media (min-width:900px){ .grid{ grid-template-columns:1fr 1fr; } }
 
 .cardLink{ text-decoration:none; color:inherit; display:block; }
+.cardLink:hover{ transform: translateY(-1px); }
+.cardLink{ transition: transform .08s ease; }
 .title{ margin:0 0 6px; font-size:18px; }
 .muted{ color:var(--muted); margin:8px 0 0; }
 
@@ -96,6 +115,14 @@ textarea{ min-height:120px; resize:vertical; }
 .link{ color:var(--link); text-decoration:underline; }
 
 iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
+
+@media (max-width:520px){
+  .wrap{ padding:12px; }
+  .logo{ font-size:16px; }
+  .sub{ display:none; }
+  .title{ font-size:17px; }
+  .input, select, textarea{ font-size:16px; }
+}
 
 .footer{ margin:24px 0 40px; color:var(--muted); font-size:12px; }
 .notice{

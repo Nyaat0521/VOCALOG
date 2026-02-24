@@ -15,13 +15,23 @@ function applyTheme(t){
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const saved = localStorage.getItem(key) || "light"
-  root.setAttribute("data-theme", saved)
+  const saved = localStorage.getItem(key)
+  const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+  const initial = saved || (prefersDark ? "dark" : "light")
+  root.setAttribute("data-theme", initial)
   setIcon()
 })
 
 document.addEventListener("click", (e)=>{
   if(e.target && e.target.id === "themeToggle"){
+    const now = root.getAttribute("data-theme") || "light"
+    applyTheme(now === "dark" ? "light" : "dark")
+  }
+})
+
+// Keyboard support
+document.addEventListener("keydown", (e)=>{
+  if((e.ctrlKey || e.metaKey) && (e.key === "l" || e.key === "L")){
     const now = root.getAttribute("data-theme") || "light"
     applyTheme(now === "dark" ? "light" : "dark")
   }
