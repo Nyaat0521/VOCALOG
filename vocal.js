@@ -4,7 +4,9 @@ document.getElementById("header").innerHTML = headerHtml("vocals")
 
 const content = document.getElementById("content")
 const songsBox = document.getElementById("songs")
+const songsNote = document.getElementById("songsNote")
 
+// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsArr){
   const m = new Map()
   for(const v of vocalsArr){
@@ -58,16 +60,41 @@ async function main(){
     `
 
     const pMap = new Map(producers.map(p=>[p.id, p.name]))
+    const vMap = new Map(vocals.map(v=>[v.id, v.name]))
 
-    const items = songs
+
+    const allSongs = songs
       .filter(s=> resolveVocalIds(s, vocals).includes(v.id))
-      .sort((a,b)=> (b.released||"").localeCompare(a.released||""))
+
+    const repSongs = allSongs.filter(s=> s.isRepresentative === true)
+
+    const items = (repSongs.length ? repSongs : allSongs)
+      .sort((a,b)=>{
+        const ao = (a.representativeOrder ?? 9999)
+        const bo = (b.representativeOrder ?? 9999)
+        if(repSongs.length && ao !== bo) return ao - bo
+        const ar = (a.released || "")
+        const br = (b.released || "")
+        if(ar !== br) return br.localeCompare(ar)
+        return (a.title || "").localeCompare(b.title || "", "ja")
+      })
       .slice(0,10)
+
+    if(songsNote){
+      songsNote.textContent = repSongs.length
+        ? "※ songs.json の isRepresentative: true を付けた曲を表示中"
+        : "※ 代表曲が未設定のため、新着曲（発売日が新しい順）を表示中"
+    }
 
     songsBox.innerHTML = items.map(s=>`
       <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
-        <h3 class="title">${escapeHtml(s.title)}</h3>
+        <h3 class="title">${escapeHtml(s.title)}${s.isRepresentative ? `<span class="badge">代表曲</span>` : ``}${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
         <p class="muted">${escapeHtml(pMap.get(s.producerId) || "不明")}</p>
+        ${(() => {
+          const names = resolveVocalIds(s, vocals).map(id=>vMap.get(id)).filter(Boolean)
+          if(names.length <= 1) return ""
+          return '<p class="muted">ボカロ：' + escapeHtml(names.join("・")) + '</p>'
+        })()}
         ${s.released ? `<p class="muted">🗓 ${escapeHtml(s.released)}</p>` : ""}
         ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
       </a>
@@ -77,3 +104,4 @@ async function main(){
   }
 }
 main()
+
