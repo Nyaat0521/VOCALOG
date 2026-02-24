@@ -47,14 +47,20 @@ async function main(){
 
     document.title = `${s.title} - VOCALOG`
 
+    const badges = [
+      s.isWeeklyPick ? `<span class="pill">今週</span>` : "",
+      s.isRepresentative ? `<span class="pill">代表曲</span>` : "",
+      (typeof s.popularityScore === "number" && isFinite(s.popularityScore) && s.popularityScore > 0) ? `<span class="pill">人気</span>` : ""
+    ].filter(Boolean).join("")
+
     content.innerHTML = `
-      <h2 class="title">
-        ${escapeHtml(s.title)}
-        ${s.isRepresentative ? `<span class="pill">代表曲</span>` : ""}
-        ${s.isWeeklyPick ? `<span class="pill">今週</span>` : ""}
-        ${typeof s.popularityScore === "number" && isFinite(s.popularityScore) && s.popularityScore > 0 ? `<span class="pill">人気</span>` : ""}
-        ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
-      </h2>
+      <div class="songTitleLine">
+        <h2 class="title songTitle">
+          <span class="songTitleText">${escapeHtml(s.title)}</span>
+          ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
+          ${badges ? `<span class="songBadges">${badges}</span>` : ""}
+        </h2>
+      </div>
       <p class="muted">
         ${p ? `<a class="link" href="./producer.html?id=${encodeURIComponent(p.id)}">${escapeHtml(p.name)}</a>` : "不明"}
         /
