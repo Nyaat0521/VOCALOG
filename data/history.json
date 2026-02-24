@@ -63,12 +63,12 @@
     ]
   },
   {
-    "id": "2014-hurawa-release",
+    "id": "2014-flower-release",
     "year": 2014,
     "title": "v flower 発売",
     "summary": "2014年5月9日、ガイノイドより「v flower」が発売される。VOCALOID3エンジンを採用し、力強くエッジのある歌声でロック系楽曲を中心に高い人気を獲得した。",
     "links": [
-      "https://www.ssw.co.jp/products/vocaloid4/una"
+      "https://www.v-flower.jp"
     ]
   },
   {
@@ -78,6 +78,15 @@
     "summary": "2012年3月12日、YouTubeにて「Tell Your World (feat. 初音ミク)」公開。",
     "links": [
       "https://youtu.be/PqJNc9KVIZE"
+    ]
+  },
+  {
+    "id": "2012-ia-release",
+    "year": 2012,
+    "title": "IA 発売",
+    "summary": "2012年1月27日、1st PLACEより「IA -ARIA ON THE PLANETES-」が発売される。VOCALOID3エンジンを採用し、透明感のある高音域と力強い歌声で人気を集めた。",
+    "links": [
+      "https://www.v-flower.jp"
     ]
   },
   {
@@ -180,6 +189,7 @@
     ]
   }
 ]
+
 
 
 
