@@ -1,4 +1,4 @@
-import { escapeHtml, norm, qs, loadJson, headerHtml, vocalNames, vocalNameAndKanaList } from "./app.js"
+import { escapeHtml, norm, qs, loadJson, headerHtml } from "./app.js"
 
 document.getElementById("header").innerHTML = headerHtml("songs")
 
@@ -14,6 +14,31 @@ let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
 
+function buildVocalNameToId(vocalsMap){
+  const m = new Map()
+  for(const [id, v] of vocalsMap.entries()){
+    if(v && v.name) m.set(v.name, id)
+  }
+  return m
+}
+function resolveVocalIds(song, vocalsMap){
+  if(song && Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
+  const nameToId = resolveVocalIds._nameToId || (resolveVocalIds._nameToId = buildVocalNameToId(vocalsMap))
+  const ids = []
+  for(const t of (song.tags || [])){
+    const id = nameToId.get(t)
+    if(id && !ids.includes(id)) ids.push(id)
+  }
+  if(ids.length) return ids
+  return song.vocalId ? [song.vocalId] : []
+}
+function vocalNames(song, vocalsMap){
+  return resolveVocalIds(song, vocalsMap)
+    .map(id => vocalsMap.get(id))
+    .filter(Boolean)
+    .map(v => v.name)
+    .join("・")
+}
 
 
 function buildTagOptions(){
@@ -84,15 +109,12 @@ function filter(){
 
   let items = songs.filter(s=>{
     const p = producers.get(s.producerId) || {}
-
-    const vocalList = vocalNameAndKanaList(s, vocals)
-    const vocalNamesStr = vocalList.map(x=>x.name).join(" ")
-    const vocalKanaStr = vocalList.map(x=>x.nameKana).join(" ")
+    const v = vocals.get(s.vocalId) || {}
 
     const target = norm([
       s.title, s.titleKana,
       p.name, p.nameKana,
-      vocalNamesStr, vocalKanaStr,
+      v.name, v.nameKana,
       ...(s.tags||[]),
       s.released, s.summary
     ].map(safe).join(" "))

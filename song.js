@@ -1,8 +1,26 @@
-import { escapeHtml, getParam, loadJson, headerHtml, resolveVocalIds, isLikelyUrl } from "./app.js"
+import { escapeHtml, getParam, loadJson, headerHtml } from "./app.js"
 
 document.getElementById("header").innerHTML = headerHtml("songs")
 const content = document.getElementById("content")
 
+function buildVocalNameToId(vocalsArr){
+  const m = new Map()
+  for(const v of vocalsArr){
+    if(v && v.name) m.set(v.name, v.id)
+  }
+  return m
+}
+function resolveVocalIds(song, vocalsArr){
+  if(song && Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
+  const nameToId = resolveVocalIds._nameToId || (resolveVocalIds._nameToId = buildVocalNameToId(vocalsArr))
+  const ids = []
+  for(const t of (song.tags || [])){
+    const id = nameToId.get(t)
+    if(id && !ids.includes(id)) ids.push(id)
+  }
+  if(ids.length) return ids
+  return song.vocalId ? [song.vocalId] : []
+}
 function vocalLinks(song, vocalsArr){
   const vMap = new Map(vocalsArr.map(v=>[v.id, v]))
   return resolveVocalIds(song, vocalsArr)
@@ -10,12 +28,6 @@ function vocalLinks(song, vocalsArr){
     .filter(Boolean)
     .map(v => `<a class="link" href="./vocal.html?id=${encodeURIComponent(v.id)}">${escapeHtml(v.name)}</a>`)
     .join("・")
-}
-
-function niconicoWatchId(raw){
-  const s = String(raw || "").trim()
-  const m = s.match(/(sm\d+|so\d+|nm\d+|lv\d+)/)
-  return m ? m[1] : ""
 }
 
 
@@ -54,10 +66,9 @@ async function main(){
 
       <div class="links">
         ${s.youtubeId ? `<a class="link" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=${encodeURIComponent(s.youtubeId)}">YouTube</a>` : ""}
-        ${isLikelyUrl(s.lyricsLink) ? `<a class="link" target="_blank" rel="noopener" href="${s.lyricsLink}">歌詞</a>` : ""}
-        ${isLikelyUrl(s.streamingLink) ? `<a class="link" target="_blank" rel="noopener" href="${s.streamingLink}">配信</a>` : ""}
-        ${isLikelyUrl(s.karaokeLink) ? `<a class="link" target="_blank" rel="noopener" href="${s.karaokeLink}">カラオケ</a>` : ""}
-        ${niconicoWatchId(s.niconicoId) ? `<a class="link" target="_blank" rel="noopener" href="https://www.nicovideo.jp/watch/${encodeURIComponent(niconicoWatchId(s.niconicoId))}">niconico</a>` : ""}
+        ${s.lyricsLink ? `<a class="link" target="_blank" rel="noopener" href="${s.lyricsLink}">歌詞</a>` : ""}
+        ${s.streamingLink ? `<a class="link" target="_blank" rel="noopener" href="${s.streamingLink}">配信</a>` : ""}
+        ${s.karaokeLink ? `<a class="link" target="_blank" rel="noopener" href="${s.karaokeLink}">カラオケ</a>` : ""}
       </div>
 
       <div class="tags">${(s.tags||[]).map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join("")}</div>
@@ -72,16 +83,18 @@ async function main(){
           allowfullscreen></iframe>
       </div>` : `<p class="muted">YouTube ID が未設定</p>`}
 
-      ${niconicoWatchId(s.niconicoId) ? `
-        <div style="margin-top:12px;">
-          <iframe
-            src="https://embed.nicovideo.jp/watch/${encodeURIComponent(niconicoWatchId(s.niconicoId))}"
-            title="niconico"
-            loading="lazy"
-            allowfullscreen>
-          </iframe>
-        </div>
-      ` : ""}
+      ${s.niconicoId ? `
+  <div style="margin-top:12px;">
+    <iframe
+      src="https://embed.nicovideo.jp/watch/${encodeURIComponent(
+        (String(s.niconicoId).match(/(sm\d+)/) || [])[1] || ""
+      )}"
+      title="niconico"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </div>
+` : ""}
     `
   }catch(err){
     content.innerHTML = `<p>読み込み失敗: ${escapeHtml(err.message)}</p>`
