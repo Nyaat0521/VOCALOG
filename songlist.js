@@ -14,7 +14,6 @@ let vocals = new Map()
 
 const safe = (v)=> v == null ? "" : String(v)
 
-// vocalNames / vocalNameAndKanaList are in app.js
 
 
 function buildTagOptions(){
