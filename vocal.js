@@ -99,7 +99,6 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    // --- Popular songs ---
     const hasScore = allSongs.some(s=> typeof s.popularityScore === "number" && isFinite(s.popularityScore))
     const popItems = allSongs
       .slice()
