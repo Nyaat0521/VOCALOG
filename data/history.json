@@ -126,16 +126,21 @@
     ]
   },
   {
-    "id": "2007-hatsune-hatunemiku-release",
+    "id": "2007-hatunemiku-release",
     "year": 2007,
     "title": "初音ミク 発売",
     "summary": "2007年8月31日、クリプトン・フューチャー・メディアより音声合成ソフト「初音ミク」が発売される。VOCALOID2エンジンを採用し、ボーカロイド文化の大きな広がりのきっかけとなった。",
     "links": [
       "https://blog.piapro.net"
     ]
+  },
+  {
+    "id": "2004-meiko-release",
+    "year": 2004,
+    "title": "MEIKO 発売",
+    "summary": "2004年11月5日、クリプトン・フューチャー・メディアより「MEIKO」が発売される。初代VOCALOIDエンジンを採用した日本語女性ボーカロイドで、後のボカロ文化の基盤を築いた存在のひとつ。",
+    "links": [
+      "https://blog.piapro.net"
+    ]
   }
 ]
-
-
-
-
