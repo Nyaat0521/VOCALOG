@@ -27,6 +27,15 @@
     ]
   },
   {
+    "id": "2016-otomatiuta-release",
+    "year": 2016,
+    "title": "音街ウナ 発売",
+    "summary": "2016年7月30日、株式会社インターネットより「音街ウナ」が発売。VOCALOID4エンジンを採用。",
+    "links": [
+      ""
+    ]
+  },
+  {
     "id": "2014-senbonzakura-youtube",
     "year": 2014,
     "title": "黒うさP「千本桜」YouTube公開",
@@ -57,7 +66,7 @@
     "id": "2007-kagaminerin-release",
     "year": 2007,
     "title": "鏡音リン・レン 発売",
-    "summary": "2007年12月27日、クリプトン・フューチャー・メディアより「鏡音リン・レン」が発売。",
+    "summary": "2007年12月27日、クリプトン・フューチャー・メディアより「鏡音リン・レン」が発売。VOCALOID2エンジンを採用。",
     "links": [
       "https://blog.piapro.net"
     ]
@@ -84,12 +93,13 @@
     "id": "2007-hatsune-hatunemiku-release",
     "year": 2007,
     "title": "初音ミク 発売",
-    "summary": "2007年8月31日、クリプトン・フューチャー・メディアより「初音ミク」発売（VOCALOID2）。",
+    "summary": "2007年8月31日、クリプトン・フューチャー・メディアより「初音ミク」発売。VOCALOID2エンジンを採用。",
     "links": [
       "https://blog.piapro.net"
     ]
   }
 ]
+
 
 
 
