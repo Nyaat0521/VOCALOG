@@ -47,7 +47,6 @@ async function main(){
 
     const allSongs = songs.filter(s=> resolveVocalIds(s, vocals).includes(v.id))
 
-    // --- Representative songs ---
     const repSongs = allSongs.filter(s=> s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
@@ -81,7 +80,6 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    // --- Popular songs ---
     const hasScore = allSongs.some(s=> typeof s.popularityScore === "number" && isFinite(s.popularityScore))
     const popItems = allSongs
       .slice()
