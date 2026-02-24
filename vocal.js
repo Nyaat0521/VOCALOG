@@ -8,7 +8,6 @@ const songsNote = document.getElementById("songsNote")
 const popularBox = document.getElementById("popularSongs")
 const popularNote = document.getElementById("popularNote")
 
-// resolveVocalIds is in app.js
 
 
 async function main(){
@@ -126,4 +125,3 @@ async function main(){
   }
 }
 main()
-
