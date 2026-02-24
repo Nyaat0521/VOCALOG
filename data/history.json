@@ -1,9 +1,18 @@
 [
   {
+    "id": "2022-sekai-release",
+    "year": 2022,
+    "title": "星界 発売",
+    "summary": "2022年5月20日、KAMITSUBAKI STUDIOの音楽的同位体プロジェクトより「星界（SEKAI）」が発売される。CeVIO AIエンジンを採用し、バーチャルシンガー・星街すいせいの声を元に制作された歌声が特徴。",
+    "links": [
+      "https://zunko.jp"
+    ]
+  },
+  {
     "id": "2021-zundamon-release",
     "year": 2021,
     "title": "ずんだもん 公開",
-    "summary": "2021年8月、無料音声合成ソフト「VOICEVOX」にて「ずんだもん」の音声が公開。",
+    "summary": "2021年8月、無料音声合成ソフト「VOICEVOX」にて「ずんだもん」の音声が公開される。親しみやすい声と高い汎用性により、実況動画や解説動画などで爆発的に普及した。",
     "links": [
       "https://zunko.jp"
     ]
@@ -21,7 +30,7 @@
     "id": "2021-kahu-release",
     "year": 2021,
     "title": "可不（KAFU）発売",
-    "summary": "2021年7月7日、KAMITSUBAKI STUDIOの音楽的同位体プロジェクトの一環として「可不（KAFU）」が発売。CeVIO AIエンジンを採用。",
+    "summary": "2021年7月7日、KAMITSUBAKI STUDIOの音楽的同位体プロジェクト第1弾として「可不（KAFU）」が発売される。CeVIO AIエンジンを採用し、バーチャルシンガー花譜の声を元に制作された歌声で大きな注目を集めた。",
     "links": [
       "https://musical-isotope.kamitsubaki.jp/product/kafu"
     ]
@@ -39,7 +48,7 @@
     "id": "2016-otomatiuta-release",
     "year": 2016,
     "title": "音街ウナ 発売",
-    "summary": "2016年7月30日、株式会社インターネットより「音街ウナ」が発売。VOCALOID4エンジンを採用。",
+    "summary": "2016年7月30日、株式会社インターネットより「音街ウナ」が発売される。VOCALOID4エンジンを採用し、元気でパワフルな歌声と独特なキャラクターデザインで人気を集めた。",
     "links": [
       "https://www.ssw.co.jp/products/vocaloid4/una"
     ]
@@ -69,6 +78,24 @@
     "summary": "2011年9月17日、ニコニコにて「千本桜 (feat. 初音ミク)」公開。",
     "links": [
       "https://www.nicovideo.jp/watch/sm15630734"
+    ]
+  },
+  {
+    "id": "2008-kamuigakupo-release",
+    "year": 2008,
+    "title": "神威がくぽ 発売",
+    "summary": "2008年7月31日、インターネット株式会社より「神威がくぽ（Gackpoid）」が発売される。VOCALOID2エンジンを採用し、歌手GACKTの声を元に制作された男性ボーカロイドとして大きな話題を集めた。",
+    "links": [
+      "https://zunko.jp"
+    ]
+  },
+  {
+    "id": "2008-kasaneteto-release",
+    "year": 2008,
+    "title": "重音テト 公開",
+    "summary": "2008年4月1日、エイプリルフール企画として「重音テト」が公開される。当初は架空のVOCALOIDとして発表されたが、その後UTAU音源として正式に配布され、現在まで高い人気を誇る存在となった。",
+    "links": [
+      "https://zunko.jp"
     ]
   },
   {
@@ -102,9 +129,10 @@
     "id": "2007-hatsune-hatunemiku-release",
     "year": 2007,
     "title": "初音ミク 発売",
-    "summary": "2007年8月31日、クリプトン・フューチャー・メディアより「初音ミク」発売。VOCALOID2エンジンを採用。",
+    "summary": "2007年8月31日、クリプトン・フューチャー・メディアより音声合成ソフト「初音ミク」が発売される。VOCALOID2エンジンを採用し、ボーカロイド文化の大きな広がりのきっかけとなった。",
     "links": [
       "https://blog.piapro.net"
     ]
   }
 ]
+
