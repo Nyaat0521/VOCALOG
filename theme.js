@@ -28,11 +28,3 @@ document.addEventListener("click", (e)=>{
     applyTheme(now === "dark" ? "light" : "dark")
   }
 })
-
-// Keyboard support
-document.addEventListener("keydown", (e)=>{
-  if((e.ctrlKey || e.metaKey) && (e.key === "l" || e.key === "L")){
-    const now = root.getAttribute("data-theme") || "light"
-    applyTheme(now === "dark" ? "light" : "dark")
-  }
-})
