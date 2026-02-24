@@ -183,7 +183,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 }
 
 
-/* --- Highlight cards --- */
 .repCard{
   border:2px solid var(--border);
   box-shadow:0 8px 24px rgba(0,0,0,.06);
