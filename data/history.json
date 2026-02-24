@@ -30,7 +30,7 @@
     "id": "2021-kahu-release",
     "year": 2021,
     "title": "可不（KAFU）発売",
-    "summary": "2021年7月7日、KAMITSUBAKI STUDIOの音楽的同位体プロジェクト第1弾として「可不（KAFU）」が発売される。CeVIO AIエンジンを採用し、バーチャルシンガー花譜の声を元に制作された歌声で大きな注目を集めた。",
+    "summary": "2021年7月7日、KAMITSUBAKI STUDIOの音楽的同位体プロジェクトの一環として「可不（KAFU）」が発売される。CeVIO AIエンジンを採用し、繊細で透明感のある歌声が話題となった。",
     "links": [
       "https://musical-isotope.kamitsubaki.jp/product/kafu"
     ]
@@ -60,6 +60,15 @@
     "summary": "2014年12月2日、YouTubeにて「千本桜 (feat. 初音ミク)」公開。",
     "links": [
       "https://youtu.be/shs0rAiwsGQ"
+    ]
+  },
+  {
+    "id": "2014-hurawa-release",
+    "year": 2014,
+    "title": "v flower 発売",
+    "summary": "2014年5月9日、ガイノイドより「v flower」が発売される。VOCALOID3エンジンを採用し、力強くエッジのある歌声でロック系楽曲を中心に高い人気を獲得した。",
+    "links": [
+      "https://www.ssw.co.jp/products/vocaloid4/una"
     ]
   },
   {
@@ -171,5 +180,6 @@
     ]
   }
 ]
+
 
 
