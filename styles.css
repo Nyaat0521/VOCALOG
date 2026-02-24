@@ -193,3 +193,28 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 .dateLabel{
   font-variant-numeric: tabular-nums;
 }
+
+/* --- VOCALOG UI patch: keep reading + badge inline and stable on mobile --- */
+.song-title,
+.songTitle,
+.song_title,
+.titleRow,
+h1.song-title,
+h1.songTitle,
+.pageTitle,
+.titleLine {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.reading, .titleReading, .kana, .furigana {
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+.badge, .tagBadge, .weekBadge {
+  margin-left: 0;
+  white-space: nowrap;
+}
+/* prevent badge from centering by itself */
+.badge, .tagBadge, .weekBadge { align-self: center; }
