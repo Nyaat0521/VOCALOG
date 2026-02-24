@@ -113,8 +113,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   font-weight: normal;
 }
 
-
-
 .badge{
   display:inline-block;
   margin-left:8px;
@@ -127,8 +125,11 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 }
 
 .list{ display:flex; flex-direction:column; gap:10px; margin-top:10px; }
+
 .archiveItem{
-  display:flex; justify-content:space-between; align-items:center;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
   padding:10px 12px;
   border:1px solid var(--border);
   border-radius:12px;
@@ -137,12 +138,13 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   background:transparent;
 }
 .archiveItem:hover{ background:var(--card); }
+
 .archiveItem.active{
   background:var(--card);
   border-color: var(--text);
 }
-.archiveTitle{ font-weight:600; }
 
+.archiveTitle{ font-weight:600; }
 
 .pill{
   display:inline-block;
@@ -155,63 +157,44 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   background: var(--card);
 }
 
-
-/* --- Highlight cards --- */
+/* Highlight cards */
 .repCard{
   border:2px solid var(--border);
   box-shadow:0 8px 24px rgba(0,0,0,.06);
 }
+
 .popularCard{
   border:1px dashed var(--border);
 }
+
 .dateLabel{
   font-variant-numeric: tabular-nums;
 }
 
-/* --- Song title line: furigana inline + badges (今週/代表曲/人気) --- */
+/* Song title line */
 .songTitleLine .title.songTitle{
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 8px;
+  display:flex;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:8px;
 }
 
 .songTitleLine .songTitleText{
-  font-weight: 800;
+  font-weight:800;
 }
 
 .songTitleLine .titleArrow{
-  color: var(--muted);
-  font-weight: 600;
+  color:var(--muted);
+  font-weight:600;
 }
 
 .songTitleLine .songBadges{
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 6px;
-
-  opacity: 0;
-  transform: translateY(4px);
-  animation: badgeFadeIn .35s ease forwards;
+  display:inline-flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:6px;
 }
 
 .songTitleLine .songBadges .pill{
-  margin-left: 0; /* override default left margin */
-  transition: transform .15s ease, box-shadow .15s ease;
-}
-
-.songTitleLine .songBadges .pill:hover{
-  transform: translateY(-2px) scale(1.04);
-  box-shadow: 0 6px 16px rgba(0,0,0,.12);
-}
-
-@keyframes badgeFadeIn{
-  to{ opacity: 1; transform: translateY(0); }
-}
-
-@media (prefers-reduced-motion: reduce){
-  .songTitleLine .songBadges{ animation: none; opacity: 1; transform: none; }
-  .songTitleLine .songBadges .pill{ transition: none; }
-  .songTitleLine .songBadges .pill:hover{ transform: none; box-shadow: none; }
+  margin-left:0;
 }
