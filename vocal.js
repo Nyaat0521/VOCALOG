@@ -5,7 +5,6 @@ document.getElementById("header").innerHTML = headerHtml("vocals")
 const content = document.getElementById("content")
 const songsBox = document.getElementById("songs")
 
-// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsArr){
   const m = new Map()
   for(const v of vocalsArr){
@@ -78,4 +77,3 @@ async function main(){
   }
 }
 main()
-
