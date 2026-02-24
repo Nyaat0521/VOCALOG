@@ -51,6 +51,8 @@ async function main(){
       <h2 class="title">
         ${escapeHtml(s.title)}
         ${s.isRepresentative ? `<span class="pill">代表曲</span>` : ""}
+        ${s.isWeeklyPick ? `<span class="pill">今週</span>` : ""}
+        ${typeof s.popularityScore === "number" && isFinite(s.popularityScore) && s.popularityScore > 0 ? `<span class="pill">人気</span>` : ""}
         ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
       </h2>
       <p class="muted">
@@ -59,7 +61,7 @@ async function main(){
         ${(vocalLinks(s, vocals) || "不明")}
       </p>
 
-      ${s.released ? `<p class="muted">🗓 ${escapeHtml(s.released)}</p>` : ""}
+      ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
       ${s.summary ? `<p>${escapeHtml(s.summary)}</p>` : ""}
 
       <div class="links">
@@ -75,8 +77,7 @@ async function main(){
       <div style="margin-top:12px;">
         <iframe
           src="https://www.youtube.com/embed/${encodeURIComponent(s.youtubeId)}"
-          title="${escapeHtml(s.title)}
-        ${s.isRepresentative ? `<span class="pill">代表曲</span>` : ""}"
+          title="${escapeHtml(s.title)}"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>

@@ -92,7 +92,7 @@ function card(s){
         ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
       </h2>
       <p class="muted">${escapeHtml(pObj.name||"不明")} / ${escapeHtml(vocalNames(s, vocals)||"不明")}</p>
-      ${s.released ? `<p class="muted">🗓 ${escapeHtml(s.released)}</p>` : ""}
+      ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
       ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
     </a>
   `
