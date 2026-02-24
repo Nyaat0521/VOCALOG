@@ -81,6 +81,15 @@
     ]
   },
   {
+    "id": "2009-kaaiyuki-release",
+    "year": 2009,
+    "title": "歌愛ユキ 発売",
+    "summary": "2009年12月4日、AH-Softwareより「歌愛ユキ」が発売される。VOCALOID2エンジンを採用した小学生設定のボーカロイドで、あどけない歌声が特徴。教育現場との連携を意識して制作された。",
+    "links": [
+      "https://blog.piapro.net"
+    ]
+  },
+  {
     "id": "2008-kamuigakupo-release",
     "year": 2008,
     "title": "神威がくぽ 発売",
@@ -135,6 +144,15 @@
     ]
   },
   {
+    "id": "2006-hatunemiku-release",
+    "year": 2006,
+    "title": "KAITO 発売",
+    "summary": "2006年2月17日、クリプトン・フューチャー・メディアより「KAITO」が発売される。VOCALOIDエンジン（初代）を採用した日本語男性ボーカロイドで、後にボカロ文化を支える重要な存在となった。",
+    "links": [
+      "https://blog.piapro.net"
+    ]
+  },
+  {
     "id": "2004-meiko-release",
     "year": 2004,
     "title": "MEIKO 発売",
@@ -144,3 +162,4 @@
     ]
   }
 ]
+
