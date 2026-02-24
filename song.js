@@ -58,7 +58,7 @@ async function main(){
         <h2 class="title songTitle">
           <span class="songTitleText">${escapeHtml(s.title)}</span>
           ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
-          ${badges ? `<span class="titleArrow">→</span><span class="songBadges">${badges}</span>` : ""}
+          ${badges ? `<span class="songBadges">${badges}</span>` : ""}
         </h2>
       </div>
       <p class="muted">
