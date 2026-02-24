@@ -48,3 +48,20 @@
 - Producerページの「代表曲」は、そのPの曲の中から `isRepresentative: true` の曲を集めて表示
 - `representativeOrder` があれば、その順で並べる（1 → 2 → 3…）
 - 1曲も設定されていない場合は、従来どおり「新着順トップ10」を表示
+
+
+## 人気曲（popular）
+
+人気曲の並びは `popularityScore`（数字が大きいほど上）で決まります。
+
+例：
+```json
+{
+  "id": "hibana",
+  "isRepresentative": true,
+  "representativeOrder": 1,
+  "popularityScore": 95
+}
+```
+
+※ popularityScore が未設定のときは「今週ピック → 新着順」で表示されます。

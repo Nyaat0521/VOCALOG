@@ -5,7 +5,10 @@ document.getElementById("header").innerHTML = headerHtml("vocals")
 const content = document.getElementById("content")
 const songsBox = document.getElementById("songs")
 const songsNote = document.getElementById("songsNote")
+const popularBox = document.getElementById("popularSongs")
+const popularNote = document.getElementById("popularNote")
 
+// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsArr){
   const m = new Map()
   for(const v of vocalsArr){
@@ -61,13 +64,11 @@ async function main(){
     const pMap = new Map(producers.map(p=>[p.id, p.name]))
     const vMap = new Map(vocals.map(v=>[v.id, v.name]))
 
+    const allSongs = songs.filter(s=> resolveVocalIds(s, vocals).includes(v.id))
 
-    const allSongs = songs
-      .filter(s=> resolveVocalIds(s, vocals).includes(v.id))
-
+    // --- Representative songs ---
     const repSongs = allSongs.filter(s=> s.isRepresentative === true)
-
-    const items = (repSongs.length ? repSongs : allSongs)
+    const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
         const ao = (a.representativeOrder ?? 9999)
         const bo = (b.representativeOrder ?? 9999)
@@ -81,23 +82,63 @@ async function main(){
 
     if(songsNote){
       songsNote.textContent = repSongs.length
-        ? "※ songs.json の isRepresentative: true を付けた曲を表示中"
-        : "※ 代表曲が未設定のため、新着曲（発売日が新しい順）を表示中"
+        ? "代表曲を表示中（songs.json の isRepresentative: true）"
+        : "代表曲は現在準備中（代わりに新着順を表示）"
     }
 
-    songsBox.innerHTML = items.map(s=>`
-      <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
-        <h3 class="title">${escapeHtml(s.title)}${s.isRepresentative ? `<span class="badge">代表曲</span>` : ``}${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
+    songsBox.innerHTML = repItems.map(s=>`
+      <a class="card cardLink repCard" href="./song.html?id=${encodeURIComponent(s.id)}">
+        <h3 class="title">${escapeHtml(s.title)}<span class="badge">代表曲</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
         <p class="muted">${escapeHtml(pMap.get(s.producerId) || "不明")}</p>
         ${(() => {
           const names = resolveVocalIds(s, vocals).map(id=>vMap.get(id)).filter(Boolean)
           if(names.length <= 1) return ""
           return '<p class="muted">ボカロ：' + escapeHtml(names.join("・")) + '</p>'
         })()}
-        ${s.released ? `<p class="muted">🗓 ${escapeHtml(s.released)}</p>` : ""}
+        ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
         ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
+
+    // --- Popular songs ---
+    const hasScore = allSongs.some(s=> typeof s.popularityScore === "number" && isFinite(s.popularityScore))
+    const popItems = allSongs
+      .slice()
+      .sort((a,b)=>{
+        const as = (typeof a.popularityScore === "number" && isFinite(a.popularityScore)) ? a.popularityScore : -1
+        const bs = (typeof b.popularityScore === "number" && isFinite(b.popularityScore)) ? b.popularityScore : -1
+        if(hasScore && as !== bs) return bs - as
+        const aw = a.isWeeklyPick ? 1 : 0
+        const bw = b.isWeeklyPick ? 1 : 0
+        if(aw !== bw) return bw - aw
+        const ar = (a.released || "")
+        const br = (b.released || "")
+        if(ar !== br) return br.localeCompare(ar)
+        return (a.title || "").localeCompare(b.title || "", "ja")
+      })
+      .slice(0,10)
+
+    if(popularNote){
+      popularNote.textContent = hasScore
+        ? "人気曲を表示中（songs.json の popularityScore が高い順）"
+        : "人気度スコア未設定のため、今週ピック / 新着順で表示中"
+    }
+
+    if(popularBox){
+      popularBox.innerHTML = popItems.map(s=>`
+        <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
+          <h3 class="title">${escapeHtml(s.title)}<span class="badge">人気</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
+          <p class="muted">${escapeHtml(pMap.get(s.producerId) || "不明")}</p>
+          ${(() => {
+            const names = resolveVocalIds(s, vocals).map(id=>vMap.get(id)).filter(Boolean)
+            if(names.length <= 1) return ""
+            return '<p class="muted">ボカロ：' + escapeHtml(names.join("・")) + '</p>'
+          })()}
+          ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
+          ${hasScore && typeof s.popularityScore === "number" ? `<p class="muted">人気度：${escapeHtml(String(s.popularityScore))}</p>` : ""}
+        </a>
+      `).join("") || `<p class="muted">まだ曲データがない</p>`
+    }
   }catch(err){
     content.innerHTML = `<p>読み込み失敗: ${escapeHtml(err.message)}</p>`
   }

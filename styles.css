@@ -154,3 +154,16 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   border:1px solid var(--border);
   background: var(--card);
 }
+
+
+/* --- Highlight cards --- */
+.repCard{
+  border:2px solid var(--border);
+  box-shadow:0 8px 24px rgba(0,0,0,.06);
+}
+.popularCard{
+  border:1px dashed var(--border);
+}
+.dateLabel{
+  font-variant-numeric: tabular-nums;
+}
