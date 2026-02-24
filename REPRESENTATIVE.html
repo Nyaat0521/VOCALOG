@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>代表曲の設定方法（VOCALOG） | VOCALOG</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="代表曲の設定方法（VOCALOG）" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://nyaat0521.github.io/VOCALOG/REPRESENTATIVE.html" />
+<meta property="og:url" content="https://nyaat0521.github.io/VOCALOG/REPRESENTATIVE.html" />
+<meta property="og:site_name" content="VOCALOG" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="代表曲の設定方法（VOCALOG）" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"代表曲の設定方法（VOCALOG）","url":"https://nyaat0521.github.io/VOCALOG/REPRESENTATIVE.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/VOCALOG/assets/css/style.css?v=b647e3023c61f362b52f02d1a94fb05814e0cdf1">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/VOCALOG/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://nyaat0521.github.io/VOCALOG/">VOCALOG</a></h1>
+      
+
+      <h1 id="代表曲の設定方法vocalog">代表曲の設定方法（VOCALOG）</h1>
+
+<h2 id="何を編集する">何を編集する？</h2>
+<p><code class="language-plaintext highlighter-rouge">data/songs.json</code> の「代表曲にしたい曲」に、以下の2つを追記するだけ</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">isRepresentative</code>: 代表曲フラグ（trueにする）</li>
+  <li><code class="language-plaintext highlighter-rouge">representativeOrder</code>: 並び順（小さいほど上）</li>
+</ul>
+
+<hr />
+
+<h2 id="コピペ用そのまま使える">コピペ用（そのまま使える）</h2>
+
+<h3 id="1曲だけ代表曲にする並び順なし">1曲だけ代表曲にする（並び順なし）</h3>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"isRepresentative"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="複数曲を代表曲にする並び順あり">複数曲を代表曲にする（並び順あり）</h3>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"isRepresentative"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span><span class="nl">"representativeOrder"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w">
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="例完成形">例（完成形）</h2>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example-song-id"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"代表曲サンプル"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"titleKana"</span><span class="p">:</span><span class="w"> </span><span class="s2">"だいひょうきょくさんぷる"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"producerId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example-producer"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"vocalId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hatunemiku"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"youtubeId"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"niconicoId"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"tags"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"初音ミク"</span><span class="p">],</span><span class="w">
+  </span><span class="nl">"released"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-01-01"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"isRepresentative"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"representativeOrder"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="表示ルール今の実装">表示ルール（今の実装）</h2>
+
+<ul>
+  <li>Producerページの「代表曲」は、そのPの曲の中から <code class="language-plaintext highlighter-rouge">isRepresentative: true</code> の曲を集めて表示</li>
+  <li><code class="language-plaintext highlighter-rouge">representativeOrder</code> があれば、その順で並べる（1 → 2 → 3…）</li>
+  <li>1曲も設定されていない場合は、従来どおり「新着順トップ10」を表示</li>
+</ul>
+
+<h2 id="人気曲popular">人気曲（popular）</h2>
+
+<p>人気曲の並びは <code class="language-plaintext highlighter-rouge">popularityScore</code>（数字が大きいほど上）で決まります。</p>
+
+<p>例：</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hibana"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"isRepresentative"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"representativeOrder"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"popularityScore"</span><span class="p">:</span><span class="w"> </span><span class="mi">95</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>※ popularityScore が未設定のときは「今週ピック → 新着順」で表示されます。</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
