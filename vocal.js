@@ -6,7 +6,6 @@ const content = document.getElementById("content")
 const songsBox = document.getElementById("songs")
 const songsNote = document.getElementById("songsNote")
 
-// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsArr){
   const m = new Map()
   for(const v of vocalsArr){
