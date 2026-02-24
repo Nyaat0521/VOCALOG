@@ -8,7 +8,6 @@ const songsNote = document.getElementById("songsNote")
 const popularBox = document.getElementById("popularSongs")
 const popularNote = document.getElementById("popularNote")
 
-// --- Multi-vocal support (duet etc.) ---
 function buildVocalNameToId(vocalsArr){
   const m = new Map()
   for(const v of vocalsArr){
@@ -144,4 +143,3 @@ async function main(){
   }
 }
 main()
-
