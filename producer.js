@@ -126,6 +126,7 @@ async function main(){
           }
           </p>
           ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
+          ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
           ${hasScore && typeof s.popularityScore === "number" ? `<p class="muted">人気度：${escapeHtml(String(s.popularityScore))}</p>` : ""}
         </a>
       `).join("") || `<p class="muted">まだ曲データがない</p>`
