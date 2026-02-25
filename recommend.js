@@ -38,7 +38,6 @@ function vocalNames(song, vocalsMap){
     .join("・")
 }
 
-
 function card(s){
   const pObj = producers.get(s.producerId) || {}
   const badge = s.isWeeklyPromoted ? `<span class="badge">今週追加</span>` : ""
@@ -62,9 +61,19 @@ function pickCurrentWeek(){
   return weeks[0] || ""
 }
 
-function sortByReleasedDesc(items){
+/**
+ * Sort priority:
+ * 1) popularityScore (desc) if exists
+ * 2) released (desc) as tie-breaker / fallback
+ */
+function sortForRecommend(items){
   const copy = [...items]
-  copy.sort((a,b)=> safe(b.released).localeCompare(safe(a.released)))
+  copy.sort((a,b)=>{
+    const as = Number(a?.popularityScore ?? 0)
+    const bs = Number(b?.popularityScore ?? 0)
+    if(bs !== as) return bs - as
+    return safe(b.released).localeCompare(safe(a.released))
+  })
   return copy
 }
 
@@ -74,17 +83,18 @@ function buildRecTagOptions(){
     for(const t of (s.recommendTags || [])) set.add(t)
   }
   const tags = Array.from(set).sort((a,b)=>a.localeCompare(b,"ja"))
-  
+
   recTagSel.innerHTML =
     `<option value="" disabled selected hidden>タグを選択</option>` +
     tags.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("")
 
+  // If there are no tags, keep the list empty and show a simple message.
   if(!tags.length){
-    tagHint.textContent = "まだ全体おすすめタグがありません"
-    tagListEl.innerHTML = ""
+    tagListEl.innerHTML = `<p class="muted">まだ全体おすすめタグがありません</p>`
     return
   }
 
+  // Default to the first tag.
   recTagSel.value = tags[0]
   renderTag(tags[0])
 }
@@ -93,24 +103,22 @@ function renderWeeklyPicks(){
   const wk = pickCurrentWeek()
   const weekSongs = songs.filter(s=> (s.addedWeek||"") === wk)
   const picks = weekSongs.filter(s=>s.isWeeklyPromoted)
-  weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週のおすすめは準備中です</p>`
+  weeklyPicksEl.innerHTML = picks.length
+    ? picks.map(card).join("")
+    : `<p class="muted">今週の新規おすすめは準備中です</p>`
 }
 
 function renderTag(tag){
   if(!tag){
-    tagListEl.innerHTML =
-      `<p class="muted">上の「タグを選択」からおすすめタグを選んでね</p>`
+    tagListEl.innerHTML = `<p class="muted">上の「タグを選択」からおすすめタグを選んでね</p>`
     return
   }
-
   const items = songs.filter(s=> (s.recommendTags||[]).includes(tag))
   const sorted = sortForRecommend(items)
 
-  tagListEl.innerHTML =
-    `<p class="muted">「${tag}」おすすめ（${items.length}曲）</p>` +
-    (sorted.length
-      ? sorted.map(card).join("")
-      : `<p class="muted">このタグの曲がまだありません</p>`)
+  tagListEl.innerHTML = sorted.length
+    ? sorted.map(card).join("")
+    : `<p class="muted">このタグの曲がまだありません</p>`
 }
 
 async function main(){
