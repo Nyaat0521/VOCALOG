@@ -51,11 +51,10 @@ async function main(){
     const allSongs = songs.filter(s=>{
       if(s.vocalIds?.length) return s.vocalIds.includes(v.id)
       if(s.vocalId) return s.vocalId === v.id
-      // tags にボカロ名が入ってる旧仕様も救済
+      
       return (s.tags || []).includes(v.name)
     })
 
-    // ---- 代表曲（最大10） ----
     const repSongs = allSongs.filter(s=>s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=> safe(b.released).localeCompare(safe(a.released)) || safe(a.title).localeCompare(safe(b.title),"ja"))
@@ -80,7 +79,6 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    // ---- 人気曲（最大10） ----
     const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
 
     if(popularNote){
@@ -105,7 +103,7 @@ async function main(){
       .slice(0,10)
 
     if(popularBox){
-      // 人気度（数字）は表示しない
+      
       popularBox.innerHTML = popItems.map(s=>`
         <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
           <h3 class="title">
