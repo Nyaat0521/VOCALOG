@@ -4,9 +4,7 @@
     "year": 2022,
     "title": "星界 発売",
     "summary": "2022年5月20日、音楽的同位体プロジェクトより「星界（SEKAI）」が発売。CeVIO AIエンジンを採用。",
-    "links": [
-      "https://kamitsubaki.jp"
-    ]
+    "links": "https://kamitsubaki.jp",
   },
   {
     "id": "2021-zundamon-release",
@@ -198,5 +196,6 @@
     ]
   }
 ]
+
 
 
