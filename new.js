@@ -105,7 +105,7 @@ function renderWeek(selectedWeek){
   const picks = weekSongs.filter(s=>s.isNewWeeklyPick)
 
   sub.textContent = selectedWeek ? `表示中: ${selectedWeek}` : ""
-  weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週おすすめがまだ選ばれていません</p>`
+  weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">まだ選ばれていません</p>`
   weekCountEl.textContent = `${weekSongs.length} 曲`
   weekListEl.innerHTML = sortByReleasedDesc(weekSongs).map(card).join("")
 }
