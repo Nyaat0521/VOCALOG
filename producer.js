@@ -68,7 +68,18 @@ async function main(){
     songsBox.innerHTML = repItems.map(s=>`
       <a class="card cardLink repCard" href="./song.html?id=${encodeURIComponent(s.id)}">
         <h3 class="title">${escapeHtml(s.title)}<span class="badge">代表曲</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
-        <p class="muted">${escapeHtml(vMap.get(s.vocalId) || "不明")}</p>
+        <p class="muted">
+        ${
+          s.vocalIds?.length
+            ? escapeHtml(
+                s.vocalIds
+                  .map(id => vMap.get(id))
+                  .filter(Boolean)
+                  .join(" / ")
+              )
+            : (s.vocalId ? escapeHtml(vMap.get(s.vocalId) || "不明") : "不明")
+        }
+        </p>
         ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
         ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
       </a>
