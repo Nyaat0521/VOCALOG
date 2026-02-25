@@ -46,6 +46,9 @@ async function main(){
 
     const allSongs = songs.filter(s=>s.producerId === p.id)
 
+    // "今週" 表示は、新しい2フラグのどちらかが true のときだけにする
+    const isThisWeek = (s)=> (s.isNewWeeklyPick === true) || (s.isWeeklyPromoted === true)
+
     const repSongs = allSongs.filter(s=>s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
@@ -67,7 +70,11 @@ async function main(){
 
     songsBox.innerHTML = repItems.map(s=>`
       <a class="card cardLink repCard" href="./song.html?id=${encodeURIComponent(s.id)}">
-        <h3 class="title">${escapeHtml(s.title)}<span class="badge">代表曲</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
+        <h3 class="title">
+          ${escapeHtml(s.title)}
+          <span class="badge">代表曲</span>
+          ${isThisWeek(s) ? `<span class="badge">今週</span>` : ``}
+        </h3>
         <p class="muted">
         ${
           s.vocalIds?.length
@@ -85,17 +92,28 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    const hasScore = allSongs.some(s=> typeof s.popularityScore === "number" && isFinite(s.popularityScore))
+    // 人気曲は「人気度が1以上の曲がある時だけ」表示する（0は未設定扱い）
+    const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
+
+    if(!hasScore){
+      // まるごと非表示（HTML側の枠ごと消す）
+      const section = popularBox?.closest("section") || popularBox?.parentElement
+      if(section) section.style.display = "none"
+      return
+    }
+
     const popItems = allSongs
+      .filter(s=> Number(s.popularityScore) > 0)
       .slice()
       .sort((a,b)=>{
-        const as = (typeof a.popularityScore === "number" && isFinite(a.popularityScore)) ? a.popularityScore : -1
-        const bs = (typeof b.popularityScore === "number" && isFinite(b.popularityScore)) ? b.popularityScore : -1
-        if(hasScore && as !== bs) return bs - as
-        
-        const aw = a.isWeeklyPick ? 1 : 0
-        const bw = b.isWeeklyPick ? 1 : 0
+        const as = Number(a.popularityScore) || 0
+        const bs = Number(b.popularityScore) || 0
+        if(as !== bs) return bs - as
+
+        const aw = isThisWeek(a) ? 1 : 0
+        const bw = isThisWeek(b) ? 1 : 0
         if(aw !== bw) return bw - aw
+
         const ar = (a.released || "")
         const br = (b.released || "")
         if(ar !== br) return br.localeCompare(ar)
@@ -103,16 +121,16 @@ async function main(){
       })
       .slice(0,10)
 
-    if(popularNote){
-      popularNote.textContent = hasScore
-        ? ""
-        : "人気データ未集計のため、現在は新着順"
-    }
+    if(popularNote) popularNote.textContent = ""
 
     if(popularBox){
       popularBox.innerHTML = popItems.map(s=>`
         <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
-          <h3 class="title">${escapeHtml(s.title)}<span class="badge">人気</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
+          <h3 class="title">
+            ${escapeHtml(s.title)}
+            <span class="badge">人気</span>
+            ${isThisWeek(s) ? `<span class="badge">今週</span>` : ``}
+          </h3>
           <p class="muted">
           ${
             s.vocalIds?.length
@@ -128,7 +146,7 @@ async function main(){
           ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
           ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
         </a>
-      `).join("") || `<p class="muted">まだ曲データがない</p>`
+      `).join("") || `<p class="muted">人気曲がまだありません</p>`
     }
   }catch(err){
     content.innerHTML = `<p>読み込み失敗: ${escapeHtml(err.message)}</p>`
