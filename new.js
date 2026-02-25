@@ -43,7 +43,7 @@ function vocalNames(song, vocalsMap){
 
 function card(s){
   const pObj = producers.get(s.producerId) || {}
-  const badge = s.isWeeklyPick ? `<span class="badge">おすすめ</span>` : ""
+  const badge = s.isNewWeeklyPick ? `<span class="badge">新着おすすめ</span>` : ""
   return `
     <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
       <h2 class="title">
@@ -102,7 +102,7 @@ function renderArchive(weeks, map, selectedWeek){
 
 function renderWeek(selectedWeek){
   const weekSongs = songs.filter(s=> (s.addedWeek||"") === selectedWeek)
-  const picks = weekSongs.filter(s=>s.isWeeklyPick).slice(0,3)
+  const picks = weekSongs.filter(s=>s.isNewWeeklyPick)
 
   sub.textContent = selectedWeek ? `表示中: ${selectedWeek}` : ""
   weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週おすすめがまだ選ばれていません</p>`
