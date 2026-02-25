@@ -98,16 +98,19 @@ function renderWeeklyPicks(){
 
 function renderTag(tag){
   if(!tag){
-    tagHint.textContent = "タグを選択してください"
-    tagListEl.innerHTML = `<p class="muted">上の「タグを選択」からおすすめタグを選んでね</p>`
+    tagListEl.innerHTML =
+      `<p class="muted">上の「タグを選択」からおすすめタグを選んでね</p>`
     return
   }
+
   const items = songs.filter(s=> (s.recommendTags||[]).includes(tag))
-  const topItems = sortByReleasedDesc(items)
-  tagListEl.innerHTML = topItems.map(card).join("")
-  
-  tagHint.textContent = `「${tag}」おすすめ（${items.length}曲）`
-  tagListEl.innerHTML = top10.map(card).join("") || `<p class="muted">このタグの曲がまだありません</p>`
+  const sorted = sortForRecommend(items)
+
+  tagListEl.innerHTML =
+    `<p class="muted">「${tag}」おすすめ（${items.length}曲）</p>` +
+    (sorted.length
+      ? sorted.map(card).join("")
+      : `<p class="muted">このタグの曲がまだありません</p>`)
 }
 
 async function main(){
