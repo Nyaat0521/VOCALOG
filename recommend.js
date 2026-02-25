@@ -42,7 +42,7 @@ function vocalNames(song, vocalsMap){
 
 function card(s){
   const pObj = producers.get(s.producerId) || {}
-  const badge = s.isWeeklyPick ? `<span class="badge">今週</span>` : ""
+  const badge = s.isWeeklyPromoted ? `<span class="badge">今週追加</span>` : ""
   return `
     <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
       <h2 class="title">
