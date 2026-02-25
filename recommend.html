@@ -10,8 +10,13 @@
   <div id="header"></div>
 
   <main class="wrap">
+    <div class="card">
+      <h2 class="title" style="margin:0;">おすすめ</h2>
+      <p class="muted">「今週」＋「全体」からピックアップ</p>
+    </div>
+
     <section class="card">
-      <h3 class="title" style="margin:0;">今週の新規おすすめ</h3>
+      <h3 class="title" style="margin:0;">今週のおすすめ</h3>
       <p class="muted">今週追加の中からピックアップ</p>
       <div id="weeklyPicks" class="grid"></div>
     </section>
@@ -23,6 +28,7 @@
           <option value="" disabled selected hidden>タグを選択</option>
         </select>
       </div>
+      <p class="muted" id="tagHint">タグを選ぶと10曲表示</p>
       <div id="tagList" class="grid"></div>
     </section>
 
