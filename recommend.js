@@ -61,11 +61,6 @@ function pickCurrentWeek(){
   return weeks[0] || ""
 }
 
-/**
- * Sort priority:
- * 1) popularityScore (desc) if exists
- * 2) released (desc) as tie-breaker / fallback
- */
 function sortForRecommend(items){
   const copy = [...items]
   copy.sort((a,b)=>{
