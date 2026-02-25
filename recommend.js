@@ -61,6 +61,11 @@ function pickCurrentWeek(){
   return weeks[0] || ""
 }
 
+/**
+ * Sort priority:
+ * 1) popularityScore (desc) if exists
+ * 2) released (desc) as tie-breaker / fallback
+ */
 function sortForRecommend(items){
   const copy = [...items]
   copy.sort((a,b)=>{
@@ -106,12 +111,16 @@ function renderTag(tag){
     tagListEl.innerHTML = `<p class="muted">上の「タグを選択」からおすすめタグを選んでね</p>`
     return
   }
+
   const items = songs.filter(s=> (s.recommendTags||[]).includes(tag))
   const sorted = sortForRecommend(items)
 
-  tagListEl.innerHTML = sorted.length
+  const head = `<p class="muted">「${escapeHtml(tag)}」おすすめ（${items.length}曲）</p>`
+  const body = sorted.length
     ? sorted.map(card).join("")
     : `<p class="muted">このタグの曲がまだありません</p>`
+
+  tagListEl.innerHTML = head + body
 }
 
 async function main(){
