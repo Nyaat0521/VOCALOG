@@ -19,11 +19,8 @@
     "streamingLink": "https://open.spotify.com/intl-ja/track/4B6rDxockZoeeIw8Vx02T6",
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
-    "isWeeklyPick": true,
-    "recommendTags": [
-      "初心者向け",
-      "エモい"
-    ],
+    "isWeeklyPick": false,
+    "recommendTags": [],
     "isRepresentative": false,
     "representativeOrder": 0
   },
@@ -50,8 +47,8 @@
     "addedWeek": "2026-02-16週",
     "isWeeklyPick": true,
     "recommendTags": [
-      "名曲",
-      "エモい"
+      "初心者向け",
+      "和風"
     ],
     "isRepresentative": false,
     "representativeOrder": 0
@@ -77,11 +74,8 @@
     "streamingLink": "https://open.spotify.com/intl-ja/track/2Rn8WVUI9l4SkzjbfISX7p",
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
-    "isWeeklyPick": true,
-    "recommendTags": [
-      "中毒性",
-      "初心者向け"
-    ],
+    "isWeeklyPick": false,
+    "recommendTags": [],
     "isRepresentative": false,
     "representativeOrder": 0
   },
