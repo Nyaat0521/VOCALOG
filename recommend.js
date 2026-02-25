@@ -61,11 +61,6 @@ function pickCurrentWeek(){
   return weeks[0] || ""
 }
 
-/**
- * Sort priority:
- * 1) popularityScore (desc) if exists
- * 2) released (desc) as tie-breaker / fallback
- */
 function sortForRecommend(items){
   const copy = [...items]
   copy.sort((a,b)=>{
@@ -88,13 +83,11 @@ function buildRecTagOptions(){
     `<option value="" disabled selected hidden>タグを選択</option>` +
     tags.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("")
 
-  // If there are no tags, keep the list empty and show a simple message.
   if(!tags.length){
     tagListEl.innerHTML = `<p class="muted">まだ全体おすすめタグがありません</p>`
     return
   }
 
-  // Default to the first tag.
   recTagSel.value = tags[0]
   renderTag(tags[0])
 }
