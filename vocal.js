@@ -81,7 +81,7 @@ async function main(){
     if(songsNote){
       songsNote.textContent = repSongs.length
         ? "代表曲を表示中"
-        : "代表曲は現在準備中（代わりに新着順を表示）"
+        : "代表曲未設定のため、最新曲を表示中"
     }
 
     songsBox.innerHTML = repItems.map(s=>`
