@@ -8,25 +8,8 @@ const songsNote = document.getElementById("songsNote")
 const popularBox = document.getElementById("popularSongs")
 const popularNote = document.getElementById("popularNote")
 
-function buildVocalNameToId(vocalsArr){
-  const m = new Map()
-  for(const v of vocalsArr){
-    if(v && v.name) m.set(v.name, v.id)
-  }
-  return m
-}
-function resolveVocalIds(song, vocalsArr){
-  if(song && Array.isArray(song.vocalIds) && song.vocalIds.length) return song.vocalIds
-  const nameToId = resolveVocalIds._nameToId || (resolveVocalIds._nameToId = buildVocalNameToId(vocalsArr))
-  const ids = []
-  for(const t of (song.tags || [])){
-    const id = nameToId.get(t)
-    if(id && !ids.includes(id)) ids.push(id)
-  }
-  if(ids.length) return ids
-  return song.vocalId ? [song.vocalId] : []
-}
-
+const isThisWeek = (s)=> (s?.isNewWeeklyPick === true) || (s?.isWeeklyPromoted === true)
+const safe = (v)=> v == null ? "" : String(v)
 
 async function main(){
   try{
@@ -45,7 +28,7 @@ async function main(){
     const links = v.links || {}
     const linkHtml = `
       <div class="links">
-        ${links.official ? `<a class="link" target="_blank" rel="noopener" href="${links.official}">公式</a>` : ""}
+        ${links.official ? `<a class="link" target="_blank" rel="noopener" href="${links.official}">Official</a>` : ""}
         ${links.wikipedia ? `<a class="link" target="_blank" rel="noopener" href="${links.wikipedia}">Wikipedia</a>` : ""}
       </div>
     `
@@ -56,26 +39,26 @@ async function main(){
         ${v.nameKana ? `<span class="reading">(${escapeHtml(v.nameKana)})</span>` : ""}
       </h2>
       ${v.engine ? `<p class="muted">エンジン：${escapeHtml(v.engine)}</p>` : ""}
+      ${v.released ? `<p class="muted">発売：${escapeHtml(v.released)}</p>` : ""}
+      ${v.developer ? `<p class="muted">開発：${escapeHtml(v.developer)}</p>` : ""}
+      ${v.voiceProvider ? `<p class="muted">声：${escapeHtml(v.voiceProvider)}</p>` : ""}
       ${v.summary ? `<p>${escapeHtml(v.summary)}</p>` : ""}
       ${linkHtml}
     `
 
     const pMap = new Map(producers.map(p=>[p.id, p.name]))
-    const vMap = new Map(vocals.map(v=>[v.id, v.name]))
 
-    const allSongs = songs.filter(s=> resolveVocalIds(s, vocals).includes(v.id))
+    const allSongs = songs.filter(s=>{
+      if(s.vocalIds?.length) return s.vocalIds.includes(v.id)
+      if(s.vocalId) return s.vocalId === v.id
+      // tags にボカロ名が入ってる旧仕様も救済
+      return (s.tags || []).includes(v.name)
+    })
 
-    const repSongs = allSongs.filter(s=> s.isRepresentative === true)
+    // ---- 代表曲（最大10） ----
+    const repSongs = allSongs.filter(s=>s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
-      .sort((a,b)=>{
-        const ao = (a.representativeOrder ?? 9999)
-        const bo = (b.representativeOrder ?? 9999)
-        if(repSongs.length && ao !== bo) return ao - bo
-        const ar = (a.released || "")
-        const br = (b.released || "")
-        if(ar !== br) return br.localeCompare(ar)
-        return (a.title || "").localeCompare(b.title || "", "ja")
-      })
+      .sort((a,b)=> safe(b.released).localeCompare(safe(a.released)) || safe(a.title).localeCompare(safe(b.title),"ja"))
       .slice(0,10)
 
     if(songsNote){
@@ -86,53 +69,53 @@ async function main(){
 
     songsBox.innerHTML = repItems.map(s=>`
       <a class="card cardLink repCard" href="./song.html?id=${encodeURIComponent(s.id)}">
-        <h3 class="title">${escapeHtml(s.title)}<span class="badge">代表曲</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
+        <h3 class="title">
+          ${escapeHtml(s.title)}
+          <span class="badge">代表曲</span>
+          ${isThisWeek(s) ? `<span class="badge">今週</span>` : ``}
+        </h3>
         <p class="muted">${escapeHtml(pMap.get(s.producerId) || "不明")}</p>
-        ${(() => {
-          const names = resolveVocalIds(s, vocals).map(id=>vMap.get(id)).filter(Boolean)
-          if(names.length <= 1) return ""
-          return '<p class="muted">ボカロ：' + escapeHtml(names.join("・")) + '</p>'
-        })()}
         ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
         ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    const hasScore = allSongs.some(s=> typeof s.popularityScore === "number" && isFinite(s.popularityScore))
-    const popItems = allSongs
-      .slice()
-      .sort((a,b)=>{
-        const as = (typeof a.popularityScore === "number" && isFinite(a.popularityScore)) ? a.popularityScore : -1
-        const bs = (typeof b.popularityScore === "number" && isFinite(b.popularityScore)) ? b.popularityScore : -1
-        if(hasScore && as !== bs) return bs - as
-        const aw = a.isWeeklyPick ? 1 : 0
-        const bw = b.isWeeklyPick ? 1 : 0
-        if(aw !== bw) return bw - aw
-        const ar = (a.released || "")
-        const br = (b.released || "")
-        if(ar !== br) return br.localeCompare(ar)
-        return (a.title || "").localeCompare(b.title || "", "ja")
-      })
-      .slice(0,10)
+    // ---- 人気曲（最大10） ----
+    const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
 
     if(popularNote){
       popularNote.textContent = hasScore
         ? ""
-        : "人気データ未集計のため、現在は新着順"
+        : "人気曲未設定のため、最新曲を表示中"
     }
 
+    const popItems = allSongs
+      .slice()
+      .sort((a,b)=>{
+        if(hasScore){
+          const as = Number(a.popularityScore) > 0 ? Number(a.popularityScore) : -1
+          const bs = Number(b.popularityScore) > 0 ? Number(b.popularityScore) : -1
+          if(as != bs) return bs - as
+        }
+        const aw = isThisWeek(a) ? 1 : 0
+        const bw = isThisWeek(b) ? 1 : 0
+        if(aw !== bw) return bw - aw
+        return safe(b.released).localeCompare(safe(a.released)) || safe(a.title).localeCompare(safe(b.title),"ja")
+      })
+      .slice(0,10)
+
     if(popularBox){
+      // 人気度（数字）は表示しない
       popularBox.innerHTML = popItems.map(s=>`
         <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
-          <h3 class="title">${escapeHtml(s.title)}<span class="badge">人気</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
+          <h3 class="title">
+            ${escapeHtml(s.title)}
+            <span class="badge">人気</span>
+            ${isThisWeek(s) ? `<span class="badge">今週</span>` : ``}
+          </h3>
           <p class="muted">${escapeHtml(pMap.get(s.producerId) || "不明")}</p>
-          ${(() => {
-            const names = resolveVocalIds(s, vocals).map(id=>vMap.get(id)).filter(Boolean)
-            if(names.length <= 1) return ""
-            return '<p class="muted">ボカロ：' + escapeHtml(names.join("・")) + '</p>'
-          })()}
           ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
-          ${hasScore && typeof s.popularityScore === "number" ? `<p class="muted">人気度：${escapeHtml(String(s.popularityScore))}</p>` : ""}
+          ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
         </a>
       `).join("") || `<p class="muted">まだ曲データがない</p>`
     }

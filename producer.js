@@ -8,6 +8,8 @@ const songsNote = document.getElementById("songsNote")
 const popularBox = document.getElementById("popularSongs")
 const popularNote = document.getElementById("popularNote")
 
+const isThisWeek = (s)=> (s?.isNewWeeklyPick === true) || (s?.isWeeklyPromoted === true)
+
 async function main(){
   try{
     const [producers, songs, vocals] = await Promise.all([
@@ -43,11 +45,9 @@ async function main(){
     `
 
     const vMap = new Map(vocals.map(v=>[v.id, v.name]))
-
     const allSongs = songs.filter(s=>s.producerId === p.id)
 
-    const isThisWeek = (s)=> (s.isNewWeeklyPick === true) || (s.isWeeklyPromoted === true)
-
+    // ---- 代表曲（最大10） ----
     const repSongs = allSongs.filter(s=>s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
@@ -91,35 +91,34 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
+    // ---- 人気曲（最大10）----
+    // popularityScore が 1以上の曲があるときだけ「人気順」、なければ「最新曲」
     const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
 
-    if(!hasScore){
-      
-      const section = popularBox?.closest("section") || popularBox?.parentElement
-      if(section) section.style.display = "none"
-      return
+    if(popularNote){
+      popularNote.textContent = hasScore
+        ? ""
+        : "人気曲未設定のため、最新曲を表示中"
     }
 
     const popItems = allSongs
-      .filter(s=> Number(s.popularityScore) > 0)
       .slice()
       .sort((a,b)=>{
-        const as = Number(a.popularityScore) || 0
-        const bs = Number(b.popularityScore) || 0
-        if(as !== bs) return bs - as
-
+        if(hasScore){
+          const as = Number(a.popularityScore) > 0 ? Number(a.popularityScore) : -1
+          const bs = Number(b.popularityScore) > 0 ? Number(b.popularityScore) : -1
+          if(as !== bs) return bs - as
+        }
+        // 重要: ここからは同点/未設定の並び決め
         const aw = isThisWeek(a) ? 1 : 0
         const bw = isThisWeek(b) ? 1 : 0
         if(aw !== bw) return bw - aw
-
         const ar = (a.released || "")
         const br = (b.released || "")
         if(ar !== br) return br.localeCompare(ar)
         return (a.title || "").localeCompare(b.title || "", "ja")
       })
       .slice(0,10)
-
-    if(popularNote) popularNote.textContent = ""
 
     if(popularBox){
       popularBox.innerHTML = popItems.map(s=>`
@@ -144,7 +143,7 @@ async function main(){
           ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
           ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
         </a>
-      `).join("") || `<p class="muted">人気曲がまだありません</p>`
+      `).join("") || `<p class="muted">まだ曲データがない</p>`
     }
   }catch(err){
     content.innerHTML = `<p>読み込み失敗: ${escapeHtml(err.message)}</p>`
