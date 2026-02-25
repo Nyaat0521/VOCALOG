@@ -28,7 +28,7 @@ async function main(){
     const links = v.links || {}
     const linkHtml = `
       <div class="links">
-        ${links.official ? `<a class="link" target="_blank" rel="noopener" href="${links.official}">Official</a>` : ""}
+        ${links.official ? `<a class="link" target="_blank" rel="noopener" href="${links.official}">公式</a>` : ""}
         ${links.wikipedia ? `<a class="link" target="_blank" rel="noopener" href="${links.wikipedia}">Wikipedia</a>` : ""}
       </div>
     `
