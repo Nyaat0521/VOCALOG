@@ -512,7 +512,7 @@
     "nameKana": "はるよし",
     "aliases": [],
     "activeYears": "2008-",
-    "summary": "力強いメッセージ性と合唱的な広がりを持つ楽曲が特徴のボカロP。",
+    "summary": "力強いメッセージ性と合唱的な広がりを持つ楽曲が特徴のクリエイター。",
     "links": {
       "youtube": "",
       "x": "",
@@ -576,8 +576,8 @@
     "name": "ユリイ・カノン",
     "nameKana": "",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2016-",
+    "summary": "激しく感情を揺さぶるロックサウンドと文学的な歌詞が特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -587,10 +587,10 @@
   {
     "id": "nayutanseizin",
     "name": "ナユタン星人",
-    "nameKana": "",
+    "nameKana": "なゆたんせいじん",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2015-",
+    "summary": "宇宙をモチーフにしたポップで中毒性の高いサウンドが特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -600,10 +600,10 @@
   {
     "id": "syudou",
     "name": "syudou",
-    "nameKana": "",
+    "nameKana": "しゅどう",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2012-",
+    "summary": "ダークで中毒性のあるサウンドと攻撃的かつ内省的な歌詞が特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -614,9 +614,9 @@
     "id": "nuyuri",
     "name": "ぬゆり",
     "nameKana": "",
-    "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "aliases": ["Lanndo"],
+    "activeYears": "2013-",
+    "summary": "洗練されたエレクトロサウンドと独特な言葉選びが特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -626,10 +626,10 @@
   {
     "id": "eve",
     "name": "Eve",
-    "nameKana": "",
+    "nameKana": "いぶ",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2009-",
+    "summary": "歌い手出身のシンガーソングライター。",
     "links": {
       "youtube": "",
       "x": "",
@@ -639,10 +639,10 @@
   {
     "id": "tokotoko",
     "name": "TOKOTOKO",
-    "nameKana": "",
-    "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "nameKana": "とことこ",
+    "aliases": ["西沢さんP"],
+    "activeYears": "2010-",
+    "summary": "爽やかでポップなロックサウンドと等身大の恋愛感情を描く歌詞が特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -652,10 +652,10 @@
   {
     "id": "easypop",
     "name": "EasyPop",
-    "nameKana": "",
-    "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "nameKana": "いーじーぽっぷ",
+    "aliases": ["BETTI"],
+    "activeYears": "2009-",
+    "summary": "ダンサブルでキャッチーなエレクトロポップが特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -665,10 +665,10 @@
   {
     "id": "zizasup",
     "name": "じーざすP",
-    "nameKana": "",
-    "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "nameKana": "じーざすぴー",
+    "aliases": ["ワンダフル☆オポチュニティ！"],
+    "activeYears": "2010-",
+    "summary": "エネルギッシュでコミカルな楽曲が特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -678,10 +678,10 @@
   {
     "id": "ginsaku",
     "name": "銀サク",
-    "nameKana": "",
+    "nameKana": "ぎんさく",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2007-",
+    "summary": "透明感のある切ないメロディと叙情的な歌詞が特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -693,8 +693,8 @@
     "name": "ろくろ",
     "nameKana": "",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2016-",
+    "summary": "ダークで独特な世界観と鋭く印象的なメロディが特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -704,10 +704,10 @@
   {
     "id": "19ssoundfactory",
     "name": "19’s Sound Factory",
-    "nameKana": "",
-    "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "nameKana": "じゅうきゅうずさうんどふぁくとりー",
+    "aliases": ["19 -iku-"],
+    "activeYears": "2008-",
+    "summary": "爽やかで温かみのあるポップサウンドと等身大の感情を描く歌詞が特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -717,10 +717,10 @@
   {
     "id": "hurukawahonpo",
     "name": "古川本舗",
-    "nameKana": "",
+    "nameKana": "ふるかわほんぽ",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2009-",
+    "summary": "静謐で文学的な世界観と繊細なサウンドメイクが特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
@@ -730,10 +730,10 @@
   {
     "id": "nem",
     "name": "Nem",
-    "nameKana": "",
+    "nameKana": "ねむ",
     "aliases": [],
-    "activeYears": "",
-    "summary": "",
+    "activeYears": "2010-",
+    "summary": "ポップで物語性のある楽曲が特徴のボカロP。",
     "links": {
       "youtube": "",
       "x": "",
