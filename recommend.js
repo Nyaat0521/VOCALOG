@@ -5,7 +5,6 @@ document.getElementById("header").innerHTML = headerHtml("recommend")
 const weeklyPicksEl = qs("weeklyPicks")
 const recTagSel = qs("recTag")
 const tagListEl = qs("tagList")
-const tagHint = qs("tagHint")
 
 let songs = []
 let producers = new Map()
