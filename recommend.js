@@ -81,7 +81,7 @@ function buildRecTagOptions(){
     tags.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("")
 
   if(!tags.length){
-    tagHint.textContent = "まだ全体おすすめタグがありません（recommendTags を曲データに追加）"
+    tagHint.textContent = "まだ全体おすすめタグがありません"
     tagListEl.innerHTML = ""
     return
   }
