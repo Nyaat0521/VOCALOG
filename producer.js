@@ -47,7 +47,6 @@ async function main(){
     const vMap = new Map(vocals.map(v=>[v.id, v.name]))
     const allSongs = songs.filter(s=>s.producerId === p.id)
 
-    // ---- 代表曲（最大10） ----
     const repSongs = allSongs.filter(s=>s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
       .sort((a,b)=>{
@@ -91,8 +90,6 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    // ---- 人気曲（最大10）----
-    // popularityScore が 1以上の曲があるときだけ「人気順」、なければ「最新曲」
     const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
 
     if(popularNote){
@@ -109,7 +106,7 @@ async function main(){
           const bs = Number(b.popularityScore) > 0 ? Number(b.popularityScore) : -1
           if(as !== bs) return bs - as
         }
-        // 重要: ここからは同点/未設定の並び決め
+        
         const aw = isThisWeek(a) ? 1 : 0
         const bw = isThisWeek(b) ? 1 : 0
         if(aw !== bw) return bw - aw
