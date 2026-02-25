@@ -94,7 +94,7 @@ function renderWeeklyPicks(){
   const wk = pickCurrentWeek()
   const weekSongs = songs.filter(s=> (s.addedWeek||"") === wk)
   const picks = weekSongs.filter(s=>s.isWeeklyPick).slice(0,3)
-  weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週おすすめがまだ選ばれていません（新着の中から isWeeklyPick: true を3曲）</p>`
+  weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週のおすすめは準備中です</p>`
 }
 
 function renderTag(tag){
@@ -106,7 +106,7 @@ function renderTag(tag){
   const items = songs.filter(s=> (s.recommendTags||[]).includes(tag))
   const top10 = sortByReleasedDesc(items).slice(0,10)
   
-  tagHint.textContent = `「${tag}」おすすめ：全${items.length}曲（上位${top10.length}曲表示）`
+  tagHint.textContent = `「${tag}」おすすめ（${items.length}曲）`
   tagListEl.innerHTML = top10.map(card).join("") || `<p class="muted">このタグの曲がまだありません</p>`
 }
 
