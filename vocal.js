@@ -80,7 +80,7 @@ async function main(){
 
     if(songsNote){
       songsNote.textContent = repSongs.length
-        ? "代表曲を表示中（songs.json の isRepresentative: true）"
+        ? "代表曲を表示中"
         : "代表曲は現在準備中（代わりに新着順を表示）"
     }
 
@@ -117,7 +117,7 @@ async function main(){
 
     if(popularNote){
       popularNote.textContent = hasScore
-        ? "人気曲を表示中（songs.json の popularityScore が高い順）"
+        ? "人気曲を表示中"
         : "人気度スコア未設定のため、今週ピック / 新着順で表示中"
     }
 
