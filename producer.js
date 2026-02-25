@@ -61,7 +61,7 @@ async function main(){
 
     if(songsNote){
       songsNote.textContent = repSongs.length
-        ? "代表曲を表示中"
+        ? ""
         : "代表曲未設定のため、最新曲を表示中"
     }
 
@@ -105,7 +105,7 @@ async function main(){
 
     if(popularNote){
       popularNote.textContent = hasScore
-        ? "人気曲を表示中"
+        ? ""
         : "人気データ未集計のため、現在は新着順"
     }
 
