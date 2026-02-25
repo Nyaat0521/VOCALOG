@@ -85,7 +85,7 @@ function groupByWeek(){
 
 function renderArchive(weeks, map, selectedWeek){
   if(weeks.length === 0){
-    archiveEl.innerHTML = `<div class="muted">まだ新着履歴がありません。曲データに addedWeek を入れると週ごとに残せます。</div>`
+    archiveEl.innerHTML = `<div class="muted">まだ新着履歴がありません。</div>`
     return
   }
   archiveEl.innerHTML = weeks.map(wk=>{
@@ -105,7 +105,7 @@ function renderWeek(selectedWeek){
   const picks = weekSongs.filter(s=>s.isWeeklyPick).slice(0,3)
 
   sub.textContent = selectedWeek ? `表示中: ${selectedWeek}` : ""
-  weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週おすすめがまだ選ばれていません（isWeeklyPick: true を3曲につける）</p>`
+  weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週おすすめがまだ選ばれていません</p>`
   weekCountEl.textContent = `${weekSongs.length} 曲`
   weekListEl.innerHTML = sortByReleasedDesc(weekSongs).map(card).join("")
 }
