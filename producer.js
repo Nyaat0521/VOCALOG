@@ -102,7 +102,18 @@ async function main(){
       popularBox.innerHTML = popItems.map(s=>`
         <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
           <h3 class="title">${escapeHtml(s.title)}<span class="badge">人気</span>${s.isWeeklyPick ? `<span class="badge">今週</span>` : ``}</h3>
-          <p class="muted">${escapeHtml(vMap.get(s.vocalId) || "不明")}</p>
+          <p class="muted">
+          ${
+            s.vocalIds?.length
+              ? escapeHtml(
+                  s.vocalIds
+                    .map(id => vMap.get(id))
+                    .filter(Boolean)
+                    .join(" / ")
+                )
+              : (s.vocalId ? escapeHtml(vMap.get(s.vocalId) || "不明") : "不明")
+          }
+          </p>
           ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
           ${hasScore && typeof s.popularityScore === "number" ? `<p class="muted">人気度：${escapeHtml(String(s.popularityScore))}</p>` : ""}
         </a>
