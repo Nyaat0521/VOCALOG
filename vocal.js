@@ -118,7 +118,7 @@ async function main(){
     if(popularNote){
       popularNote.textContent = hasScore
         ? "人気曲を表示中"
-        : "人気度スコア未設定のため、今週ピック / 新着順で表示中"
+        : "人気データ未集計のため、現在は新着順"
     }
 
     if(popularBox){
