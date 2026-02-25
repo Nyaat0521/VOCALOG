@@ -93,7 +93,7 @@ function buildRecTagOptions(){
 function renderWeeklyPicks(){
   const wk = pickCurrentWeek()
   const weekSongs = songs.filter(s=> (s.addedWeek||"") === wk)
-  const picks = weekSongs.filter(s=>s.isWeeklyPick).slice(0,3)
+  const picks = weekSongs.filter(s=>s.isWeeklyPick)
   weeklyPicksEl.innerHTML = picks.length ? picks.map(card).join("") : `<p class="muted">今週のおすすめは準備中です</p>`
 }
 
