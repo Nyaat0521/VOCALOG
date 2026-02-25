@@ -46,7 +46,6 @@ async function main(){
 
     const allSongs = songs.filter(s=>s.producerId === p.id)
 
-    // "今週" 表示は、新しい2フラグのどちらかが true のときだけにする
     const isThisWeek = (s)=> (s.isNewWeeklyPick === true) || (s.isWeeklyPromoted === true)
 
     const repSongs = allSongs.filter(s=>s.isRepresentative === true)
@@ -92,11 +91,10 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    // 人気曲は「人気度が1以上の曲がある時だけ」表示する（0は未設定扱い）
     const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
 
     if(!hasScore){
-      // まるごと非表示（HTML側の枠ごと消す）
+      
       const section = popularBox?.closest("section") || popularBox?.parentElement
       if(section) section.style.display = "none"
       return
