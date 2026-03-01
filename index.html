@@ -12,12 +12,15 @@
   <main class="wrap">
     <div class="card">
       <input id="q" class="input" placeholder="曲名 / ボカロP / ボカロ / タグで検索" />
-      <div class="row" style="margin-top:10px;">
+      <div class="selectWrap">
         <select id="sort">
           <option value="new">新しい順</option>
           <option value="old">古い順</option>
           <option value="az">タイトル順</option>
         </select>
+      </div>
+
+      <div class="selectWrap">
         <select id="tag">
           <option value="">タグで絞り込み</option>
         </select>
@@ -33,3 +36,4 @@
   <script type="module" src="./songlist.js"></script>
 </body>
 </html>
+
