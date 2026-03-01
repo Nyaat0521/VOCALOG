@@ -26,3 +26,15 @@ document.addEventListener("click", (e)=>{
     applyTheme(now === "dark" ? "light" : "dark")
   }
 })
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("select").forEach((sel) => {
+    if (sel.closest(".selectWrap")) return;
+
+    const wrap = document.createElement("div");
+    wrap.className = "selectWrap";
+
+    sel.parentNode.insertBefore(wrap, sel);
+    wrap.appendChild(sel);
+  });
+});
