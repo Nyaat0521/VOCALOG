@@ -51,3 +51,22 @@ header {
   background: var(--accent);
   color: #000;
 }
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 40px;
+
+  background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>\
+  <path fill='currentColor' d='M7 10l5 5 5-5z'/>\
+  </svg>");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 18px;
+}
+
+select::-ms-expand {
+  display: none;
+}
