@@ -237,3 +237,18 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 [data-theme="dark"] * {
   scrollbar-color: #2f3540 var(--bg);
 }
+
+select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 42px;
+
+  background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>\
+  <path fill='currentColor' d='M7 10l5 5 5-5z'/>\
+  </svg>");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 18px;
+}
