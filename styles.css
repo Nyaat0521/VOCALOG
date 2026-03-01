@@ -233,3 +233,7 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   scrollbar-width: thin;
   scrollbar-color: var(--border) var(--bg);
 }
+
+[data-theme="dark"] * {
+  scrollbar-color: #2f3540 var(--bg);
+}
