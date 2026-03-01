@@ -246,10 +246,16 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 
 .selectWrap select{
   width: 100%;
+  padding: 12px;
   padding-right: 44px;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 .selectWrap::after{
