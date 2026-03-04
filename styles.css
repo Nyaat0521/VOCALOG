@@ -24,7 +24,7 @@ body{
   font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
 }
 
-.wrap{ max-width:1050px; margin:0 auto; padding:16px; }
+.wrap{ max-width:1000px; margin:0 auto; padding:16px; }
 
 .header{
   position:sticky; top:0;
@@ -175,7 +175,7 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
