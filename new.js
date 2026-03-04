@@ -128,7 +128,7 @@ async function main(){
   renderArchive(weeks, map, selectedWeek)
 
   if(!selectedWeek){
-    sub.textContent = "曲データに addedWeek を入れると「今週追加」が表示されます"
+    sub.textContent = "曲データに addedWeek を入れると「今週」が表示されます"
     weeklyPicksEl.innerHTML = ""
     weekListEl.innerHTML = ""
     weekCountEl.textContent = ""
