@@ -49,7 +49,7 @@ async function main(){
 
     const badges = [
       s.isWeeklyPick ? `<span class="pill">今週</span>` : "",
-      s.isRepresentative ? `<span class="pill">代表曲</span>` : "",
+      s.isRepresentative ? `<span class="pill">代表</span>` : "",
       (typeof s.popularityScore === "number" && isFinite(s.popularityScore) && s.popularityScore > 0) ? `<span class="pill">人気</span>` : ""
     ].filter(Boolean).join("")
 
