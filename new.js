@@ -43,6 +43,14 @@ function vocalNames(song, vocalsMap){
 
 function card(s){
   const pObj = producers.get(s.producerId) || {}
+  const badge = s.isNewWeeklyPick ? `<span class="badge">新着おすすめ</span>` : ""
+  return `
+    <a class="card cardLink" href="./song.html?id=${encodeURIComponent(s.id)}">
+      <h2 class="title">
+        ${escapeHtml(s.title)}
+        ${s.titleKana ? `<span class="reading">(${escapeHtml(s.titleKana)})</span>` : ""}
+        ${badge}
+      </h2>
       <p class="muted">${escapeHtml(pObj.name||"不明")} / ${escapeHtml(vocalNames(s, vocals)||"不明")}</p>
       ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
       ${s.addedWeek ? `<p class="muted">🆕 ${escapeHtml(s.addedWeek)}</p>` : (s.addedAt ? `<p class="muted">🆕 ${escapeHtml(s.addedAt)}</p>` : "")}
@@ -120,7 +128,7 @@ async function main(){
   renderArchive(weeks, map, selectedWeek)
 
   if(!selectedWeek){
-    sub.textContent = "曲データに addedWeek を入れると週別表示できます"
+    sub.textContent = "曲データに addedWeek を入れると「今週」が表示されます"
     weeklyPicksEl.innerHTML = ""
     weekListEl.innerHTML = ""
     weekCountEl.textContent = ""
