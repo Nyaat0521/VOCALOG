@@ -274,7 +274,3 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 select::-ms-expand {
   display: none;
 }
-
-.tag-popular {
-  display: none;
-}
