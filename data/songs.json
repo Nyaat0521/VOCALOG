@@ -19,12 +19,15 @@
     "streamingLink": "https://open.spotify.com/intl-ja/track/4B6rDxockZoeeIw8Vx02T6",
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
-    "recommendTags": [],
+    "recommendTags": [
+      "エモい",
+      "バラード"
+    ],
     "isRepresentative": false,
     "representativeOrder": 0,
-    "isNewWeeklyPick": false,
-    "isWeeklyPromoted": false,
-    "popularityScore": 0
+    "isNewWeeklyPick": true,
+    "isWeeklyPromoted": true,
+    "popularityScore": 90
   },
   {
     "id": "senbonzakura-hatunemiku-kurousap",
@@ -36,8 +39,8 @@
     "niconicoId": "sm15630734",
     "tags": [
       "初音ミク",
-      "ロック",
       "和風",
+      "ロック",
       "VOCALOID"
     ],
     "released": "2011-09-17",
@@ -48,14 +51,15 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "recommendTags": [
-      "初心者向け",
-      "和風"
+      "名曲",
+      "和風",
+      "ロック"
     ],
-    "isRepresentative": false,
-    "representativeOrder": 0,
-    "isNewWeeklyPick": false,
-    "isWeeklyPromoted": false,
-    "popularityScore": 0
+    "isRepresentative": true,
+    "representativeOrder": 1,
+    "isNewWeeklyPick": true,
+    "isWeeklyPromoted": true,
+    "popularityScore": 100
   },
   {
     "id": "hibana-hatunemiku-deco27",
