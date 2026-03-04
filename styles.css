@@ -113,17 +113,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
   font-weight: normal;
 }
 
-.badge{
-  display:inline-block;
-  margin-left:8px;
-  font-size:12px;
-  padding:2px 8px;
-  border-radius:999px;
-  border:1px solid var(--border);
-  color:var(--muted);
-  vertical-align:middle;
-}
-
 .list{ display:flex; flex-direction:column; gap:10px; margin-top:10px; }
 
 .archiveItem{
@@ -145,17 +134,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 }
 
 .archiveTitle{ font-weight:600; }
-
-.pill{
-  display:inline-block;
-  margin-left:8px;
-  padding:2px 8px;
-  border-radius:999px;
-  font-size:12px;
-  line-height:1.6;
-  border:1px solid var(--border);
-  background: var(--card);
-}
 
 .repCard{
   border:2px solid var(--border);
@@ -184,13 +162,6 @@ iframe{ width:100%; aspect-ratio:16/9; border:0; border-radius:10px; }
 .songTitleLine .titleArrow{
   color:var(--muted);
   font-weight:600;
-}
-
-.songTitleLine .songBadges{
-  display:inline-flex;
-  align-items:center;
-  flex-wrap:wrap;
-  gap:6px;
 }
 
 .songTitleLine .songBadges .pill{
