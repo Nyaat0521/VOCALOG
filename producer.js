@@ -70,8 +70,6 @@ async function main(){
       <a class="card cardLink repCard" href="./song.html?id=${encodeURIComponent(s.id)}">
         <h3 class="title">
           ${escapeHtml(s.title)}
-          <span class="badge">代表</span>
-          ${isThisWeek(s) ? `<span class="badge">今週</span>` : ``}
         </h3>
         <p class="muted">
         ${
@@ -122,8 +120,6 @@ async function main(){
         <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
           <h3 class="title">
             ${escapeHtml(s.title)}
-            <span class="badge">人気</span>
-            ${isThisWeek(s) ? `<span class="badge">今週</span>` : ``}
           </h3>
           <p class="muted">
           ${
