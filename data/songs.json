@@ -56,7 +56,7 @@
       "ロック"
     ],
     "isRepresentative": true,
-    "representativeOrder": 1,
+    "representativeOrder": 0,
     "isNewWeeklyPick": true,
     "isWeeklyPromoted": true,
     "popularityScore": 100
@@ -83,7 +83,7 @@
     "addedAt": "2026-02-22",
     "addedWeek": "2026-02-16週",
     "recommendTags": [],
-    "isRepresentative": false,
+    "isRepresentative": true,
     "representativeOrder": 0,
     "isNewWeeklyPick": false,
     "isWeeklyPromoted": false,
