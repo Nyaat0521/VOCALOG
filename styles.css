@@ -24,7 +24,7 @@ body{
   font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
 }
 
-.wrap{ max-width:1050px; margin:0 auto; padding:16px; }
+.wrap{ max-width:1500px; margin:0 auto; padding:16px; }
 
 .header{
   position:sticky; top:0;
