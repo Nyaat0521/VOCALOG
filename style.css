@@ -51,3 +51,7 @@ header {
   background: var(--accent);
   color: #000;
 }
+
+.tag {
+  display: none;
+}
