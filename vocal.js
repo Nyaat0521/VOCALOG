@@ -51,7 +51,6 @@ async function main(){
     const allSongs = songs.filter(s=>{
       if(s.vocalIds?.length) return s.vocalIds.includes(v.id)
       if(s.vocalId) return s.vocalId === v.id
-      
       return (s.tags || []).includes(v.name)
     })
 
@@ -77,7 +76,8 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
+    const popularSongs = allSongs.filter(s=> Number(s.popularityScore) > 0)
+    const hasScore = popularSongs.length > 0
 
     if(popularNote){
       popularNote.textContent = hasScore
@@ -85,23 +85,33 @@ async function main(){
         : "人気曲未設定のため、最新曲を表示中"
     }
 
-    const popItems = allSongs
-      .slice()
-      .sort((a,b)=>{
-        if(hasScore){
-          const as = Number(a.popularityScore) > 0 ? Number(a.popularityScore) : -1
-          const bs = Number(b.popularityScore) > 0 ? Number(b.popularityScore) : -1
-          if(as != bs) return bs - as
-        }
-        const aw = isThisWeek(a) ? 1 : 0
-        const bw = isThisWeek(b) ? 1 : 0
-        if(aw !== bw) return bw - aw
-        return safe(b.released).localeCompare(safe(a.released)) || safe(a.title).localeCompare(safe(b.title),"ja")
-      })
-      .slice(0,10)
+    const popItems = hasScore
+      ? popularSongs
+          .slice()
+          .sort((a,b)=>{
+            const as = Number(a.popularityScore) || 0
+            const bs = Number(b.popularityScore) || 0
+            if(as !== bs) return bs - as
+
+            const aw = isThisWeek(a) ? 1 : 0
+            const bw = isThisWeek(b) ? 1 : 0
+            if(aw !== bw) return bw - aw
+
+            return safe(b.released).localeCompare(safe(a.released)) || safe(a.title).localeCompare(safe(b.title),"ja")
+          })
+          .slice(0,10)
+      : allSongs
+          .slice()
+          .sort((a,b)=>{
+            const aw = isThisWeek(a) ? 1 : 0
+            const bw = isThisWeek(b) ? 1 : 0
+            if(aw !== bw) return bw - aw
+
+            return safe(b.released).localeCompare(safe(a.released)) || safe(a.title).localeCompare(safe(b.title),"ja")
+          })
+          .slice(0,10)
 
     if(popularBox){
-      
       popularBox.innerHTML = popItems.map(s=>`
         <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
           <h3 class="title">
