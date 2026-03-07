@@ -88,8 +88,6 @@ async function main(){
       </a>
     `).join("") || `<p class="muted">まだ曲データがない</p>`
 
-    const hasScore = allSongs.some(s=> Number(s.popularityScore) > 0)
-
     if(popularNote){
       popularNote.textContent = hasScore
         ? ""
