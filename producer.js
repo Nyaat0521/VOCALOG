@@ -8,10 +8,34 @@ const songsNote = document.getElementById("songsNote")
 const popularBox = document.getElementById("popularSongs")
 const popularNote = document.getElementById("popularNote")
 
-const isThisWeek = (s)=> (s?.isNewWeeklyPick === true) || (s?.isWeeklyPromoted === true)
+const isThisWeek = (s) => (s?.isNewWeeklyPick === true) || (s?.isWeeklyPromoted === true)
 
-async function main(){
-  try{
+function getVocalText(song, vMap) {
+  if (song.vocalIds?.length) {
+    return song.vocalIds
+      .map(id => vMap.get(id))
+      .filter(Boolean)
+      .join(" / ")
+  }
+  if (song.vocalId) {
+    return vMap.get(song.vocalId) || "不明"
+  }
+  return "不明"
+}
+
+function renderSongCard(song, vMap, extraClass = "") {
+  return `
+    <a class="card cardLink ${extraClass}".trim() href="./song.html?id=${encodeURIComponent(song.id)}">
+      <h3 class="title">${escapeHtml(song.title || "無題")}</h3>
+      <p class="muted">${escapeHtml(getVocalText(song, vMap))}</p>
+      ${song.released ? `<p class="muted dateLabel">公開：${escapeHtml(song.released)}</p>` : ""}
+      ${song.summary ? `<p class="muted">${escapeHtml(song.summary)}</p>` : ""}
+    </a>
+  `
+}
+
+async function main() {
+  try {
     const [producers, songs, vocals] = await Promise.all([
       loadJson("./data/producers.json"),
       loadJson("./data/songs.json"),
@@ -19,8 +43,11 @@ async function main(){
     ])
 
     const id = getParam("id")
-    const p = producers.find(x=>x.id === id)
-    if(!p){ content.innerHTML = `<p>見つからなかった</p>`; return }
+    const p = producers.find(x => x.id === id)
+    if (!p) {
+      content.innerHTML = `<p>見つからなかった</p>`
+      return
+    }
 
     document.title = `${p.name} - VOCALOG`
 
@@ -44,101 +71,72 @@ async function main(){
       ${linkHtml}
     `
 
-    const vMap = new Map(vocals.map(v=>[v.id, v.name]))
-    const allSongs = songs.filter(s=>s.producerId === p.id)
+    const vMap = new Map(vocals.map(v => [v.id, v.name]))
+    const allSongs = songs.filter(s => s.producerId === p.id)
 
-    const repSongs = allSongs.filter(s=>s.isRepresentative === true)
+    const repSongs = allSongs.filter(s => s.isRepresentative === true)
     const repItems = (repSongs.length ? repSongs : allSongs)
-      .sort((a,b)=>{
-        const ao = (a.representativeOrder ?? 9999)
-        const bo = (b.representativeOrder ?? 9999)
-        if(repSongs.length && ao !== bo) return ao - bo
-        const ar = (a.released || "")
-        const br = (b.released || "")
-        if(ar !== br) return br.localeCompare(ar)
+      .slice()
+      .sort((a, b) => {
+        const ao = a.representativeOrder ?? 9999
+        const bo = b.representativeOrder ?? 9999
+        if (repSongs.length && ao !== bo) return ao - bo
+
+        const ar = a.released || ""
+        const br = b.released || ""
+        if (ar !== br) return br.localeCompare(ar)
+
         return (a.title || "").localeCompare(b.title || "", "ja")
       })
-      .slice(0,10)
+      .slice(0, 10)
 
-    if(songsNote){
+    if (songsNote) {
       songsNote.textContent = repSongs.length
         ? ""
         : "代表曲未設定のため、最新曲を表示中"
     }
 
-    songsBox.innerHTML = repItems.map(s=>`
-      <a class="card cardLink repCard" href="./song.html?id=${encodeURIComponent(s.id)}">
-        <h3 class="title">
-          ${escapeHtml(s.title)}
-        </h3>
-        <p class="muted">
-        ${
-          s.vocalIds?.length
-            ? escapeHtml(
-                s.vocalIds
-                  .map(id => vMap.get(id))
-                  .filter(Boolean)
-                  .join(" / ")
-              )
-            : (s.vocalId ? escapeHtml(vMap.get(s.vocalId) || "不明") : "不明")
-        }
-        </p>
-        ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
-        ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
-      </a>
-    `).join("") || `<p class="muted">まだ曲データがない</p>`
+    songsBox.innerHTML = repItems.length
+      ? repItems.map(s => renderSongCard(s, vMap, "repCard")).join("")
+      : `<p class="muted">まだ曲データがない</p>`
 
-    if(popularNote){
-      popularNote.textContent = hasScore
+    const popularSongs = allSongs.filter(s => Number(s.popularityScore) > 0)
+
+    if (popularNote) {
+      popularNote.textContent = popularSongs.length
         ? ""
         : "人気曲未設定のため、最新曲を表示中"
     }
 
-    const popularSongs = allSongs.filter(s => Number(s.popularityScore) > 0)
     const popItems = (popularSongs.length ? popularSongs : allSongs)
       .slice()
-      .sort((a,b)=>{
-        if(hasScore){
+      .sort((a, b) => {
+        if (popularSongs.length) {
           const as = Number(a.popularityScore) > 0 ? Number(a.popularityScore) : -1
           const bs = Number(b.popularityScore) > 0 ? Number(b.popularityScore) : -1
-          if(as !== bs) return bs - as
+          if (as !== bs) return bs - as
         }
-        
+
         const aw = isThisWeek(a) ? 1 : 0
         const bw = isThisWeek(b) ? 1 : 0
-        if(aw !== bw) return bw - aw
-        const ar = (a.released || "")
-        const br = (b.released || "")
-        if(ar !== br) return br.localeCompare(ar)
+        if (aw !== bw) return bw - aw
+
+        const ar = a.released || ""
+        const br = b.released || ""
+        if (ar !== br) return br.localeCompare(ar)
+
         return (a.title || "").localeCompare(b.title || "", "ja")
       })
-      .slice(0,10)
+      .slice(0, 10)
 
-    if(popularBox){
-      popularBox.innerHTML = popItems.map(s=>`
-        <a class="card cardLink popularCard" href="./song.html?id=${encodeURIComponent(s.id)}">
-          <h3 class="title">
-            ${escapeHtml(s.title)}
-          </h3>
-          <p class="muted">
-          ${
-            s.vocalIds?.length
-              ? escapeHtml(
-                  s.vocalIds
-                    .map(id => vMap.get(id))
-                    .filter(Boolean)
-                    .join(" / ")
-                )
-              : (s.vocalId ? escapeHtml(vMap.get(s.vocalId) || "不明") : "不明")
-          }
-          </p>
-          ${s.released ? `<p class="muted dateLabel">公開：${escapeHtml(s.released)}</p>` : ""}
-          ${s.summary ? `<p class="muted">${escapeHtml(s.summary)}</p>` : ""}
-        </a>
-      `).join("") || `<p class="muted">まだ曲データがない</p>`
+    if (popularBox) {
+      popularBox.innerHTML = popItems.length
+        ? popItems.map(s => renderSongCard(s, vMap, "popularCard")).join("")
+        : `<p class="muted">まだ曲データがない</p>`
     }
-  }catch(err){
+  } catch (err) {
     content.innerHTML = `<p>読み込み失敗: ${escapeHtml(err.message)}</p>`
   }
 }
+
 main()
