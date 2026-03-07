@@ -96,7 +96,8 @@ async function main(){
         : "人気曲未設定のため、最新曲を表示中"
     }
 
-    const popItems = allSongs
+    const popularSongs = allSongs.filter(s => Number(s.popularityScore) > 0)
+    const popItems = (popularSongs.length ? popularSongs : allSongs)
       .slice()
       .sort((a,b)=>{
         if(hasScore){
