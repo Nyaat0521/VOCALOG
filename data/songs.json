@@ -4556,15 +4556,21 @@
     "popularityScore": 0
   },
   {
-    "id": "hatunemikunobousou-hatunemiku-cosmobousoup",
-    "title": "初音ミクの暴走",
+    "id": "noda-zundamon-daibakuhasin",
+    "title": "のだ",
     "titleKana": "",
-    "producerId": "cosmobousoup",
-    "vocalId": "hatunemiku",
+    "producerId": "daibakuhasin",
+    "vocalId": [
+      "zundamon",
+      "hatunemiku",
+      "kasaneteto"
+    ],
     "youtubeId": "",
     "niconicoId": "",
     "tags": [
-      "初音ミク"
+      "ずんだもん",
+      "初音ミク",
+      "重音テト"
     ],
     "released": "",
     "summary": "",
